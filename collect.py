@@ -1,0 +1,151 @@
+"""대학 조간 수집기 — 매일 아침 GitHub Actions에서 실행.
+
+1) 네이버 뉴스 검색 API(최신순)로 키워드별 기사 수집 → 원문 주소(originallink) 포함
+2) 부산일보 대학소식 목록 페이지 수집
+결과: data/YYYY-MM-DD.json (한국시간 기준 날짜)
+"""
+import html
+import json
+import os
+import re
+import sys
+import time
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+from urllib.parse import urlparse
+
+import requests
+from bs4 import BeautifulSoup
+
+KST = timezone(timedelta(hours=9))
+NOW = datetime.now(KST)
+SINCE = NOW - timedelta(hours=30)  # 전날 아침 이후 넉넉히
+
+# 우선순위 순서: 1 = 경남정보대, 2 = 부산 대학, 3 = 전국
+KEYWORDS = {
+    1: ["경남정보대", "경남정보대학교"],
+    2: [
+        "부산대", "부산대학교", "동아대", "동의대", "경성대", "부경대", "국립부경대",
+        "한국해양대", "동서대", "신라대", "동명대", "부산외대", "부산외국어대",
+        "고신대", "부산가톨릭대", "부산교대", "영산대", "부산디지털대",
+        "동의과학대", "부산경상대", "부산여대", "대동대", "동주대", "부산보건대",
+        "부산과학기술대", "부산예술대", "춘해보건대", "부산 대학", "부산 전문대",
+    ],
+    3: ["대학 교육부", "대학 입시", "전문대학", "글로컬대학", "RISE 대학"],
+}
+
+UA = {"User-Agent": "Mozilla/5.0 (campus-morning collector)"}
+
+
+def clean(s: str) -> str:
+    s = re.sub(r"<[^>]+>", "", s or "")
+    return html.unescape(s).strip()
+
+
+def naver_news(query: str, cid: str, secret: str) -> list[dict]:
+    url = "https://openapi.naver.com/v1/search/news.json"
+    headers = {"X-Naver-Client-Id": cid, "X-Naver-Client-Secret": secret}
+    out = []
+    for start in (1, 101):
+        r = requests.get(url, headers=headers,
+                         params={"query": query, "display": 100, "start": start, "sort": "date"},
+                         timeout=20)
+        if r.status_code != 200:
+            print(f"[naver] {query} {r.status_code} {r.text[:200]}", file=sys.stderr)
+            break
+        items = r.json().get("items", [])
+        stop = False
+        for it in items:
+            try:
+                pub = parsedate_to_datetime(it["pubDate"]).astimezone(KST)
+            except Exception:
+                continue
+            if pub < SINCE:
+                stop = True
+                continue
+            link = it.get("originallink") or it.get("link")
+            out.append({
+                "title": clean(it.get("title")),
+                "url": link,
+                "naver_url": it.get("link"),
+                "domain": urlparse(link).netloc.replace("www.", ""),
+                "published": pub.isoformat(),
+                "snippet": clean(it.get("description"))[:160],
+                "query": query,
+                "via": "naver",
+            })
+        if stop or len(items) < 100:
+            break
+        time.sleep(0.2)
+    return out
+
+
+def busan_ilbo() -> list[dict]:
+    out = []
+    for page in (1, 2):
+        try:
+            r = requests.get("https://www.busan.com/university/", params={"page": page},
+                             headers=UA, timeout=20)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"[busan.com] {e}", file=sys.stderr)
+            break
+        soup = BeautifulSoup(r.text, "html.parser")
+        seen = set()
+        for a in soup.select('a[href*="view.php?code="]'):
+            title = a.get_text(" ", strip=True)
+            href = requests.compat.urljoin("https://www.busan.com/", a.get("href"))
+            if len(title) < 8 or href in seen:
+                continue
+            seen.add(href)
+            m = re.search(r"code=(\d{8})", href)
+            day = datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=KST) if m else NOW
+            if day < SINCE.replace(hour=0, minute=0):
+                continue
+            out.append({
+                "title": title[:120], "url": href, "domain": "busan.com",
+                "published": day.isoformat(), "snippet": "", "query": "부산일보 대학소식",
+                "via": "busan.com",
+            })
+    return out
+
+
+def main():
+    cid = os.environ.get("NAVER_CLIENT_ID")
+    secret = os.environ.get("NAVER_CLIENT_SECRET")
+    if not cid or not secret:
+        sys.exit("NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 시크릿이 없습니다.")
+
+    by_url: dict[str, dict] = {}
+    for priority, words in KEYWORDS.items():
+        for q in words:
+            for it in naver_news(q, cid, secret):
+                key = it["url"]
+                prev = by_url.get(key)
+                if prev:
+                    prev["priority"] = min(prev["priority"], priority)
+                    prev.setdefault("queries", [prev["query"]]).append(q)
+                    continue
+                it["priority"] = priority
+                by_url[key] = it
+            time.sleep(0.15)
+    for it in busan_ilbo():
+        if it["url"] not in by_url:
+            it["priority"] = 2
+            by_url[it["url"]] = it
+
+    items = sorted(by_url.values(), key=lambda x: (x["priority"], x["published"]), reverse=False)
+    items.sort(key=lambda x: (x["priority"], -datetime.fromisoformat(x["published"]).timestamp()))
+
+    day = NOW.strftime("%Y-%m-%d")
+    Path("data").mkdir(exist_ok=True)
+    payload = {"date": day, "collected_at": NOW.isoformat(), "count": len(items), "items": items}
+    Path(f"data/{day}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    Path("data/latest.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    counts = {p: sum(1 for i in items if i["priority"] == p) for p in (1, 2, 3)}
+    print(f"{day}: 총 {len(items)}건 (경남정보대 {counts[1]}, 부산 {counts[2]}, 전국 {counts[3]})")
+
+
+if __name__ == "__main__":
+    main()
