@@ -44,12 +44,14 @@ def clean(s: str) -> str:
 
 
 def naver_news(query: str, cid: str, secret: str) -> list[dict]:
-    url = "https://openapi.naver.com/v1/search/news.json"
-    headers = {"X-Naver-Client-Id": cid, "X-Naver-Client-Secret": secret}
+    # NAVER API HUB (2026.7.31 이후 신규 발급분) — 네이버 클라우드 콘솔에서 발급한 키
+    url = "https://naverapihub.apigw.ntruss.com/search/v1/news"
+    headers = {"X-NCP-APIGW-API-KEY-ID": cid, "X-NCP-APIGW-API-KEY": secret}
     out = []
     for start in (1, 101):
         r = requests.get(url, headers=headers,
-                         params={"query": query, "display": 100, "start": start, "sort": "date"},
+                         params={"query": query, "display": 100, "start": start,
+                                 "sort": "date", "format": "json"},
                          timeout=20)
         if r.status_code != 200:
             print(f"[naver] {query} {r.status_code} {r.text[:200]}", file=sys.stderr)
