@@ -113,16 +113,56 @@ def busan_ilbo() -> list[dict]:
     return out
 
 
+def google_news(query: str) -> list[dict]:
+    """구글 뉴스 RSS — 링크는 구글 경유 주소(누르면 원문으로 이동)."""
+    try:
+        r = requests.get("https://news.google.com/rss/search",
+                         params={"q": f"{query} when:1d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"},
+                         headers=UA, timeout=20)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"[gnews] {query} {e}", file=sys.stderr)
+        return []
+    soup = BeautifulSoup(r.content, "xml")
+    out = []
+    for it in soup.find_all("item"):
+        try:
+            pub = parsedate_to_datetime(it.pubDate.text).astimezone(KST)
+        except Exception:
+            continue
+        if pub < SINCE:
+            continue
+        src = it.source.text.strip() if it.source else ""
+        src_url = it.source.get("url", "") if it.source else ""
+        title = clean(it.title.text)
+        if src and title.endswith(" - " + src):
+            title = title[: -len(" - " + src)]
+        out.append({
+            "title": title, "url": it.link.text.strip(), "source": src,
+            "domain": urlparse(src_url).netloc.replace("www.", ""),
+            "published": pub.isoformat(), "snippet": "", "query": query, "via": "google",
+        })
+    return out
+
+
 def main():
     cid = os.environ.get("NAVER_CLIENT_ID")
     secret = os.environ.get("NAVER_CLIENT_SECRET")
-    if not cid or not secret:
-        sys.exit("NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 시크릿이 없습니다.")
+    use_naver = bool(cid and secret)
+    if not use_naver:
+        print("네이버 키 없음 → 구글 뉴스 + 부산일보만 수집", file=sys.stderr)
 
     by_url: dict[str, dict] = {}
+    seen_titles: set[str] = set()
     for priority, words in KEYWORDS.items():
         for q in words:
-            for it in naver_news(q, cid, secret):
+            found = naver_news(q, cid, secret) if use_naver else []
+            found += google_news(q)
+            for it in found:
+                tkey = re.sub(r"\W", "", it["title"])[:40]
+                if it["via"] == "google" and tkey in seen_titles:
+                    continue
+                seen_titles.add(tkey)
                 key = it["url"]
                 prev = by_url.get(key)
                 if prev:
