@@ -1,0 +1,151 @@
+<title>대학 조간</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: 날짜 스트립(가로 스크롤) → 오늘판 머리 → 분야별 기사 묶음, 단일 칼럼 max 760px */
+:root{
+  --bg:#F2F4F7; --paper:#FFFFFF; --ink:#151B26; --muted:#5B6576; --line:#DCE1E8;
+  --accent:#1D4ED8; --accent-soft:#E3EAFB; --stamp:#B4371F;
+  --f-display:"Nanum Myeongjo","Noto Serif KR",serif;
+  --f-body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E131B; --paper:#161D28; --ink:#E7ECF3; --muted:#9AA5B6; --line:#283244;
+  --accent:#7EA2F5; --accent-soft:#1D2A44; --stamp:#F08B70; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E131B; --paper:#161D28; --ink:#E7ECF3; --muted:#9AA5B6; --line:#283244;
+  --accent:#7EA2F5; --accent-soft:#1D2A44; --stamp:#F08B70; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 64px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:24px}
+header.mast{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.mast h1{font-family:var(--f-display);font-weight:800;font-size:clamp(30px,7vw,42px);line-height:1.1;margin:0;letter-spacing:-.01em}
+.mast .sub{color:var(--muted);font-size:13px;margin-top:6px}
+.stamp{font-family:var(--f-mono);font-size:12px;color:var(--stamp);border:1.5px solid var(--stamp);border-radius:4px;padding:3px 8px;letter-spacing:.04em;white-space:nowrap}
+nav.days{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:thin}
+nav.days button{flex:0 0 auto;font:500 13px var(--f-body);color:var(--muted);background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 14px;cursor:pointer;font-variant-numeric:tabular-nums}
+nav.days button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+nav.days button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.edition-head{display:flex;flex-direction:column;gap:6px;border-bottom:2px solid var(--ink);padding-bottom:14px}
+.edition-head h2{font-family:var(--f-display);font-size:24px;margin:0;text-wrap:balance}
+.edition-head p{margin:0;color:var(--muted);font-size:14px;max-width:65ch}
+.meta{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.tools{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font:500 12px var(--f-body);background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:6px;padding:4px 10px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+section.cat{display:flex;flex-direction:column;gap:2px}
+section.cat.pri h3{color:var(--stamp)}
+section.cat.pri article{border-color:color-mix(in srgb,var(--stamp) 40%,var(--line))}
+section.cat h3{font-size:12px;letter-spacing:.12em;color:var(--accent);margin:0 0 6px;font-weight:600}
+article{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+section.cat article+article{margin-top:8px}
+article a{color:var(--ink);text-decoration:none;font-weight:600;font-size:16px;line-height:1.45}
+article a:hover,article a:focus-visible{color:var(--accent);text-decoration:underline}
+article p{margin:0;color:var(--muted);font-size:14px}
+article .also{font-size:12.5px;color:var(--muted)}
+article .also a{font-size:12.5px;font-weight:500;color:var(--accent)}
+article .src{font-family:var(--f-mono);font-size:11.5px;color:var(--muted)}
+.empty{background:var(--paper);border:1px dashed var(--line);border-radius:8px;padding:28px 20px;color:var(--muted);text-align:center}
+footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <h1>대학 조간</h1>
+      <div class="sub">경남정보대 · 부산 대학 우선, 매일 아침 한 번에</div>
+    </div>
+    <span class="stamp">매일 09:00 KST 발행</span>
+  </header>
+
+  <nav class="days" id="days" aria-label="발행일"></nav>
+
+  <main id="main">
+    <div class="empty" id="empty">오늘판을 불러오는 중입니다. 첫 발행분은 매일 오전 9시 전에 채워집니다.</div>
+  </main>
+
+  <footer>기사 제목을 누르면 원문이 새 탭에서 열립니다. 요약은 원문을 바탕으로 짧게 다시 쓴 것입니다.</footer>
+</div>
+
+<script>
+const CATS=["경남정보대","부산 대학","정책·국감","입시","연구·성과","대학 소식","산학·지역"];
+let editions=[], current=null, filter="전체";
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDay=d=>{const [y,m,dd]=d.split("-");const w="일월화수목금토"[new Date(+y,+m-1,+dd).getDay()];return `${+m}.${+dd} (${w})`;};
+
+let renderDays=function(){
+  const nav=$("#days");
+  nav.innerHTML=editions.map(e=>`<button type="button" data-d="${esc(e.id)}" aria-pressed="${e.id===current}">${fmtDay(e.id)}</button>`).join("");
+  nav.querySelectorAll("button").forEach(b=>b.onclick=()=>{current=b.dataset.d;filter="전체";render();});
+}
+function render(){
+  renderDays();
+  const main=$("#main");
+  const e=editions.find(x=>x.id===current);
+  if(!e){main.innerHTML=`<div class="empty">아직 발행된 판이 없습니다. 매일 오전 9시 전에 새 판이 올라옵니다.</div>`;return;}
+  const edMD=e.id.slice(5).replace("-",".");
+  const key=i=>{const d=String(i.date||edMD).replace(/[^0-9.]/g,"");const [m,dd]=d.split(".").map(Number);
+    let mm=m||0; if(mm>+e.id.slice(5,7)) mm-=12; return mm*100+(dd||0);};
+  const items=(Array.isArray(e.items)?e.items:[]).map((i,n)=>({...i,_n:n})).sort((a,b)=>key(b)-key(a)||a._n-b._n);
+  const present=CATS.filter(c=>items.some(i=>i.category===c));
+  const others=[...new Set(items.map(i=>i.category).filter(c=>!CATS.includes(c)))];
+  const cats=[...present,...others];
+  const shown=filter==="전체"?cats:cats.filter(c=>c===filter);
+  main.innerHTML=`
+    <div class="edition-head">
+      <span class="meta">${esc(e.id)} · 기사 ${items.length}건</span>
+      <h2>${esc(e.headline||fmtDay(e.id)+" 대학가 소식")}</h2>
+      ${e.brief?`<p>${esc(e.brief)}</p>`:""}
+      <div class="tools" role="group" aria-label="분야">
+        ${["전체",...cats].map(c=>`<button type="button" class="chip" data-c="${esc(c)}" aria-pressed="${c===filter}">${esc(c)}</button>`).join("")}
+      </div>
+    </div>
+    ${shown.map(c=>`
+      <section class="cat${c==="경남정보대"?" pri":""}" style="margin-top:22px">
+        <h3>${esc(c)}</h3>
+        ${items.filter(i=>i.category===c).map(i=>`
+          <article>
+            <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+            ${i.summary?`<p>${esc(i.summary)}</p>`:""}
+            <span class="src">${esc([i.source,i.date].filter(Boolean).join(" · "))}</span>
+            ${Array.isArray(i.also)&&i.also.length?`<span class="also">같은 소식 ${i.also.length}곳: ${i.also.map(a=>a.url?`<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.source)}</a>`:esc(a.source)).join(", ")}</span>`:""}
+          </article>`).join("")}
+      </section>`).join("")}`;
+  main.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{filter=b.dataset.c;render();});
+}
+
+// 기사 데이터: 페이지와 함께 발행되는 editions/index.json + editions/YYYY-MM.json (로그인 없이 열람)
+let months=[], loaded=new Set();
+async function getJSON(p){const r=await fetch(p+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(r.status);return r.json();}
+async function loadMonth(m){
+  if(loaded.has(m))return;
+  const d=await getJSON("editions/"+m+".json");
+  loaded.add(m);
+  const map=new Map(editions.map(e=>[e.id,e]));
+  (d.editions||[]).forEach(e=>map.set(e.id,e));
+  editions=[...map.values()].sort((a,b)=>b.id.localeCompare(a.id));
+}
+const _renderDays=renderDays;
+renderDays=function(){
+  _renderDays();
+  const older=months.find(m=>!loaded.has(m));
+  if(older){
+    const b=document.createElement("button");b.type="button";b.textContent="지난달 보기";
+    b.onclick=async()=>{b.disabled=true;try{await loadMonth(older);}catch(e){} render();};
+    $("#days").appendChild(b);
+  }
+};
+(async()=>{
+  try{
+    const idx=await getJSON("editions/index.json");
+    months=(idx.months||[]).slice().sort().reverse();
+    if(months[0]) await loadMonth(months[0]);
+    current=editions[0]?.id||null;
+    render();
+  }catch(e){$("#empty").textContent="기사를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.";}
+})();
+</script>
