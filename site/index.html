@@ -67,7 +67,7 @@ footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);paddin
     <div class="empty" id="empty">오늘판을 불러오는 중입니다. 첫 발행분은 매일 오전 9시 전에 채워집니다.</div>
   </main>
 
-  <footer>기사 제목을 누르면 원문이 새 탭에서 열립니다. 요약은 원문을 바탕으로 짧게 다시 쓴 것입니다.</footer>
+  <footer>기사 제목을 누르면 원문이 새 탭에서 열립니다. 요약은 원문을 바탕으로 짧게 다시 쓴 것입니다.<br>싣는 언론사(순위순): 부산일보·국제신문·KNN / 한국대학신문·조선일보·중앙일보·동아일보·연합뉴스·한겨레·경향신문·한국일보 / 아시아경제·아주경제</footer>
 </div>
 
 <script>
@@ -90,7 +90,7 @@ function render(){
   const edMD=e.id.slice(5).replace("-",".");
   const key=i=>{const d=String(i.date||edMD).replace(/[^0-9.]/g,"");const [m,dd]=d.split(".").map(Number);
     let mm=m||0; if(mm>+e.id.slice(5,7)) mm-=12; return mm*100+(dd||0);};
-  const items=(Array.isArray(e.items)?e.items:[]).map((i,n)=>({...i,_n:n})).sort((a,b)=>key(b)-key(a)||a._n-b._n);
+  const items=(Array.isArray(e.items)?e.items:[]).map((i,n)=>({...i,_n:n})).sort((a,b)=>(a.tier||9)-(b.tier||9)||key(b)-key(a)||a._n-b._n);
   const present=CATS.filter(c=>items.some(i=>i.category===c));
   const others=[...new Set(items.map(i=>i.category).filter(c=>!CATS.includes(c)))];
   const cats=[...present,...others];
