@@ -177,6 +177,15 @@ def main():
             it["priority"] = 2
             by_url[it["url"]] = it
 
+    # 구글 뉴스는 옛 기사를 재색인하며 날짜를 새로 붙이는 경우가 있음(예: 6월 기사가 10월로 표시).
+    # 네이버 결과에 같은 제목이 없으면 날짜 미확인으로 표시 → 발행 단계에서 원문 날짜 확인.
+    naver_titles = {re.sub(r"\W", "", i["title"])[:25] for i in by_url.values() if i["via"] == "naver"}
+    for it in by_url.values():
+        if it["via"] == "google":
+            it["date_verified"] = re.sub(r"\W", "", it["title"])[:25] in naver_titles
+        else:
+            it["date_verified"] = True
+
     items = sorted(by_url.values(), key=lambda x: (x["priority"], x["published"]), reverse=False)
     items.sort(key=lambda x: (x["priority"], -datetime.fromisoformat(x["published"]).timestamp()))
 
