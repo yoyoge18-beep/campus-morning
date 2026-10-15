@@ -37,6 +37,40 @@ KEYWORDS = {
 
 UA = {"User-Agent": "Mozilla/5.0 (campus-morning collector)"}
 
+# 싣는 언론사 (이 목록 밖의 매체는 버림). tier: 1이 가장 우선.
+OUTLETS = [
+    # (도메인 끝부분, 매체명, 순위)
+    ("busan.com", "부산일보", 1),
+    ("kookje.co.kr", "국제신문", 1),
+    ("knn.co.kr", "KNN", 1),
+    ("unn.net", "한국대학신문", 2),
+    ("chosun.com", "조선일보", 2),
+    ("joongang.co.kr", "중앙일보", 2),
+    ("donga.com", "동아일보", 2),
+    ("yna.co.kr", "연합뉴스", 2),
+    ("hani.co.kr", "한겨레", 2),
+    ("khan.co.kr", "경향신문", 2),
+    ("hankookilbo.com", "한국일보", 2),
+    ("asiae.co.kr", "아시아경제", 3),
+    ("ajunews.com", "아주경제", 3),
+]
+OUTLET_BY_NAME = {n: (n, t) for _, n, t in OUTLETS}
+OUTLET_BY_NAME.update({"한겨례": ("한겨레", 2), "KNN 뉴스": ("KNN", 1)})
+
+
+def outlet_of(domain: str, source_name: str = ""):
+    d = (domain or "").lower()
+    for suffix, name, tier in OUTLETS:
+        if d == suffix or d.endswith("." + suffix):
+            return name, tier
+    s = (source_name or "").strip()
+    return OUTLET_BY_NAME.get(s, (None, None))
+
+
+# 1순위 지역 언론사는 사이트 지정 검색으로 한 번 더 훑음(구글 뉴스)
+SITE_QUERIES = [f"{kw} site:{dom}" for dom in ("busan.com", "kookje.co.kr", "knn.co.kr")
+                for kw in ("경남정보대", "대학")]
+
 
 def clean(s: str) -> str:
     s = re.sub(r"<[^>]+>", "", s or "")
@@ -172,10 +206,32 @@ def main():
                 it["priority"] = priority
                 by_url[key] = it
             time.sleep(0.15)
+    for q in SITE_QUERIES:
+        for it in google_news(q):
+            if it["url"] in by_url:
+                continue
+            tkey = re.sub(r"\W", "", it["title"])[:40]
+            if tkey in seen_titles:
+                continue
+            seen_titles.add(tkey)
+            it["priority"] = 1 if "경남정보대" in q else 2
+            by_url[it["url"]] = it
+        time.sleep(0.15)
     for it in busan_ilbo():
         if it["url"] not in by_url:
             it["priority"] = 2
             by_url[it["url"]] = it
+
+    # 지정 언론사만 남김
+    kept = {}
+    for url, it in by_url.items():
+        name, tier = outlet_of(it.get("domain", ""), it.get("source", ""))
+        if not name:
+            continue
+        it["outlet"], it["outlet_tier"] = name, tier
+        kept[url] = it
+    print(f"지정 언론사 {len(kept)}건 / 전체 {len(by_url)}건", file=sys.stderr)
+    by_url = kept
 
     # 구글 뉴스는 옛 기사를 재색인하며 날짜를 새로 붙이는 경우가 있음(예: 6월 기사가 10월로 표시).
     # 네이버 결과에 같은 제목이 없으면 날짜 미확인으로 표시 → 발행 단계에서 원문 날짜 확인.
@@ -187,7 +243,7 @@ def main():
             it["date_verified"] = True
 
     items = sorted(by_url.values(), key=lambda x: (x["priority"], x["published"]), reverse=False)
-    items.sort(key=lambda x: (x["priority"], -datetime.fromisoformat(x["published"]).timestamp()))
+    items.sort(key=lambda x: (x["priority"], x["outlet_tier"], -datetime.fromisoformat(x["published"]).timestamp()))
 
     day = NOW.strftime("%Y-%m-%d")
     Path("data").mkdir(exist_ok=True)
