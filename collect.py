@@ -206,15 +206,19 @@ def main():
                 it["priority"] = priority
                 by_url[key] = it
             time.sleep(0.15)
+    uni_names = [w for w in KEYWORDS[1] + KEYWORDS[2] if " " not in w]
     for q in SITE_QUERIES:
         for it in google_news(q):
             if it["url"] in by_url:
+                continue
+            # 사이트 검색은 본문 옆 기사 목록까지 걸리므로, 제목에 대학 이름이 있는 기사만
+            if not any(n in it["title"] for n in uni_names):
                 continue
             tkey = re.sub(r"\W", "", it["title"])[:40]
             if tkey in seen_titles:
                 continue
             seen_titles.add(tkey)
-            it["priority"] = 1 if "경남정보대" in q else 2
+            it["priority"] = 1 if "경남정보대" in it["title"] else 2
             by_url[it["url"]] = it
         time.sleep(0.15)
     for it in busan_ilbo():
