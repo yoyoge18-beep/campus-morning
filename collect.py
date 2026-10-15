@@ -188,6 +188,7 @@ def main():
 
     by_url: dict[str, dict] = {}
     seen_titles: set[str] = set()
+    uni_names = [w for w in KEYWORDS[1] + KEYWORDS[2] if " " not in w] + ["경남정보大", "부산대"]
     for priority, words in KEYWORDS.items():
         for q in words:
             found = naver_news(q, cid, secret) if use_naver else []
@@ -206,7 +207,6 @@ def main():
                 it["priority"] = priority
                 by_url[key] = it
             time.sleep(0.15)
-    uni_names = [w for w in KEYWORDS[1] + KEYWORDS[2] if " " not in w]
     for q in SITE_QUERIES:
         for it in google_news(q):
             if it["url"] in by_url:
@@ -225,6 +225,19 @@ def main():
         if it["url"] not in by_url:
             it["priority"] = 2
             by_url[it["url"]] = it
+
+    # 구글 결과는 본문 옆 목록 때문에 무관한 기사가 섞임 → 제목 기준으로 다시 거름
+    for url in list(by_url):
+        it = by_url[url]
+        if it["via"] != "google" or it["priority"] == 3:
+            continue
+        t = it["title"]
+        if "경남정보" in t:
+            it["priority"] = 1
+        elif any(n in t for n in uni_names):
+            it["priority"] = 2
+        else:
+            del by_url[url]
 
     # 지정 언론사만 남김
     kept = {}
