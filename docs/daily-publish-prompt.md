@@ -46,3 +46,4 @@ Claude 예약 작업 '대학 조간 매일 발행'(매일 09:00 KST)에 들어 �
 3. index.json {"months":[...], "latest": 오늘} 을 갱신한다(이번 달이 없으면 months에 추가).
 4. Artifact publish: url 위 주소, file_path = 받아 둔 페이지 HTML(내용 수정 금지), files = {"editions/index.json": 로컬경로, "editions/<YYYY-MM>.json": 로컬경로}. capabilities는 넘기지 않는다. 지난달 파일은 건드리지 않는다.
 5. 발행 후 Artifact read로 editions/index.json의 latest가 오늘인지 확인한다.
+6. 확인이 끝나면 성공했어도 반드시 PushNotification을 보낸다(알릴 게 없어 보여도 생략하지 않는다). 메시지는 <routine_summary> 태그 안에 한 줄: "M.D 판 N건 발행 (경남정보대 a · 부산 대학 b · 전국 c)" 뒤에 경남정보대 기사가 있으면 첫 기사 제목을 짧게 붙인다. 예: "10.17 판 21건 발행 (경남정보대 2 · 부산 대학 12 · 전국 7) — 경남정보대 AI창업학과 KIT 스타트업 포럼"
