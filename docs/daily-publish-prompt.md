@@ -1,24 +1,28 @@
 # 매일 발행 예약 작업 지시문
 
-Claude 예약 작업 '대학 조간 매일 발행'(매일 08:40 KST)에 들어 있는 지시문 원본입니다.
+Claude 예약 작업 '대학 조간 매일 발행'(매일 09:00 KST)에 들어 있는 지시문 원본입니다.
 작업이 사라지거나 다시 만들어야 할 때 이 내용을 그대로 쓰면 됩니다.
 
 ---
 
 '대학 조간'(https://claude.ai/artifact/5v6MqnwGdhjaKEyPwWUbVM)에 오늘자 판을 발행한다. 사람 확인 없이 끝까지 진행하고, 끝나면 한 줄로 결과(건수)만 보고한다.
 
-## 1. 수집 파일 읽기
-- 오늘 날짜(Asia/Seoul, YYYY-MM-DD)를 확인한다.
-- `curl -sL https://raw.githubusercontent.com/yoyoge18-beep/campus-morning/main/data/latest.json` 로 수집 파일을 읽는다(실패하면 WebFetch로 같은 주소). GitHub Actions가 매일 07:30에 만든다.
-- 파일의 date가 오늘이 아니면, WebSearch(mode extended)로 "경남정보대", "부산 대학" 최근 기사를 찾아 보충하고 그대로 진행한다.
+## 1. 수집 실행하고 수집 파일 읽기
+- 오늘 날짜와 시각(Asia/Seoul)을 확인한다. 09:00 전이면 09:00이 지날 때까지 기다린다(Bash sleep).
+- 수집 범위는 전날 09:00 ~ 오늘 09:00(KST)이다. 수집은 이 작업이 직접 실행한다(자동 예약 없음).
+- ToolSearch로 `mcp__github__actions_run_trigger`, `mcp__github__actions_list`를 불러온다. 없으면 발행하지 말고 PushNotification으로 "GitHub 도구가 없어 수집을 실행하지 못함"을 알리고 끝낸다.
+- `actions_run_trigger` method "run_workflow", owner "yoyoge18-beep", repo "campus-morning", workflow_id "collect.yml", ref "main" 으로 수집을 실행한다.
+- 30초마다(Bash sleep 30) `actions_list` method "list_workflow_runs", resource_id "collect.yml" 로 방금 실행한 run(event workflow_dispatch, 실행 이후 created_at)의 상태를 본다. completed + success가 되면 다음으로 간다.
+- 실패했거나 10분이 지나도 끝나지 않으면 한 번만 다시 실행한다. 그래도 안 되면 발행하지 말고 PushNotification으로 실패 내용을 알리고 끝낸다. 지난 수집 파일이나 웹 검색으로 대신 채우지 않는다.
+- `curl -sL "https://raw.githubusercontent.com/yoyoge18-beep/campus-morning/main/data/latest.json?t=$(date +%s)"` 로 수집 파일을 읽는다. date가 오늘이고 window_end가 오늘 09:00(+09:00)인지 확인한다. 아니면 60초 뒤 다시 읽기를 5번까지 하고(또는 `mcp__github__get_file_contents`로 data/<오늘>.json), 그래도 다르면 발행하지 말고 알린다.
 - 항목 필드: title, url, source/domain, published, priority(1 경남정보대, 2 부산 대학, 3 전국), via(naver=원문 링크, google=구글 경유 링크, busan.com), date_verified, outlet(언론사명), outlet_tier(언론사 순위).
 
 ## 2. 고르기
-- **언론사 제한(필수):** 아래 13개 언론사 기사만 싣는다. 그 밖의 매체는 대표 기사로도, also에도 넣지 않는다. (수집 파일은 이미 이 목록으로 걸러져 있음. WebSearch로 보충할 때도 이 목록만)
+- **언론사 제한(필수):** 아래 13개 언론사 기사만 싣는다. 그 밖의 매체는 대표 기사로도, also에도 넣지 않는다. (수집 파일은 이미 이 목록으로 걸러져 있음)
   - 1순위: 부산일보, 국제신문, KNN
   - 2순위: 한국대학신문, 조선일보, 중앙일보, 동아일보, 연합뉴스, 한겨레, 경향신문, 한국일보
   - 3순위: 아시아경제, 아주경제
-- 키워드만 스친 잡음은 걸러낸다. 제목·내용상 해당 대학이 주인공이 아닌 기사(교육감 선거, 화재, 타 지역 행사, 연예 인터뷰 등)는 뺀다. 애매하면 WebFetch로 원문을 열어 확인한다.
+- 키워드만 스친 잡음은 걸러낸다. 제목·내용상 해당 대학이 주인공이 아닌 기사(교육감 선거, 화재, 타 지역 행사, 연예 인터뷰, 건강 칼럼 등)는 뺀다. 애매하면 WebFetch로 원문을 열어 확인한다.
 - **날짜 검증(필수):** 구글 뉴스는 몇 달 전 기사를 재색인해 최근 날짜를 붙이는 경우가 있다(예: 2026.06.12 기사가 10.14로 표시됨). date_verified가 false인 항목은 넣기 전에 반드시 원문의 실제 발행일을 확인한다. 구글 링크는 WebFetch로 열리지 않을 수 있으므로 WebSearch로 같은 제목을 찾아 원문 페이지를 열고 '입력/승인/발행' 일자를 읽는다. 실제 발행일이 3일보다 오래됐거나 확인이 안 되면 넣지 않는다. date 필드에는 원문의 실제 발행일을 쓴다.
 - 오늘판에는 지난 판에 이미 실린 기사(같은 제목·같은 소식)를 다시 넣지 않는다. 지난 판 내용은 3단계에서 읽는 월별 파일에 있다.
 - 경남정보대: 경남정보대(학생·졸업생·학과 포함)가 실질적으로 등장하는 새 기사는 빠짐없이 넣는다.

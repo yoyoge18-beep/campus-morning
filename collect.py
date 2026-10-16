@@ -1,8 +1,9 @@
-"""대학 조간 수집기 — 매일 아침 GitHub Actions에서 실행.
+"""대학 조간 수집기 — 매일 09:00 발행 작업이 GitHub Actions로 실행.
 
 1) 네이버 뉴스 검색 API(최신순)로 키워드별 기사 수집 → 원문 주소(originallink) 포함
 2) 부산일보 대학소식 목록 페이지 수집
-결과: data/YYYY-MM-DD.json (한국시간 기준 날짜)
+수집 범위: 전날 09:00 ~ 당일 09:00 (KST). 실행 시각과 관계없이 "직전 09:00"이 끝.
+결과: data/YYYY-MM-DD.json (범위 끝 날짜 기준)
 """
 import html
 import json
@@ -20,7 +21,23 @@ from bs4 import BeautifulSoup
 
 KST = timezone(timedelta(hours=9))
 NOW = datetime.now(KST)
-SINCE = NOW - timedelta(hours=30)  # 전날 아침 이후 넉넉히
+CUTOFF_HOUR = 9  # 판 마감 시각 (KST)
+
+
+def window_end(now: datetime) -> datetime:
+    """직전 09:00. 09:00 이전에 실행하면 전날 09:00."""
+    end = now.replace(hour=CUTOFF_HOUR, minute=0, second=0, microsecond=0)
+    return end if now >= end else end - timedelta(days=1)
+
+
+# COLLECT_END(예: 2026-10-16T09:00+09:00)로 범위 끝을 직접 지정할 수 있음(다시 수집할 때)
+_end_env = os.environ.get("COLLECT_END", "").strip()
+END = datetime.fromisoformat(_end_env).astimezone(KST) if _end_env else window_end(NOW)
+SINCE = END - timedelta(hours=24)
+
+
+def in_window(t: datetime) -> bool:
+    return SINCE <= t < END
 
 # 우선순위 순서: 1 = 경남정보대, 2 = 부산 대학, 3 = 전국
 KEYWORDS = {
@@ -98,7 +115,9 @@ def naver_news(query: str, cid: str, secret: str) -> list[dict]:
             except Exception:
                 continue
             if pub < SINCE:
-                stop = True
+                stop = True  # 최신순이므로 이후는 모두 범위 밖
+                continue
+            if pub >= END:
                 continue
             link = it.get("originallink") or it.get("link")
             out.append({
@@ -135,9 +154,15 @@ def busan_ilbo() -> list[dict]:
             if len(title) < 8 or href in seen:
                 continue
             seen.add(href)
-            m = re.search(r"code=(\d{8})", href)
-            day = datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=KST) if m else NOW
-            if day < SINCE.replace(hour=0, minute=0):
+            # 기사 코드 앞 12자리 = 입력 시각(YYYYMMDDHHMM)
+            m = re.search(r"code=(\d{12})", href)
+            if not m:
+                continue
+            try:
+                day = datetime.strptime(m.group(1), "%Y%m%d%H%M").replace(tzinfo=KST)
+            except ValueError:
+                continue
+            if not in_window(day):
                 continue
             out.append({
                 "title": title[:120], "url": href, "domain": "busan.com",
@@ -151,7 +176,7 @@ def google_news(query: str) -> list[dict]:
     """구글 뉴스 RSS — 링크는 구글 경유 주소(누르면 원문으로 이동)."""
     try:
         r = requests.get("https://news.google.com/rss/search",
-                         params={"q": f"{query} when:1d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"},
+                         params={"q": f"{query} when:2d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"},
                          headers=UA, timeout=20)
         r.raise_for_status()
     except Exception as e:
@@ -164,7 +189,7 @@ def google_news(query: str) -> list[dict]:
             pub = parsedate_to_datetime(it.pubDate.text).astimezone(KST)
         except Exception:
             continue
-        if pub < SINCE:
+        if not in_window(pub):
             continue
         src = it.source.text.strip() if it.source else ""
         src_url = it.source.get("url", "") if it.source else ""
@@ -262,9 +287,11 @@ def main():
     items = sorted(by_url.values(), key=lambda x: (x["priority"], x["published"]), reverse=False)
     items.sort(key=lambda x: (x["priority"], x["outlet_tier"], -datetime.fromisoformat(x["published"]).timestamp()))
 
-    day = NOW.strftime("%Y-%m-%d")
+    day = END.strftime("%Y-%m-%d")
     Path("data").mkdir(exist_ok=True)
-    payload = {"date": day, "collected_at": NOW.isoformat(), "count": len(items), "items": items}
+    payload = {"date": day, "collected_at": NOW.isoformat(),
+               "window_start": SINCE.isoformat(), "window_end": END.isoformat(),
+               "count": len(items), "items": items}
     Path(f"data/{day}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     Path("data/latest.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     counts = {p: sum(1 for i in items if i["priority"] == p) for p in (1, 2, 3)}
