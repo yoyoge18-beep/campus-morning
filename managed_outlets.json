@@ -34,7 +34,7 @@
   {"name": "뉴시스", "domains": ["newsis.com"], "home": "https://www.newsis.com/"},
   {"name": "에너지경제", "domains": ["ekn.kr"], "home": "https://www.ekn.kr/"},
   {"name": "동아일보", "domains": ["donga.com"], "home": "https://www.donga.com/"},
-  {"name": "글로벌뉴스통신", "domains": ["gnnews.co.kr"], "home": ""},
+  {"name": "글로벌뉴스통신", "domains": [], "home": ""},
   {"name": "이뉴스한국", "domains": [], "home": ""},
   {"name": "KNN", "domains": ["knn.co.kr"], "home": "https://www.knn.co.kr/"},
   {"name": "BBS불교방송", "domains": ["bbsi.co.kr"], "home": "https://news.bbsi.co.kr/"},

@@ -239,6 +239,9 @@ def save_managed_kit(by_url: dict):
     for it in sorted(by_url.values(), key=lambda x: x["via"] != "naver"):
         if it["priority"] != 1:
             continue
+        # 네이버는 '경남'·'정보대'를 따로 맞추기도 하므로 제목이나 요약에 '경남정보'가 있어야 함
+        if "경남정보" not in (it.get("title", "") + it.get("snippet", "")):
+            continue
         t = datetime.fromisoformat(it["published"])
         if not (SINCE <= t < END):
             continue

@@ -1,5 +1,5 @@
 """(한 번만) 지난 기간의 관리 언론사 경남정보대 기사(data/kit/<날짜>.json)를 네이버 검색으로 채운다.
-이미 있는 날짜 파일은 건드리지 않는다. BACKFILL_FROM(기본 2026-10-01)부터 어제 판까지."""
+오늘 판 파일은 건드리지 않는다. BACKFILL_FROM(기본 2026-10-01)부터 어제 판까지."""
 import os
 import time
 from datetime import datetime, timedelta
@@ -34,7 +34,8 @@ for q in collect.KEYWORDS[1]:
             link = it.get("originallink") or it.get("link")
             items.setdefault(link, {"title": collect.clean(it.get("title")), "url": link,
                                     "domain": urlparse(link).netloc.replace("www.", ""),
-                                    "published": pub.isoformat(), "via": "naver", "priority": 1})
+                                    "published": pub.isoformat(), "via": "naver", "priority": 1,
+                                    "snippet": collect.clean(it.get("description"))})
         if old or len(got) < 100:
             break
         time.sleep(0.2)
@@ -44,7 +45,7 @@ end = collect.window_end(collect.NOW)
 day_end = datetime.combine(start_day, datetime.min.time()).replace(hour=collect.CUTOFF_HOUR, tzinfo=collect.KST)
 while day_end <= end:
     path = Path(f"data/kit/{day_end:%Y-%m-%d}.json")
-    if not path.exists():
+    if day_end < end or not path.exists():   # 오늘 판 파일(구글 결과 포함)은 그대로 둠
         collect.END, collect.SINCE = day_end, day_end - timedelta(hours=24)
         collect.save_managed_kit(items)
     day_end += timedelta(days=1)
