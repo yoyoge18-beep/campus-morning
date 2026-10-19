@@ -4,7 +4,12 @@ name: 대학 조간 수집
 # 수집 범위는 실행 시각과 관계없이 전날 09:00 ~ 당일 09:00 (collect.py).
 # 월요일에는 경남정보대 기사만 금요일 09:00 ~ 월요일 09:00.
 on:
-  workflow_dispatch: {}     # 실행 버튼 (발행 작업·수동 공용)
+  workflow_dispatch:        # 실행 버튼 (발행 작업·수동 공용)
+    inputs:
+      backfill:
+        description: "지난 관리 언론사 경남정보대 기사 채우기(한 번만)"
+        type: boolean
+        default: false
 
 concurrency:
   group: collect
@@ -27,10 +32,18 @@ jobs:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python collect.py
+      - name: 지난 기사 채우기
+        if: ${{ inputs.backfill }}
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python kit_backfill.py
+      - name: 노출 현황 자료
+        run: python build_media.py
       - name: 저장
         run: |
           git config user.name "campus-morning-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data
+          git add data media
           git commit -m "수집 $(TZ=Asia/Seoul date +%F)" || echo "변경 없음"
           git push
