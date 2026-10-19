@@ -54,9 +54,9 @@ Claude 예약 작업 '대학 조간 매일 발행'(매일 09:00 KST)에 들어 �
 1. 1단계에서 실행한 배너 점검 run(`actions_list` list_workflow_runs, resource_id "adcheck.yml", 실행 이후 created_at)이 completed가 될 때까지 60초마다(Bash sleep 60) 확인한다. 35분이 지나도 안 끝나거나 실패하면 기다리지 말고 계속한다(그날 배너는 '점검 전'으로 남고, 알림에 "배너 점검 실패"를 붙인다).
 2. 자료 4개를 받는다: `curl -sL "https://raw.githubusercontent.com/yoyoge18-beep/campus-morning/main/media/<id>.json?t=$(date +%s)" -o <작업폴더>/<id>.json` (id: outlets, articles, banner_log, daily). daily.json 마지막 date가 오늘인지 확인한다. 아니면 60초 뒤 다시 받기를 5번까지 한다.
 3. 파일마다 따로 Artifact publish: url 위 대시보드 주소, asset true, file_path 그 파일 → 결과의 url(`/_blob/...`)을 적어 둔다. (JSON은 한 번에 한 파일씩)
-4. ArtifactData list, url 대시보드 주소, collection "datasets" 로 네 문서(outlets, articles, banner_log, daily)의 version과 지금 source.url을 읽는다.
+4. ToolSearch로 `ArtifactData`를 불러온 뒤, ArtifactData list, url 대시보드 주소, collection "datasets" 로 네 문서(outlets, articles, banner_log, daily)의 version과 지금 source.url을 읽는다.
 5. ArtifactData batch 로 네 문서를 update 한다(각각 if_version): {"source": {"kind": "file", "url": <3에서 받은 url>, "name": "<id>.json"}, "updated": {"at": 지금 ISO 시각(+09:00), "by": "대학 조간 매일 발행"}}. 다른 필드는 건드리지 않는다. 페이지(files/index.html)도 건드리지 않는다.
-6. 4에서 읽은 이전 source.url 의 자산은 새 자산과 다르면 Artifact delete(url 대시보드 주소, path 그 자산 id)로 지운다. 실패해도 넘어간다.
+6. 4에서 읽은 이전 source.url 의 자산은 새 자산과 다르면 Artifact action "delete"(url 대시보드 주소, path 그 자산 id = `/_blob/` 뒤 32자리)로 지운다. 실패해도 넘어간다.
 7. outlets.json 에서 articles_today 합계(관리 언론사 기사 수)와 banner_status가 "노출 중"인 언론사 수를 센다.
 
 ## 5. 알림
