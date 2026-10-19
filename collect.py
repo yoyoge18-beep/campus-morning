@@ -3,6 +3,7 @@
 1) 네이버 뉴스 검색 API(최신순)로 키워드별 기사 수집 → 원문 주소(originallink) 포함
 2) 부산일보 대학소식 목록 페이지 수집
 수집 범위: 전날 09:00 ~ 당일 09:00 (KST). 실행 시각과 관계없이 "직전 09:00"이 끝.
+  단, 월요일판의 경남정보대(1순위)는 금요일 09:00 ~ 월요일 09:00 (주말 보도분까지).
 결과: data/YYYY-MM-DD.json (범위 끝 날짜 기준)
 """
 import html
@@ -34,10 +35,16 @@ def window_end(now: datetime) -> datetime:
 _end_env = os.environ.get("COLLECT_END", "").strip()
 END = datetime.fromisoformat(_end_env).astimezone(KST) if _end_env else window_end(NOW)
 SINCE = END - timedelta(hours=24)
+# 월요일판: 경남정보대 기사는 금요일 09:00부터 (금·토·일 보도분도 월요일판에 다시 모음)
+SINCE_KIT = END - timedelta(days=3) if END.weekday() == 0 else SINCE
 
 
-def in_window(t: datetime) -> bool:
-    return SINCE <= t < END
+def in_window(t: datetime, since: datetime = None) -> bool:
+    return (since or SINCE) <= t < END
+
+
+def is_kit(title: str) -> bool:
+    return "경남정보" in (title or "")
 
 # 우선순위 순서: 1 = 경남정보대, 2 = 부산 대학, 3 = 전국
 KEYWORDS = {
@@ -94,7 +101,8 @@ def clean(s: str) -> str:
     return html.unescape(s).strip()
 
 
-def naver_news(query: str, cid: str, secret: str) -> list[dict]:
+def naver_news(query: str, cid: str, secret: str, since: datetime = None) -> list[dict]:
+    since = since or SINCE
     # NAVER API HUB (2026.7.31 이후 신규 발급분) — 네이버 클라우드 콘솔에서 발급한 키
     url = "https://naverapihub.apigw.ntruss.com/search/v1/news"
     headers = {"X-NCP-APIGW-API-KEY-ID": cid, "X-NCP-APIGW-API-KEY": secret}
@@ -114,7 +122,7 @@ def naver_news(query: str, cid: str, secret: str) -> list[dict]:
                 pub = parsedate_to_datetime(it["pubDate"]).astimezone(KST)
             except Exception:
                 continue
-            if pub < SINCE:
+            if pub < since:
                 stop = True  # 최신순이므로 이후는 모두 범위 밖
                 continue
             if pub >= END:
@@ -162,7 +170,7 @@ def busan_ilbo() -> list[dict]:
                 day = datetime.strptime(m.group(1), "%Y%m%d%H%M").replace(tzinfo=KST)
             except ValueError:
                 continue
-            if not in_window(day):
+            if not in_window(day, SINCE_KIT if is_kit(title) else SINCE):
                 continue
             out.append({
                 "title": title[:120], "url": href, "domain": "busan.com",
@@ -172,11 +180,13 @@ def busan_ilbo() -> list[dict]:
     return out
 
 
-def google_news(query: str) -> list[dict]:
+def google_news(query: str, since: datetime = None) -> list[dict]:
     """구글 뉴스 RSS — 링크는 구글 경유 주소(누르면 원문으로 이동)."""
+    since = since or SINCE
+    days = max(2, (END - since).days + 1)
     try:
         r = requests.get("https://news.google.com/rss/search",
-                         params={"q": f"{query} when:2d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"},
+                         params={"q": f"{query} when:{days}d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"},
                          headers=UA, timeout=20)
         r.raise_for_status()
     except Exception as e:
@@ -189,7 +199,7 @@ def google_news(query: str) -> list[dict]:
             pub = parsedate_to_datetime(it.pubDate.text).astimezone(KST)
         except Exception:
             continue
-        if not in_window(pub):
+        if not in_window(pub, since):
             continue
         src = it.source.text.strip() if it.source else ""
         src_url = it.source.get("url", "") if it.source else ""
@@ -215,9 +225,10 @@ def main():
     seen_titles: set[str] = set()
     uni_names = [w for w in KEYWORDS[1] + KEYWORDS[2] if " " not in w] + ["경남정보大", "부산대"]
     for priority, words in KEYWORDS.items():
+        since = SINCE_KIT if priority == 1 else SINCE
         for q in words:
-            found = naver_news(q, cid, secret) if use_naver else []
-            found += google_news(q)
+            found = naver_news(q, cid, secret, since) if use_naver else []
+            found += google_news(q, since)
             for it in found:
                 tkey = re.sub(r"\W", "", it["title"])[:40]
                 if it["via"] == "google" and tkey in seen_titles:
@@ -233,7 +244,7 @@ def main():
                 by_url[key] = it
             time.sleep(0.15)
     for q in SITE_QUERIES:
-        for it in google_news(q):
+        for it in google_news(q, SINCE_KIT if "경남정보대" in q else SINCE):
             if it["url"] in by_url:
                 continue
             # 사이트 검색은 본문 옆 기사 목록까지 걸리므로, 제목에 대학 이름이 있는 기사만
@@ -291,6 +302,7 @@ def main():
     Path("data").mkdir(exist_ok=True)
     payload = {"date": day, "collected_at": NOW.isoformat(),
                "window_start": SINCE.isoformat(), "window_end": END.isoformat(),
+               "window_start_kit": SINCE_KIT.isoformat(),
                "count": len(items), "items": items}
     Path(f"data/{day}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     Path("data/latest.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
