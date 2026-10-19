@@ -1,10 +1,10 @@
 {
  "date": "2026-10-19",
- "collected_at": "2026-10-19T09:20:53.503188+09:00",
+ "collected_at": "2026-10-19T10:42:38.737567+09:00",
  "window_start": "2026-10-18T09:00:00+09:00",
  "window_end": "2026-10-19T09:00:00+09:00",
  "window_start_kit": "2026-10-16T09:00:00+09:00",
- "count": 69,
+ "count": 68,
  "items": [
   {
    "title": "이은희 에스테틱, 경남정보대에 장학금 1000만 원 기탁",
@@ -583,34 +583,6 @@
    "date_verified": false
   },
   {
-   "title": "부산디지털대 노인복지학과, 대한노인회 부산시연합회 센터장 초청 특강 성료",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yb05KZkRCNFo0bnhUSWZHenJBVG5FUC1UYmk4S3hYd0dNa2NrWnZJdWNXTHkzWkthWVhKTE5hS3REemh2M1dtYnlTUXdIV1hxU3pSbmJmYi0yWERMb25SVEREeGZNQVlqTFBPZlVnQmQ1TDlBX3BlR25rX0E?oc=5",
-   "source": "부산일보",
-   "domain": "mobile.busan.com",
-   "published": "2026-10-16T15:01:16+09:00",
-   "snippet": "",
-   "query": "경남정보대 site:busan.com",
-   "via": "google",
-   "priority": 2,
-   "outlet": "부산일보",
-   "outlet_tier": 1,
-   "date_verified": false
-  },
-  {
-   "title": "동아대, K-푸드 학과 2027년 개설… 외국인 유학생 전용 학과",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xdWRIbjhBT3lYNGhJc0NNa1hQZDN1WmVsTDdOX3ZTXzl5clF3bEswcUx2WlJnVGhWNFdLb0FOU2pTdThIVnJkMEFBcmhGU1BMcWtxc0tOZWtMRzE0bmRoZ2k5Q3p2ZmZVNmdka1kyOUNXbFVMT2UwbQ?oc=5",
-   "source": "부산일보",
-   "domain": "mobile.busan.com",
-   "published": "2026-10-16T14:06:34+09:00",
-   "snippet": "",
-   "query": "경남정보대 site:busan.com",
-   "via": "google",
-   "priority": 2,
-   "outlet": "부산일보",
-   "outlet_tier": 1,
-   "date_verified": false
-  },
-  {
    "title": "\"한복은 우리 삶과 함께한 문화유산\"…19∼25일 '한복문화주간'",
    "url": "https://www.yna.co.kr/view/AKR20261019019200005?input=1195m",
    "naver_url": "https://n.news.naver.com/mnews/article/001/0016384422?sid=103",
@@ -1022,6 +994,20 @@
   },
   {
    "title": "강원대학교, 춘천막국수닭갈비축제 참여",
+   "url": "https://www.yna.co.kr/view/PYH20261018048500062?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016383778?sid=102",
+   "domain": "yna.co.kr",
+   "published": "2026-10-18T14:24:00+09:00",
+   "snippet": "지난 17일 강원 춘천시 공지천 수변 산책로 일대에서 열린 '2026 춘천막국수닭갈비축제'에서 강원대학교 관계자들이 '지역과 대학이 함께하는 글로컬대학' 홍보 부스를 운영하고 있다. 2026.10.18 [강원대학교 제공....",
+   "query": "글로컬대학",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "연합뉴스",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "강원대학교, 춘천막국수닭갈비축제 참여",
    "url": "https://www.yna.co.kr/view/PYH20261018048600062?input=1196m",
    "naver_url": "https://n.news.naver.com/mnews/article/001/0016383779?sid=102",
    "domain": "yna.co.kr",
@@ -1035,18 +1021,18 @@
    "date_verified": true
   },
   {
-   "title": "강원대학교, 춘천막국수닭갈비축제 참여",
-   "url": "https://www.yna.co.kr/view/PYH20261018048500062?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016383778?sid=102",
+   "title": "韓 학사 졸업생 중 국공립대 22%…청년층 석박사 취득률 3%",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLTDBySjV3aFNxMmdzMjlWdjMxenduNEJWazc1WXF4RzFCVGpOc05WcUR5cWlrazhRR1BnNWRsSWRMZ0EtelhBTzdnekYwbm1WWEtUZXY4UUt4M1lObFdvS9IBYEFVX3lxTFBLTDBySjV3aFNxMmdzMjlWdjMxenduNEJWazc1WXF4RzFCVGpOc05WcUR5cWlrazhRR1BnNWRsSWRMZ0EtelhBTzdnekYwbm1WWEtUZXY4UUt4M1lObFdvSw?oc=5",
+   "source": "연합뉴스",
    "domain": "yna.co.kr",
-   "published": "2026-10-18T14:24:00+09:00",
-   "snippet": "지난 17일 강원 춘천시 공지천 수변 산책로 일대에서 열린 '2026 춘천막국수닭갈비축제'에서 강원대학교 관계자들이 '지역과 대학이 함께하는 글로컬대학' 홍보 부스를 운영하고 있다. 2026.10.18 [강원대학교 제공....",
-   "query": "글로컬대학",
-   "via": "naver",
+   "published": "2026-10-18T09:00:05+09:00",
+   "snippet": "",
+   "query": "대학 교육부",
+   "via": "google",
    "priority": 3,
    "outlet": "연합뉴스",
    "outlet_tier": 2,
-   "date_verified": true
+   "date_verified": false
   },
   {
    "title": "李대통령은 노무현보다 이승만 닮았다?…대법관 제청 갈등의 역사",

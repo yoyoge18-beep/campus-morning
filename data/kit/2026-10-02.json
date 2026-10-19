@@ -1,0 +1,128 @@
+{
+ "date": "2026-10-02",
+ "window_start": "2026-10-01T09:00:00+09:00",
+ "window_end": "2026-10-02T09:00:00+09:00",
+ "count": 15,
+ "items": [
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(10월2일)] ㈜채정, 동의대학교에 대학발...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610011715415540245",
+   "published": "2026-10-02T08:42:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "CBS",
+   "title": "경남정보대·동의과학대, 수시 1차 경쟁률 상승",
+   "url": "https://www.nocutnews.co.kr/news/6586252?utm_source=naver&utm_medium=article&utm_campaign=20261002084020",
+   "published": "2026-10-02T08:41:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "서울파이낸스",
+   "title": "[부산대학가] 경남정보대·동의과학대 수시 경쟁률 상승",
+   "url": "https://www.seoulfn.com/news/articleView.html?idxno=639197",
+   "published": "2026-10-02T08:07:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌뉴스통신",
+   "title": "[최광임의 디카시 행진 267]읽지 않아도 좋은 날 (유용숙, 독자)",
+   "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=646697",
+   "published": "2026-10-01T19:32:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "경남정보대, 2026학년도 수시1차 경쟁률 6.26대 1",
+   "url": "https://view.asiae.co.kr/article/2026100117504263324",
+   "published": "2026-10-01T17:50:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "내외경제TV",
+   "title": "경남정보대, 수시1차 경쟁률 6.26대 1...총 11,559명 지원",
+   "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4025554",
+   "published": "2026-10-01T17:36:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "머니투데이",
+   "title": "경남정보대 수시1차 경쟁률 6.26대 1…1만1559명 지원",
+   "url": "https://www.mt.co.kr/policy/2026/10/01/2026100115065339574",
+   "published": "2026-10-01T15:10:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, 2027학년도 수시 1차 경쟁률 6.26대 1 기록",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026100115045018426",
+   "published": "2026-10-01T15:07:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "대동대 앵커사업단, 2026 부산형 앵커 대학생 서포터즈 워크숍 참여",
+   "url": "https://news.unn.net/news/articleView.html?idxno=598166",
+   "published": "2026-10-01T13:54:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "데일리한국",
+   "title": "경남정보대 수시1차에 1만1559명 몰렸다…경쟁률 6.26대 1",
+   "url": "https://daily.hankooki.com/news/articleView.html?idxno=1411324",
+   "published": "2026-10-01T13:40:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "이투데이",
+   "title": "경남정보대 수시1차 6.26대 1…학령인구 감소에도 지원자 14.5% 늘었다",
+   "url": "https://www.etoday.co.kr/news/view/2631455",
+   "published": "2026-10-01T12:50:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "[로컬 게시판/경남정보대] 수시1차 경쟁률 6.26대 1...총 1만1559명 지원",
+   "url": "https://www.betanews.net/article/view/beta202610010051",
+   "published": "2026-10-01T12:28:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "뉴시스",
+   "title": "경남정보대, 수시1차 경쟁률 6.26대 1…전년비 큰폭 상승",
+   "url": "https://www.newsis.com/view/NISX20261001_0003810622",
+   "published": "2026-10-01T12:26:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대 수시1차 6.26대 1…지원자 1만 1559명",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3710386",
+   "published": "2026-10-01T11:54:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대, 수시1차 경쟁률 6.26대 1…지난해 대비 대폭 상승",
+   "url": "https://news.unn.net/news/articleView.html?idxno=598157",
+   "published": "2026-10-01T11:48:00+09:00",
+   "via": "naver",
+   "in_title": true
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "date": "2026-10-03",
+ "window_start": "2026-10-02T09:00:00+09:00",
+ "window_end": "2026-10-03T09:00:00+09:00",
+ "count": 4,
+ "items": [
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대 수시1차 6.26대 1…전년보다 경쟁률 상승",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261001.99099000257",
+   "published": "2026-10-02T17:46:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대 외국인 유학생 2명, ‘글로벌 부산 장학금’ 장학생 선발",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260928.99099008997",
+   "published": "2026-10-02T17:46:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌이코노믹",
+   "title": "경남정보대 수시 지원자 1만1559명…전년보다 14.5% 증가",
+   "url": "https://www.g-enews.com/view.php?ud=2026100213512384437f21df127_1",
+   "published": "2026-10-02T15:18:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대, 2027학년도 수시 1차 경쟁률 6.26대 1",
+   "url": "http://www.metroseoul.co.kr/article/20261001500661",
+   "published": "2026-10-02T10:22:00+09:00",
+   "via": "naver",
+   "in_title": true
+  }
+ ]
+}

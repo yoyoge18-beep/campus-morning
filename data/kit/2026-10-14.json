@@ -1,0 +1,64 @@
+{
+ "date": "2026-10-14",
+ "window_start": "2026-10-13T09:00:00+09:00",
+ "window_end": "2026-10-14T09:00:00+09:00",
+ "count": 7,
+ "items": [
+  {
+   "outlet": "서울파이낸스",
+   "title": "[부산대학가] 동의과학대, 일본 교육기관과 교류 확대 등",
+   "url": "https://www.seoulfn.com/news/articleView.html?idxno=639992",
+   "published": "2026-10-14T08:37:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "[로컬 게시판] 경남정보대, 제10회 총장배 사상구 여성부·청년부 배드민...",
+   "url": "https://www.betanews.net/article/view/beta202610130102",
+   "published": "2026-10-13T15:24:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, 총장배 사상구 배드민턴 대회 성료… 200여 명 참가",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026101314594472322",
+   "published": "2026-10-13T15:01:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "경남정보대, ‘제10회 사상구 배드민턴대회’ 개최… 10년째 이어진 셔...",
+   "url": "https://view.asiae.co.kr/article/2026101314190689225",
+   "published": "2026-10-13T14:19:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 부산교육청·경남정보대·부산관광공사",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=170720",
+   "published": "2026-10-13T13:54:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(10월13일)] 경상국립대, 진주 전통문화유...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610122231234350261",
+   "published": "2026-10-13T10:02:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대 화공에너지공학과, 경진대회 3개 부문 석권",
+   "url": "http://www.metroseoul.co.kr/article/20261012500593",
+   "published": "2026-10-13T09:22:00+09:00",
+   "via": "naver",
+   "in_title": true
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-07",
+ "window_start": "2026-10-06T09:00:00+09:00",
+ "window_end": "2026-10-07T09:00:00+09:00",
+ "count": 3,
+ "items": [
+  {
+   "outlet": "대한경제",
+   "title": "[부산 브리핑 모음(10월7일)] 부산시, 전기차 1520대 추가 보급…구매 숨...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610061642435640636",
+   "published": "2026-10-07T08:20:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "한스경제",
+   "title": "신발 디자인도 AI로...경성대 5명 모여 1등 먹었다",
+   "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=870503",
+   "published": "2026-10-06T19:44:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "뉴스1",
+   "title": "농심·다이소 등 100개 기업 참여…부산 사상구 일자리박람회 15일 개최",
+   "url": "https://www.news1.kr/local/busan-gyeongnam/6311485",
+   "published": "2026-10-06T14:16:00+09:00",
+   "via": "naver",
+   "in_title": false
+  }
+ ]
+}

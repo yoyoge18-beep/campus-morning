@@ -1,0 +1,104 @@
+{
+ "date": "2026-10-15",
+ "window_start": "2026-10-14T09:00:00+09:00",
+ "window_end": "2026-10-15T09:00:00+09:00",
+ "count": 12,
+ "items": [
+  {
+   "outlet": "베타뉴스",
+   "title": "[로컬 게시판] 경남정보대 졸업생 단편영화 '물만골', 부산독립영화제 ...",
+   "url": "https://www.betanews.net/article/view/beta202610140142",
+   "published": "2026-10-14T15:32:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "신라대 평생교육원, 경남정보대 경찰행정학과와 업무협약",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026101414352515733",
+   "published": "2026-10-14T14:38:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대 졸업생 연출 단편영화, 부산독립영화제 본선 진출작 최종 선...",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026101414215505786",
+   "published": "2026-10-14T14:23:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 경남정보대·부산시설공단·부산관광공사",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=170804",
+   "published": "2026-10-14T12:54:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌경제",
+   "title": "경남정보대大, 제10회 총장배 사상구 여성부·청년부 배드민턴 대회 개...",
+   "url": "https://www.getnews.co.kr/news/articleView.html?idxno=883487",
+   "published": "2026-10-14T12:42:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "경비·보안에 AI 화물검사까지… 신라대, 현장 인력 양성 넓힌다",
+   "url": "https://view.asiae.co.kr/article/2026101411460524174",
+   "published": "2026-10-14T11:46:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "한스경제",
+   "title": "문원수 감독 '물만골' 부산독립영화제 본선 진출, 경남정보대 성과",
+   "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=872666",
+   "published": "2026-10-14T11:40:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "경남정보대 졸업생, 현직 공무원 연출 단편영화 '물만골', 부산독립영화...",
+   "url": "https://view.asiae.co.kr/article/2026101411261748930",
+   "published": "2026-10-14T11:26:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대 졸업생 연출 단편영화 '물만골' 부산독립영화제 본선 진출",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3721021",
+   "published": "2026-10-14T10:52:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "1000만 제작자 장원석 \"'왕사남' 작품, 처음에는 거절했었죠\"",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026101409262640067",
+   "published": "2026-10-14T10:32:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산 브리핑 모음(10월14일)] 부산 기장군, 16~18일 ‘제12회 정관생태...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610132036446960447",
+   "published": "2026-10-14T09:02:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(10월14일)] 경남정보대, 제10회 총장배 사...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610131908271580444",
+   "published": "2026-10-14T09:02:00+09:00",
+   "via": "naver",
+   "in_title": true
+  }
+ ]
+}

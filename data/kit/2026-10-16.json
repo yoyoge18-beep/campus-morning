@@ -1,0 +1,128 @@
+{
+ "date": "2026-10-16",
+ "window_start": "2026-10-15T09:00:00+09:00",
+ "window_end": "2026-10-16T09:00:00+09:00",
+ "count": 15,
+ "items": [
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대, ‘부산 마리나 셰프 챌린지’ 디저트 부문 수상",
+   "url": "http://www.metroseoul.co.kr/article/20261015500667",
+   "published": "2026-10-16T08:34:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(10월16일)] 동아대 대학원 재난관리학과...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610151534525610780",
+   "published": "2026-10-16T08:00:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "머니투데이",
+   "title": "경남정보대 호텔제과제빵과 국제셰프대회 디저트 부문 대상 등 수상",
+   "url": "https://www.mt.co.kr/policy/2026/10/15/2026101517011296032",
+   "published": "2026-10-15T17:08:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, 국제 셰프 대회 디저트 부문 석권… 실무 기량 입증",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026101516032825495",
+   "published": "2026-10-15T16:05:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대 호텔제과제빵과, 국제 셰프 대회 디저트 부문 최고상 석권",
+   "url": "https://news.unn.net/news/articleView.html?idxno=598725",
+   "published": "2026-10-15T15:50:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "데일리한국",
+   "title": "경남정보대, 국제 셰프 대회 디저트 부문 4개 상 휩쓸어",
+   "url": "https://daily.hankooki.com/news/articleView.html?idxno=1415264",
+   "published": "2026-10-15T15:42:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌이코노믹",
+   "title": "[지역대학] 국제 요리대회서 주요상 수상... 책 읽는 캠퍼스 조성까지",
+   "url": "https://www.g-enews.com/view.php?ud=2026101515003778637f21df127_1",
+   "published": "2026-10-15T15:30:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "[로컬 게시판] 경남정보대 호텔제과제빵과, 국제 셰프 대회 디저트 부문...",
+   "url": "https://www.betanews.net/article/view/beta202610150116",
+   "published": "2026-10-15T15:22:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대 호텔제과제빵과, 국제 셰프 대회 디저트 부문 최고상 석권",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3722604",
+   "published": "2026-10-15T15:18:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "망고 파블로바부터 티라미수까지… 경남정보대 학생들 디저트 실력 뽐내",
+   "url": "https://view.asiae.co.kr/article/2026101515150935260",
+   "published": "2026-10-15T15:15:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아주경제",
+   "title": "경남정보대, 국제 셰프 대회서 대상 등 4관왕",
+   "url": "https://www.ajunews.com/view/20261015145620433",
+   "published": "2026-10-15T15:04:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌경제",
+   "title": "경남정보大, 졸업생 영화 '물만골' 부산독립영화제 본선 진출",
+   "url": "https://www.getnews.co.kr/news/articleView.html?idxno=883591",
+   "published": "2026-10-15T12:40:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대 졸업생 단편, 부산독립영화제 본선 진출",
+   "url": "http://www.metroseoul.co.kr/article/20261014500509",
+   "published": "2026-10-15T11:58:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "서울파이낸스",
+   "title": "[부산대학가] 경남정보대 졸업생 부산독립영화제 본선 진출 등",
+   "url": "https://www.seoulfn.com/news/articleView.html?idxno=640111",
+   "published": "2026-10-15T09:30:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(10월15일)] 국립창원대, 세계적 컴퓨터 비...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610141615205480607",
+   "published": "2026-10-15T09:20:00+09:00",
+   "via": "naver",
+   "in_title": false
+  }
+ ]
+}

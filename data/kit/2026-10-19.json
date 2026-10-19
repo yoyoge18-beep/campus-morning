@@ -1,0 +1,40 @@
+{
+ "date": "2026-10-19",
+ "window_start": "2026-10-18T09:00:00+09:00",
+ "window_end": "2026-10-19T09:00:00+09:00",
+ "count": 4,
+ "items": [
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(10월19일)] 인제대, 베트남서 글로벌 인재...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610170824599560957",
+   "published": "2026-10-19T08:40:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "서울파이낸스",
+   "title": "경남정보대, 로컬 창업 전문가 초청 스타트업 포럼 개최",
+   "url": "https://www.seoulfn.com/news/articleView.html?idxno=640341",
+   "published": "2026-10-19T08:15:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "이은희 에스테틱, 경남정보대에 장학금 1000만 원 기탁",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026101812164045914",
+   "published": "2026-10-18T14:40:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌경제",
+   "title": "경남정보大, 로컬 창업 해법 찾는다…전문가 릴레이 포럼",
+   "url": "https://www.getnews.co.kr/news/articleView.html?idxno=883883",
+   "published": "2026-10-18T10:42:00+09:00",
+   "via": "naver",
+   "in_title": true
+  }
+ ]
+}
