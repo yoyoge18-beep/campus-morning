@@ -1,9 +1,10 @@
 {
  "date": "2026-10-19",
- "collected_at": "2026-10-19T09:08:02.918049+09:00",
+ "collected_at": "2026-10-19T09:20:53.503188+09:00",
  "window_start": "2026-10-18T09:00:00+09:00",
  "window_end": "2026-10-19T09:00:00+09:00",
- "count": 56,
+ "window_start_kit": "2026-10-16T09:00:00+09:00",
+ "count": 69,
  "items": [
   {
    "title": "이은희 에스테틱, 경남정보대에 장학금 1000만 원 기탁",
@@ -21,6 +22,196 @@
    ],
    "outlet": "부산일보",
    "outlet_tier": 1,
+   "date_verified": true
+  },
+  {
+   "title": "경남정보대 총장배 배드민턴대회…주민과 10년째 ‘셔틀콕 화합’",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=2100&key=20261015.22017003575",
+   "naver_url": "https://n.news.naver.com/mnews/article/658/0000158664?sid=102",
+   "domain": "kookje.co.kr",
+   "published": "2026-10-16T16:48:00+09:00",
+   "snippet": "경남정보대학교가 셔틀콕으로 지역 생활체육 활성화와 주민과 대학의 소통 화합 한마당을 펼쳤다. 경남정보대는 지난 11일 교내 민석스포츠센터에서 ‘제10회 경남정보대 총장배 사상구 여성부·청년부 배드민턴대회’...",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "국제신문",
+   "outlet_tier": 1,
+   "date_verified": true
+  },
+  {
+   "title": "경남정보대 화공에너지공학과, 전국 창의설계 경진대회 대상 수상",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261012.99099003073",
+   "naver_url": "https://n.news.naver.com/mnews/article/658/0000158663?sid=102",
+   "domain": "kookje.co.kr",
+   "published": "2026-10-16T16:47:00+09:00",
+   "snippet": "경남정보대학교는 최근 부산 벡스코에서 열린 ‘2026 켐프론티어 화학공학 대학생 창의설계 경진대회’에서 화공에너지공학과 출전팀 전원이 수상했다고 12일 밝혔다. 한국화학공학회가 주최한 이번 제18회 전문대학...",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "국제신문",
+   "outlet_tier": 1,
+   "date_verified": true
+  },
+  {
+   "title": "경남정보대 동문 기업인, 후배 위해 장학금 1000만 원 기탁",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261016.99099004659",
+   "naver_url": "https://n.news.naver.com/mnews/article/658/0000158655?sid=102",
+   "domain": "kookje.co.kr",
+   "published": "2026-10-16T15:28:00+09:00",
+   "snippet": "경남정보대 동문인 이 대표는 대학에서 배운 전문성을 바탕으로 창업에 성공한 성인학습자 출신 기업인이다. 거제에서 피부관리실을 운영하던 그는 2020년 글로벌K뷰티학과에 입학해 시데스코(CIDESCO) 뷰티테라피...",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "국제신문",
+   "outlet_tier": 1,
+   "date_verified": true
+  },
+  {
+   "title": "이은희 에스테틱, 경남정보대 글로벌K뷰티학과에 장학금 1천만 원 쾌척",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ySE1WblhnVmt1bnQ4MVd3WjAzYlRuYk1sWlpCQ2JHQ2V2aE95c0k5QTBVR09aVGZuQU5SYXdCNHZncG5RQW8xVkpxbTZPc1FBV2Z2Rmk4dTFraVMtalBZb3VNczVhU1pZS2U3RnNveXVhSjN4?oc=5",
+   "source": "부산일보",
+   "domain": "busan.com",
+   "published": "2026-10-16T15:20:35+09:00",
+   "snippet": "",
+   "query": "경남정보대",
+   "via": "google",
+   "priority": 1,
+   "outlet": "부산일보",
+   "outlet_tier": 1,
+   "date_verified": false
+  },
+  {
+   "title": "경남정보대 AI창업학과, 실전 창업 노하우 전수 ‘제1회 KIT 스타트업 포럼’ 개최",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMDJ2WWpDeU5nWTlKS0dBRFRYYzk2MzBGWE9yeGxhNEdZS1BKZDFaWUc1cl9pRXdSNVdNeUNMTElRUWpkWThDN3M2eU11Ui1mclYwb1JuaGFNZG44SFNsb011Ynk0bTJ2dWhsRU5POEhpT0pLcm9RNW02RlVYaGljaEV4S2xkbkFta29ST1g5ekRTLWM?oc=5",
+   "source": "국제신문",
+   "domain": "kookje.co.kr",
+   "published": "2026-10-16T14:26:00+09:00",
+   "snippet": "",
+   "query": "경남정보대",
+   "via": "google",
+   "priority": 1,
+   "outlet": "국제신문",
+   "outlet_tier": 1,
+   "date_verified": true
+  },
+  {
+   "title": "경남정보대, ‘KIT 스타트업 포럼’ 개최… 창업 전문가 총출동",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026101613392171123",
+   "naver_url": "https://n.news.naver.com/mnews/article/082/0001402781?sid=102",
+   "domain": "busan.com",
+   "published": "2026-10-16T13:40:00+09:00",
+   "snippet": "경남정보대학교(총장 김태상)는 AI창업학과 주관으로 창업 분야 전문가 초청 프로그램인 ‘제1회 KIT... 전문대학혁신지원사업 비교과 프로그램의 일환으로 진행되는 이번 포럼의 참가비는 전액 무료이며, 온라인을 통해...",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "부산일보",
+   "outlet_tier": 1,
+   "date_verified": true
+  },
+  {
+   "title": "[부산소식] 경남정보대, 24일부터 스타트업 포럼",
+   "url": "https://www.yna.co.kr/view/AKR20261016045400051?input=1195m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016380637?sid=102",
+   "domain": "yna.co.kr",
+   "published": "2026-10-16T09:48:00+09:00",
+   "snippet": "▲ 경남정보대, 24일부터 스타트업 포럼 = 경남정보대학교는 오는 24일부터 교내 IT빌딩에서 AI창업학과... 1부에서는 김현민 부산대학교 수학과 교수가 '4차 산업혁명 시대에 수학으로 살아남기'를 주제로 강연한다....",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "연합뉴스",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "경남정보대 AI창업학과, 실전 창업 노하우 전수 '제1회 KIT 스타트업 포...",
+   "url": "https://news.unn.net/news/articleView.html?idxno=598758",
+   "naver_url": "https://news.unn.net/news/articleView.html?idxno=598758",
+   "domain": "news.unn.net",
+   "published": "2026-10-16T09:12:00+09:00",
+   "snippet": "경남정보대학교(총장 김태상)는 AI창업학과 주관으로 창업 분야 전문가 초청 프로그램인 '제1회 KIT... 전문대학혁신지원사업 비교과 프로그램의 일환으로 진행되는 이번 포럼의 참가비는 전액 무료이며, 온라인 신청...",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "한국대학신문",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "경남정보대 동문 이은희 에스테틱 대표, 후배 위해 장학금 1000만원 기탁",
+   "url": "https://view.asiae.co.kr/article/2026101615180250045",
+   "naver_url": "https://n.news.naver.com/mnews/article/277/0005829581?sid=102",
+   "domain": "view.asiae.co.kr",
+   "published": "2026-10-16T15:18:00+09:00",
+   "snippet": "경남정보대학교는 동문인 이은희 에스테틱 대표가 후배들을 위한 장학금 1000만원을 전달했다고 전했다.... 이은희 대표는 이 대학 졸업생이다. 지난해 1500만원을 전달한 데 이어 올해도 1000만원을 기탁했다. 대학 측은...",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "아시아경제",
+   "outlet_tier": 3,
+   "date_verified": true
+  },
+  {
+   "title": "경남정보대, 창업 해법 공유 \"골목상권에서 살아남기\"",
+   "url": "https://www.ajunews.com/view/20261016095831165",
+   "naver_url": "https://www.ajunews.com/view/20261016095831165",
+   "domain": "ajunews.com",
+   "published": "2026-10-16T10:10:00+09:00",
+   "snippet": "com 경남정보대 AI창업학과가 오는 24일부터 11월 7일까지 시민 누구나 무료로 참여할 수 있는 ‘제1회 KIT... 이번 포럼은 대학의 창업 교육을 재학생뿐 아니라 지역 예비 창업자와 소상공인에게도 개방한다는 점에서...",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "아주경제",
+   "outlet_tier": 3,
+   "date_verified": true
+  },
+  {
+   "title": "부산서 창업하려면… 브랜딩부터 투자까지 전문가 3인에게 듣는다",
+   "url": "https://view.asiae.co.kr/article/2026101609140920649",
+   "naver_url": "https://n.news.naver.com/mnews/article/277/0005829324?sid=102",
+   "domain": "view.asiae.co.kr",
+   "published": "2026-10-16T09:14:00+09:00",
+   "snippet": "경남정보대학교(총장 김태상)는 AI창업학과 주관으로 '제1회 KIT 스타트업 포럼: 로컬에서 창업의 답을 찾다... 고민을 풀어가는 데 도움이 되길 바랐다. 이번 포럼은 전문대학혁신지원사업 비교과 프로그램으로 운영된다.",
+   "query": "경남정보대",
+   "via": "naver",
+   "priority": 1,
+   "queries": [
+    "경남정보대",
+    "경남정보대학교"
+   ],
+   "outlet": "아시아경제",
+   "outlet_tier": 3,
    "date_verified": true
   },
   {
@@ -378,6 +569,48 @@
    "date_verified": true
   },
   {
+   "title": "부산대, 부마민주항쟁 47주년 맞아 교내 항쟁 발원지 기념 참배",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9odXkzbTdIS0tuSWdGTDJrWU1nTWVURDFxbDVQUWxHYnZicEU4TUtQa3N4ZWR3WnYzV2NhRnJqa3pCeUVsUkdKS2w0NWJPT2hTVEpubDRYZnc0ZC1heGo4Q1BTLVU2VkZINV80blFJRktBUFRfbnNWMl9qOFk?oc=5",
+   "source": "부산일보",
+   "domain": "mobile.busan.com",
+   "published": "2026-10-16T16:55:28+09:00",
+   "snippet": "",
+   "query": "경남정보대 site:busan.com",
+   "via": "google",
+   "priority": 2,
+   "outlet": "부산일보",
+   "outlet_tier": 1,
+   "date_verified": false
+  },
+  {
+   "title": "부산디지털대 노인복지학과, 대한노인회 부산시연합회 센터장 초청 특강 성료",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yb05KZkRCNFo0bnhUSWZHenJBVG5FUC1UYmk4S3hYd0dNa2NrWnZJdWNXTHkzWkthWVhKTE5hS3REemh2M1dtYnlTUXdIV1hxU3pSbmJmYi0yWERMb25SVEREeGZNQVlqTFBPZlVnQmQ1TDlBX3BlR25rX0E?oc=5",
+   "source": "부산일보",
+   "domain": "mobile.busan.com",
+   "published": "2026-10-16T15:01:16+09:00",
+   "snippet": "",
+   "query": "경남정보대 site:busan.com",
+   "via": "google",
+   "priority": 2,
+   "outlet": "부산일보",
+   "outlet_tier": 1,
+   "date_verified": false
+  },
+  {
+   "title": "동아대, K-푸드 학과 2027년 개설… 외국인 유학생 전용 학과",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xdWRIbjhBT3lYNGhJc0NNa1hQZDN1WmVsTDdOX3ZTXzl5clF3bEswcUx2WlJnVGhWNFdLb0FOU2pTdThIVnJkMEFBcmhGU1BMcWtxc0tOZWtMRzE0bmRoZ2k5Q3p2ZmZVNmdka1kyOUNXbFVMT2UwbQ?oc=5",
+   "source": "부산일보",
+   "domain": "mobile.busan.com",
+   "published": "2026-10-16T14:06:34+09:00",
+   "snippet": "",
+   "query": "경남정보대 site:busan.com",
+   "via": "google",
+   "priority": 2,
+   "outlet": "부산일보",
+   "outlet_tier": 1,
+   "date_verified": false
+  },
+  {
    "title": "\"한복은 우리 삶과 함께한 문화유산\"…19∼25일 '한복문화주간'",
    "url": "https://www.yna.co.kr/view/AKR20261019019200005?input=1195m",
    "naver_url": "https://n.news.naver.com/mnews/article/001/0016384422?sid=103",
@@ -676,12 +909,12 @@
    "date_verified": true
   },
   {
-   "title": "반도체주 급락속… ‘국민 노후자금’ 석달새 182조 날아갔다",
-   "url": "https://www.donga.com/news/Economy/article/all/20261019/134863543/2",
-   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755815?sid=101",
+   "title": "“월급 188만원 입금 1시간뒤 카드값-이자 줄줄이… 844원 남아”",
+   "url": "https://www.donga.com/news/Society/article/all/20261019/134863636/2",
+   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755809?sid=102",
    "domain": "donga.com",
    "published": "2026-10-19T04:31:00+09:00",
-   "snippet": "이진기 성균관대 법학전문대학원 교수도 “운용 담당자에게 어느 정도까지의 권한을 주고, 잘못했을 때 어디까지 책임지게 하느냐에 관한 것을 법률에 명시해야 할 것”이라고 주장했다.",
+   "snippet": "수능을 마친 뒤 생활비와 월세 60만 원을 직접 벌어 온 김 씨는 행정고시나 법학전문대학원처럼 오래 준비해야 하는 미래는 처음부터 지웠다. “저는 부모한테서 월세를 지원받는 친구들이 그렇게 부러울 수가...",
    "query": "전문대학",
    "via": "naver",
    "priority": 3,
@@ -690,12 +923,12 @@
    "date_verified": true
   },
   {
-   "title": "“월급 188만원 입금 1시간뒤 카드값-이자 줄줄이… 844원 남아”",
-   "url": "https://www.donga.com/news/Society/article/all/20261019/134863636/2",
-   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755809?sid=102",
+   "title": "반도체주 급락속… ‘국민 노후자금’ 석달새 182조 날아갔다",
+   "url": "https://www.donga.com/news/Economy/article/all/20261019/134863543/2",
+   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755815?sid=101",
    "domain": "donga.com",
    "published": "2026-10-19T04:31:00+09:00",
-   "snippet": "수능을 마친 뒤 생활비와 월세 60만 원을 직접 벌어 온 김 씨는 행정고시나 법학전문대학원처럼 오래 준비해야 하는 미래는 처음부터 지웠다. “저는 부모한테서 월세를 지원받는 친구들이 그렇게 부러울 수가...",
+   "snippet": "이진기 성균관대 법학전문대학원 교수도 “운용 담당자에게 어느 정도까지의 권한을 주고, 잘못했을 때 어디까지 책임지게 하느냐에 관한 것을 법률에 명시해야 할 것”이라고 주장했다.",
    "query": "전문대학",
    "via": "naver",
    "priority": 3,
@@ -789,20 +1022,6 @@
   },
   {
    "title": "강원대학교, 춘천막국수닭갈비축제 참여",
-   "url": "https://www.yna.co.kr/view/PYH20261018048500062?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016383778?sid=102",
-   "domain": "yna.co.kr",
-   "published": "2026-10-18T14:24:00+09:00",
-   "snippet": "지난 17일 강원 춘천시 공지천 수변 산책로 일대에서 열린 '2026 춘천막국수닭갈비축제'에서 강원대학교 관계자들이 '지역과 대학이 함께하는 글로컬대학' 홍보 부스를 운영하고 있다. 2026.10.18 [강원대학교 제공....",
-   "query": "글로컬대학",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "연합뉴스",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
-   "title": "강원대학교, 춘천막국수닭갈비축제 참여",
    "url": "https://www.yna.co.kr/view/PYH20261018048600062?input=1196m",
    "naver_url": "https://n.news.naver.com/mnews/article/001/0016383779?sid=102",
    "domain": "yna.co.kr",
@@ -816,18 +1035,18 @@
    "date_verified": true
   },
   {
-   "title": "韓 학사 졸업생 중 국공립대 22%…청년층 석박사 취득률 3%",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLTDBySjV3aFNxMmdzMjlWdjMxenduNEJWazc1WXF4RzFCVGpOc05WcUR5cWlrazhRR1BnNWRsSWRMZ0EtelhBTzdnekYwbm1WWEtUZXY4UUt4M1lObFdvS9IBYEFVX3lxTFBLTDBySjV3aFNxMmdzMjlWdjMxenduNEJWazc1WXF4RzFCVGpOc05WcUR5cWlrazhRR1BnNWRsSWRMZ0EtelhBTzdnekYwbm1WWEtUZXY4UUt4M1lObFdvSw?oc=5",
-   "source": "연합뉴스",
+   "title": "강원대학교, 춘천막국수닭갈비축제 참여",
+   "url": "https://www.yna.co.kr/view/PYH20261018048500062?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016383778?sid=102",
    "domain": "yna.co.kr",
-   "published": "2026-10-18T09:00:05+09:00",
-   "snippet": "",
-   "query": "대학 교육부",
-   "via": "google",
+   "published": "2026-10-18T14:24:00+09:00",
+   "snippet": "지난 17일 강원 춘천시 공지천 수변 산책로 일대에서 열린 '2026 춘천막국수닭갈비축제'에서 강원대학교 관계자들이 '지역과 대학이 함께하는 글로컬대학' 홍보 부스를 운영하고 있다. 2026.10.18 [강원대학교 제공....",
+   "query": "글로컬대학",
+   "via": "naver",
    "priority": 3,
    "outlet": "연합뉴스",
    "outlet_tier": 2,
-   "date_verified": false
+   "date_verified": true
   },
   {
    "title": "李대통령은 노무현보다 이승만 닮았다?…대법관 제청 갈등의 역사",
