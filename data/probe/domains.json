@@ -1,0 +1,941 @@
+{
+ "oldest": "Wed, 06 May 2026 16:06:00 +0900",
+ "domains": [
+  {
+   "domain": "busan.com",
+   "n": 140,
+   "samples": [
+    "이은희 에스테틱, <b>경남</b><b>정보대</b>에 장학금 1000만 원 기탁 | https://www.busan.com/view/busan/view.php?code=2026101812164045914",
+    "<b>경남</b><b>정보대</b>, ‘KIT 스타트업 포럼’ 개최… 창업 전문가 총출동 | https://www.busan.com/view/busan/view.php?code=2026101613392171123"
+   ]
+  },
+  {
+   "domain": "view.asiae.co.kr",
+   "n": 132,
+   "samples": [
+    "<b>경남</b><b>정보대</b> 동문 이은희 에스테틱 대표, 후배 위해 장학금 1000 | https://view.asiae.co.kr/article/2026101615180250045",
+    "부산서 창업하려면… 브랜딩부터 투자까지 전문가 3인에게 듣는다 | https://view.asiae.co.kr/article/2026101609140920649"
+   ]
+  },
+  {
+   "domain": "dnews.co.kr",
+   "n": 120,
+   "samples": [
+    "[부산ㆍ<b>경남</b> <b>대학</b> 브리핑 모음(10월19일)] 인제대, 베트남서  | https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610170824599560957",
+    "[부산ㆍ<b>경남</b> <b>대학</b> 브리핑 모음(10월16일)] 동아대 <b>대학< | https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610151534525610780"
+   ]
+  },
+  {
+   "domain": "news.unn.net",
+   "n": 112,
+   "samples": [
+    "<b>경남</b><b>정보대</b> AI창업학과, 실전 창업 노하우 전수 '제1회 KIT  | https://news.unn.net/news/articleView.html?idxno=598758",
+    "<b>경남</b><b>정보대</b> 호텔제과제빵과, 국제 셰프 대회 디저트 부문 최고상 석 | https://news.unn.net/news/articleView.html?idxno=598725"
+   ]
+  },
+  {
+   "domain": "kookje.co.kr",
+   "n": 106,
+   "samples": [
+    "<b>경남</b><b>정보대</b> 총장배 배드민턴대회…주민과 10년째 ‘셔틀콕 화합’ | http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=2100&key=20261015.22017003575",
+    "<b>경남</b><b>정보대</b> 화공에너지공학과, 전국 창의설계 경진대회 대상 수상 | http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261012.99099003073"
+   ]
+  },
+  {
+   "domain": "newsis.com",
+   "n": 106,
+   "samples": [
+    "[부산소식]벡스코, 발달장애인 혼성 축구단에 '기부금' 등 | https://www.newsis.com/view/NISX20261016_0003828495",
+    "<b>경남</b><b>정보대</b>, 수시1차 경쟁률 6.26대 1…전년비 큰폭 상승 | https://www.newsis.com/view/NISX20261001_0003810622"
+   ]
+  },
+  {
+   "domain": "metroseoul.co.kr",
+   "n": 82,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, ‘KIT 스타트업 포럼’ 개최… 총 3차례 진행 | http://www.metroseoul.co.kr/article/20261016500319",
+    "<b>경남</b><b>정보대</b>, ‘부산 마리나 셰프 챌린지’ 디저트 부문 수상 | http://www.metroseoul.co.kr/article/20261015500667"
+   ]
+  },
+  {
+   "domain": "gukjenews.com",
+   "n": 78,
+   "samples": [
+    "이은희 에스테틱, <b>경남</b><b>정보대</b>에 장학금 1천만 원 '쾌척' | https://www.gukjenews.com/news/articleView.html?idxno=3723947",
+    "<b>경남</b><b>정보대</b> 'KIT 스타트업 포럼' 첫 개최…&quot;로컬 창업 | https://www.gukjenews.com/news/articleView.html?idxno=3723289"
+   ]
+  },
+  {
+   "domain": "mhns.co.kr",
+   "n": 76,
+   "samples": [
+    "<b>경남</b><b>정보대</b> 동문 이은희 대표, 후배 장학금 1000만원 기탁 | https://www.mhns.co.kr/news/articleView.html?idxno=764744",
+    "<b>경남</b><b>정보대</b> 학생 4명, 국제 요리대회 디저트 부문 주요 상 휩쓸어 | https://www.mhns.co.kr/news/articleView.html?idxno=764510"
+   ]
+  },
+  {
+   "domain": "iminju.net",
+   "n": 72,
+   "samples": [
+    "[부산은 오늘] 부산시교육청·<b>경남</b><b>정보대</b>·한국수산자원공단 | http://www.iminju.net/news/articleView.html?idxno=170947",
+    "[부산은 오늘] <b>경남</b><b>정보대</b>·부산시설공단·부산관광공사 | http://www.iminju.net/news/articleView.html?idxno=170804"
+   ]
+  },
+  {
+   "domain": "mt.co.kr",
+   "n": 70,
+   "samples": [
+    "<b>경남</b><b>정보대</b> '제1회 스타트업 포럼' 연다 | https://www.mt.co.kr/policy/2026/10/16/2026101615594837772",
+    "<b>경남</b><b>정보대</b> 호텔제과제빵과 국제셰프대회 디저트 부문 대상 등 수상 | https://www.mt.co.kr/policy/2026/10/15/2026101517011296032"
+   ]
+  },
+  {
+   "domain": "yna.co.kr",
+   "n": 68,
+   "samples": [
+    "[부산소식] <b>경남</b><b>정보대</b>, 24일부터 스타트업 포럼 | https://www.yna.co.kr/view/AKR20261016045400051?input=1195m",
+    "<b>경남</b><b>정보대</b>·동의과학대 수시모집 경쟁률 대폭 상승 | https://www.yna.co.kr/view/AKR20261001164900051?input=1195m"
+   ]
+  },
+  {
+   "domain": "seoulfn.com",
+   "n": 62,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 로컬 창업 전문가 초청 스타트업 포럼 개최 | https://www.seoulfn.com/news/articleView.html?idxno=640341",
+    "[부산<b>대학</b>가] <b>경남</b><b>정보대</b> 졸업생 부산독립영화제 본선  | https://www.seoulfn.com/news/articleView.html?idxno=640111"
+   ]
+  },
+  {
+   "domain": "betanews.net",
+   "n": 62,
+   "samples": [
+    "[로컬 게시판/<b>경남</b><b>정보대</b>] '제1회 KIT 스타트업 포럼' | https://www.betanews.net/article/view/beta202610160039",
+    "[로컬 게시판] <b>경남</b><b>정보대</b> 호텔제과제빵과, 국제 셰프 대회 디저트 | https://www.betanews.net/article/view/beta202610150116"
+   ]
+  },
+  {
+   "domain": "daily.hankooki.com",
+   "n": 60,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 국제 셰프 대회 디저트 부문 4개 상 휩쓸어 | https://daily.hankooki.com/news/articleView.html?idxno=1415264",
+    "<b>경남</b><b>정보대</b> 화공에너지공학과, 전국 경진대회 대상 | https://daily.hankooki.com/news/articleView.html?idxno=1413811"
+   ]
+  },
+  {
+   "domain": "gnnews.co.kr",
+   "n": 48,
+   "samples": [
+    "[최광임의 디카시 행진 267]읽지 않아도 좋은 날 (유용숙, 독자) | https://www.gnnews.co.kr/news/articleView.html?idxno=646697",
+    "동아시아미래재단 미래연구소 '언어 성찰 시범 교육' | https://www.gnnews.co.kr/news/articleView.html?idxno=646079"
+   ]
+  },
+  {
+   "domain": "hansbiz.co.kr",
+   "n": 42,
+   "samples": [
+    "[<b>경남</b><b>정보대</b> 오늘] &quot;학교와 후배를 사랑해요&quot;  | http://www.hansbiz.co.kr/news/articleView.html?idxno=873702",
+    "<b>경남</b><b>정보대</b>, 골목상권 생존부터 투자까지 창업 특강 3회 | http://www.hansbiz.co.kr/news/articleView.html?idxno=873445"
+   ]
+  },
+  {
+   "domain": "g-enews.com",
+   "n": 42,
+   "samples": [
+    "[지역<b>대학</b>] 국제 요리대회서 주요상 수상... 책 읽는 캠퍼스 조성까지 | https://www.g-enews.com/view.php?ud=2026101515003778637f21df127_1",
+    "[지역<b>대학</b>] 동의과학대 피부미용 5회 연속 합격률 100%…<b>경남</b>< | https://www.g-enews.com/view.php?ud=20261012131015528937f21df127_1"
+   ]
+  },
+  {
+   "domain": "getnews.co.kr",
+   "n": 38,
+   "samples": [
+    "<b>경남</b><b>정보</b>大, 로컬 창업 해법 찾는다…전문가 릴레이 포럼 | https://www.getnews.co.kr/news/articleView.html?idxno=883883",
+    "<b>경남</b><b>정보</b>大, 졸업생 영화 '물만골' 부산독립영화제 본선 진출 | https://www.getnews.co.kr/news/articleView.html?idxno=883591"
+   ]
+  },
+  {
+   "domain": "industrynews.co.kr",
+   "n": 30,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 로컬 창업 성공 해법 푼다 | https://www.industrynews.co.kr/news/articleView.html?idxno=87685",
+    "<b>경남</b><b>정보대</b>, 국제 셰프 대회 디저트 부문 '최고상 석권' | https://www.industrynews.co.kr/news/articleView.html?idxno=87646"
+   ]
+  },
+  {
+   "domain": "naeil.com",
+   "n": 30,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 골목상권 창업 생존전략 노하우 전수 | https://www.naeil.com/news/read/605287?ref=naver",
+    "<b>경남</b><b>정보대</b>, 전국 화학공학 창의설계 대상 | https://www.naeil.com/news/read/604820?ref=naver"
+   ]
+  },
+  {
+   "domain": "ajunews.com",
+   "n": 28,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 창업 해법 공유 &quot;골목상권에서 살아남기&qu | https://www.ajunews.com/view/20261016095831165",
+    "<b>경남</b><b>정보대</b>, 국제 셰프 대회서 대상 등 4관왕 | https://www.ajunews.com/view/20261015145620433"
+   ]
+  },
+  {
+   "domain": "pennmike.com",
+   "n": 26,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 'KIT 스타트업 포럼: 로컬에서 창업의 답을 찾다' | https://www.pennmike.com/news/articleView.html?idxno=129634",
+    "<b>경남</b><b>정보대</b> 화학공학과, 'Chem Frontier 경진대회'서 출 | https://www.pennmike.com/news/articleView.html?idxno=129324"
+   ]
+  },
+  {
+   "domain": "etoday.co.kr",
+   "n": 26,
+   "samples": [
+    "<b>경남</b><b>정보대</b> 수시1차 6.26대 1…학령인구 감소에도 지원자 14. | https://www.etoday.co.kr/news/view/2631455",
+    "<b>경남</b><b>정보대</b> 유학생 2명, ‘글로벌 부산 장학금’ 선발…지역 정주  | https://www.etoday.co.kr/news/view/2630333"
+   ]
+  },
+  {
+   "domain": "veritas-a.com",
+   "n": 16,
+   "samples": [
+    "<b>경남</b><b>정보대</b> 몽골 지자체/교육기관과 교류 확대 가속 | https://www.veritas-a.com/news/articleView.html?idxno=610317",
+    "<b>경남</b><b>정보대</b> 식약처 '마약류 예방교육 지원사업' 선정…  서포터즈  | https://www.veritas-a.com/news/articleView.html?idxno=609792"
+   ]
+  },
+  {
+   "domain": "news1.kr",
+   "n": 10,
+   "samples": [
+    "농심·다이소 등 100개 기업 참여…부산 사상구 일자리박람회 15일 개최 | https://www.news1.kr/local/busan-gyeongnam/6311485",
+    "<b>경남</b><b>정보대</b> '앵커 지역혁신사례' 전문대 유일 2년 연속 수상 | https://www.news1.kr/local/busan-gyeongnam/6279305"
+   ]
+  },
+  {
+   "domain": "newsgn.com",
+   "n": 10,
+   "samples": [
+    "창신대 문덕수문학관, '9월의 작가' 손음 시인 초청 특강 | https://www.newsgn.com/news/articleView.html?idxno=572798",
+    "'제19회 <b>경남</b>고성 국제디카시페스티벌' 성료 | https://www.newsgn.com/news/articleView.html?idxno=558628"
+   ]
+  },
+  {
+   "domain": "nbntv.co.kr",
+   "n": 8,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, '제1회 KIT 스타트업 포럼' 개최…지역 창업 전략 | https://www.nbntv.co.kr/news/articleView.html?idxno=4026126",
+    "<b>경남</b><b>정보대</b> 화공에너지공학과, 전국 경진대회 3개 상 수상 | https://www.nbntv.co.kr/news/articleView.html?idxno=4025901"
+   ]
+  },
+  {
+   "domain": "ikld.kr",
+   "n": 8,
+   "samples": [
+    "[인터뷰] 서태경 사상구청장 취임 100일, &quot;젊은 현장 행정으로 '살고 싶... | http://www.ikld.kr/news/articleView.html?idxno=342199",
+    "사상구, '2026 일자리박람회' 개최…첨단 산업 육성 정책 '가속' | http://www.ikld.kr/news/articleView.html?idxno=341815"
+   ]
+  },
+  {
+   "domain": "donga.com",
+   "n": 8,
+   "samples": [
+    "고향엔 못 가지만… 유학생 모여 ‘명랑 운동회’ | https://www.donga.com/news/Society/article/all/20260923/134730090/2",
+    "67개大 벽 허물고 공동교육… 첨단인재 2만 명 취업 성공 | https://www.donga.com/news/Society/article/all/20260917/134684118/2"
+   ]
+  },
+  {
+   "domain": "gnmaeil.com",
+   "n": 8,
+   "samples": [
+    "&quot;시는 새롭게 바라볼 때 시작되죠&quot; | http://www.gnmaeil.com/news/articleView.html?idxno=594704",
+    "디카시, 세계적 문학 장르로 나아갈 기틀 마련했죠 | http://www.gnmaeil.com/news/articleView.html?idxno=589359"
+   ]
+  },
+  {
+   "domain": "enewstoday.co.kr",
+   "n": 8,
+   "samples": [
+    "부산디지털대–과테말라 마리아노갈베즈대, 교육·학술 교류 '맞손' | http://www.enewstoday.co.kr/news/articleView.html?idxno=2466273",
+    "부산교육청, 여름방학 지역연계 교육과정 운영… 1,040명 맞춤형 진로교... | http://www.enewstoday.co.kr/news/articleView.html?idxno=2452763"
+   ]
+  },
+  {
+   "domain": "fntoday.co.kr",
+   "n": 8,
+   "samples": [
+    "[빅데이터투데이] 전문<b>대학</b> 2026년 8월 브랜드평판 랭킹... 1위 경복<b | https://www.fntoday.co.kr/news/articleView.html?idxno=390869",
+    "부·울·경 14개 전문<b>대학</b>, 몽골서 전공 연계 글로벌 봉사활동 펼쳐…글... | https://www.fntoday.co.kr/news/articleView.html?idxno=388584"
+   ]
+  },
+  {
+   "domain": "kmib.co.kr",
+   "n": 8,
+   "samples": [
+    "[포토] 사랑의 삼계탕 나눔 | https://www.kmib.co.kr/article/view.asp?arcid=1782226258&code=11131000&cp=nv",
+    "<b>경남</b><b>정보대</b>, 하노이서 부산 정주형 유학생 확보 나서 | https://www.kmib.co.kr/article/view.asp?arcid=0030003633&code=61121411&cp=nv"
+   ]
+  },
+  {
+   "domain": "weeklytoday.com",
+   "n": 6,
+   "samples": [
+    "[위클리오늘] 사상구 소식 (10.13) | http://www.weeklytoday.com/news/articleView.html?idxno=797837",
+    "[위클리오늘] 부산 구정 소식 (10.6) | http://www.weeklytoday.com/news/articleView.html?idxno=797075"
+   ]
+  },
+  {
+   "domain": "nocutnews.co.kr",
+   "n": 6,
+   "samples": [
+    "[르포]&quot;영화 한 편 보러 제주서 왔어요&quot;…반환점 돈 BIFF 열기 고조 | https://www.nocutnews.co.kr/news/6589549?utm_source=naver&utm_medium=article&utm_campaign=20261011031011",
+    "<b>경남</b><b>정보대</b>·동의과학대, 수시 1차 경쟁률 상승 | https://www.nocutnews.co.kr/news/6586252?utm_source=naver&utm_medium=article&utm_campaign=20261002084020"
+   ]
+  },
+  {
+   "domain": "viva100.com",
+   "n": 6,
+   "samples": [
+    "경성대 학생들, AI 신발 디자인 경진대회 대상…제조현장 적용성 인정 | https://www.viva100.com/article/20261006501114",
+    "충북도 이차전지 혁신의 장, 청주에서 미래 인재들이 빛나다 | https://www.viva100.com/article/20260906500640"
+   ]
+  },
+  {
+   "domain": "shinailbo.co.kr",
+   "n": 6,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 전국 미용기능대회서 9년 연속 장관상 배출 | https://www.shinailbo.co.kr/news/articleView.html?idxno=5064682",
+    "<b>대학</b>생 17명, 이차전지 배터리 팩 직접 만들다. | https://www.shinailbo.co.kr/news/articleView.html?idxno=5046684"
+   ]
+  },
+  {
+   "domain": "pinpointnews.co.kr",
+   "n": 6,
+   "samples": [
+    "경복<b>대학교</b>, 9월 전문<b>대학</b> 브랜드평판 1위…서울예술대·대구보건대  | https://www.pinpointnews.co.kr/news/articleView.html?idxno=487768",
+    "전문대 브랜드평판 1위 경복대…서울예대·부천대 順 | https://www.pinpointnews.co.kr/news/articleView.html?idxno=478808"
+   ]
+  },
+  {
+   "domain": "enetnews.co.kr",
+   "n": 6,
+   "samples": [
+    "[브랜드평판] 경복<b>대학교</b>, 전문<b>대학</b> 8월 1위···서울예술<b>대 | https://www.enetnews.co.kr/news/articleView.html?idxno=53524",
+    "입시요리학원 코리아요리아트아카데미 부산점, 초콜릿 마스터스 국가대... | https://www.enetnews.co.kr/news/articleView.html?idxno=51396"
+   ]
+  },
+  {
+   "domain": "lecturernews.com",
+   "n": 6,
+   "samples": [
+    "<b>경남</b><b>정보대</b>학교 김지영 교수, 치과위생학 발전 공로로 학술대상 수상 | https://www.lecturernews.com/news/articleView.html?idxno=208252",
+    "여름방학, 진로 방향 다시 짚는다… 한솔요리학원 진로전략설명회 이어... | https://www.lecturernews.com/news/articleView.html?idxno=208183"
+   ]
+  },
+  {
+   "domain": "breaknews.com",
+   "n": 6,
+   "samples": [
+    "충청북도시인협회, 정유지 교수 초청 'K-디카시 열풍, SNS 날개를 달다'... | http://www.breaknews.com/1225354",
+    "충북대, 전국 <b>대학</b>생 대상 ‘이차전지 취·창업 캠프’ 개최 | http://www.breaknews.com/1221754"
+   ]
+  },
+  {
+   "domain": "newspim.com",
+   "n": 6,
+   "samples": [
+    "부산교육청, 고교생 대상 '지역연계 교육과정' 운영…진로 선택 폭 확대 | https://www.newspim.com/news/view/20260727000680",
+    "전국소년체전 핸드볼 종료…금산초·진천상산초 우승 | https://www.newspim.com/news/view/20260527000707"
+   ]
+  },
+  {
+   "domain": "kukinews.com",
+   "n": 6,
+   "samples": [
+    "부산교육청, 여름방학맞아 17개 <b>대학</b>ㆍ 기관 연계 57개 강좌 개설 | https://www.kukinews.com/article/view/kuk202607270023",
+    "창원문성대, 게임개발트랙 중간발표회 개최…지역 게임산업 산학협력 강... | https://www.kukinews.com/article/view/kuk202607170010"
+   ]
+  },
+  {
+   "domain": "webeconomy.co.kr",
+   "n": 6,
+   "samples": [
+    "[<b>경남</b><b>정보대</b>] 몽골에 'K-뷰티' / 'AID 전환 중점 전문<b | https://www.webeconomy.co.kr/news/articleView.html?idxno=2168187",
+    "<b>경남</b><b>정보대</b>, 장애인 인재 양성 및 고용 활성화 협력 | https://www.webeconomy.co.kr/news/articleView.html?idxno=2162917"
+   ]
+  },
+  {
+   "domain": "cnbnews.com",
+   "n": 4,
+   "samples": [
+    "신라대 평생교육원·<b>경남</b><b>정보대</b>, 경비·보안 전문인력 양성 협약 | https://www.cnbnews.com/news/articleView.html?idxno=1019218",
+    "경성대 패디과 학생팀, AI 신발 디자인 경진대회 '대상' 수상 | https://www.cnbnews.com/news/articleView.html?idxno=1018417"
+   ]
+  },
+  {
+   "domain": "news.skbroadband.com",
+   "n": 4,
+   "samples": [
+    "사상구 청년자율방재단 출범…재난 예방 활동 | https://news.skbroadband.com/news/articleView.html?idxno=240124",
+    "부산교육청, 여름방학 '지역연계 교육과정' 운영 | https://news.skbroadband.com/news/articleView.html?idxno=233256"
+   ]
+  },
+  {
+   "domain": "megaeconomy.co.kr",
+   "n": 4,
+   "samples": [
+    "사상구, 부산 첫 ‘청년자율방재단’ 출범…<b>경남</b><b>정보대</b> 전공 인재 2 | https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065595931704152",
+    "사상구, ‘바로 면접·바로 채용’ 일자리박람회…100개 기업 참여 | https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065600418565278"
+   ]
+  },
+  {
+   "domain": "ziksir.com",
+   "n": 4,
+   "samples": [
+    "커피 찌꺼기로 에너지 저장 소재 개발…<b>경남</b><b>정보대</b>, 전국 경진대회  | https://www.ziksir.com/news/articleView.html?idxno=149059",
+    "방산 취업 준비도 실무 중심으로…현직자가 전한 직무·필요역량 | https://www.ziksir.com/news/articleView.html?idxno=147353"
+   ]
+  },
+  {
+   "domain": "gosiweek.com",
+   "n": 4,
+   "samples": [
+    "메모먼트, 제3회 W-벤처 창업경진대회 '프리유니콘상' 수상 | https://www.gosiweek.com/article/1065599085731623",
+    "요리학원 코리아요리아트아카데미 부산지점, 2027 입시 대비 ‘대규모 ... | https://www.gosiweek.com/article/1065600104752159"
+   ]
+  },
+  {
+   "domain": "seoul.co.kr",
+   "n": 4,
+   "samples": [
+    "함께 향수병 날려요 | https://www.seoul.co.kr/news/publicnews/local_govern/news_local/2026/09/24/20260924018002?wlog_tag3=naver",
+    "보훈 가족 초청 삼계탕 대접 | https://www.seoul.co.kr/news/publicnews/local_govern/news_local/2026/06/24/20260624019010?wlog_tag3=naver"
+   ]
+  },
+  {
+   "domain": "asiatoday.co.kr",
+   "n": 4,
+   "samples": [
+    "<b>경남</b><b>정보대</b> 미용대회서 147개 상…9년 연속 장관상 배출 | https://www.asiatoday.co.kr/kn/view.php?key=20260921010007826",
+    "제55회 전국소년체육대회 핸드볼 경기 성료 | https://www.asiatoday.co.kr/kn/view.php?key=20260527001113544"
+   ]
+  },
+  {
+   "domain": "sedaily.com",
+   "n": 4,
+   "samples": [
+    "MS 데이터센터 인재 키우는 부산…‘교육·인턴·취업’ 선순환 가동 | https://www.sedaily.com/article/20091919?ref=naver",
+    "부산 고교생, <b>대학</b>서 수업 듣고 학점도 받는다 | https://www.sedaily.com/article/20072115?ref=naver"
+   ]
+  },
+  {
+   "domain": "energy-news.co.kr",
+   "n": 4,
+   "samples": [
+    "전문<b>대학</b> 2026년 8월 브랜드평판...경복<b>대학교</b>, 서울예술<b> | https://www.energy-news.co.kr/news/articleView.html?idxno=227552",
+    "전문<b>대학</b> 2026년 6월 브랜드평판...경복<b>대학교</b>, 서울예술<b> | https://www.energy-news.co.kr/news/articleView.html?idxno=226185"
+   ]
+  },
+  {
+   "domain": "popcornnews.net",
+   "n": 4,
+   "samples": [
+    "경복대, 8월 전문<b>대학</b> 브랜드평판 1위...서울예술대·부천대 뒤이어 | http://www.popcornnews.net/news/articleView.html?idxno=130199",
+    "경복대, 6월 전문<b>대학</b> 브랜드평판 1위...서울예술대·대구보건대 뒤이어 | http://www.popcornnews.net/news/articleView.html?idxno=124151"
+   ]
+  },
+  {
+   "domain": "thebigdata.co.kr",
+   "n": 4,
+   "samples": [
+    "경복<b>대학교</b>, 전문<b>대학</b> 브랜드평판 8월 빅데이터 1위...서울예술< | http://www.thebigdata.co.kr/view.php?ud=202608200822305237d0a8833aad_23",
+    "경복<b>대학교</b>, 전문<b>대학</b> 브랜드평판 6월 빅데이터 1위...&quot | http://www.thebigdata.co.kr/view.php?ud=202606180804504410d0a8833aad_23"
+   ]
+  },
+  {
+   "domain": "thepowernews.co.kr",
+   "n": 4,
+   "samples": [
+    "부산시여성문화회관-부산벤처기업협회, 여성 일자리 창출 '맞손' | https://www.thepowernews.co.kr/view.php?ud=20260813105158978561d72a7352_7",
+    "한국병원홍보협회 부울경지회, '2026 상반기 세미나' 성공적 마무리 | https://www.thepowernews.co.kr/view.php?ud=20260629163135731561d72a7352_7"
+   ]
+  },
+  {
+   "domain": "ksilbo.co.kr",
+   "n": 4,
+   "samples": [
+    "울산과학대 공학기술교육 역량 인증 | https://www.ksilbo.co.kr/news/articleView.html?idxno=1064481",
+    "울산과학대, 생성형 AI 연합 경진대회 성료 | https://www.ksilbo.co.kr/news/articleView.html?idxno=1062280"
+   ]
+  },
+  {
+   "domain": "todayenergy.kr",
+   "n": 4,
+   "samples": [
+    "[입찰 <b>정보</b>] 8월 12일자 | https://www.todayenergy.kr/news/articleView.html?idxno=301497",
+    "[입찰<b>정보</b>] 7월 8일자 | https://www.todayenergy.kr/news/articleView.html?idxno=300069"
+   ]
+  },
+  {
+   "domain": "kyosu.net",
+   "n": 4,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 부산 AI·ICT기업과 베트남서 2,364만 달러 계 | https://www.kyosu.net/news/articleView.html?idxno=208575",
+    "전문대 35곳에서 '재학생‧지역민‧재직자' AI 배운다 | https://www.kyosu.net/news/articleView.html?idxno=205879"
+   ]
+  },
+  {
+   "domain": "mk.co.kr",
+   "n": 4,
+   "samples": [
+    "국제ESG경영학회, 8월 22일 하계 학술세미나 “ESG 2.0, 규제 순응 넘어... | https://www.mk.co.kr/article/12120602",
+    "핸드볼 소년체육대회, 진천상산초 남초부 정상… 시즌 ‘3연속 전국대회... | https://www.mk.co.kr/article/12058609"
+   ]
+  },
+  {
+   "domain": "pressian.com",
+   "n": 4,
+   "samples": [
+    "부산교육청, 17개 <b>대학</b>·기관 연계…고교생 1040명에 57개 강좌 | https://www.pressian.com/pages/articles/2026072713553348033?utm_source=naver&utm_medium=search",
+    "정선 민둥산 시인, 서예일 ‘민둥산역 플랫폼에서’ 출간 | https://www.pressian.com/pages/articles/2026060412575369986?utm_source=naver&utm_medium=search"
+   ]
+  },
+  {
+   "domain": "ulsanpress.net",
+   "n": 4,
+   "samples": [
+    "동원과기대, 생성형 AI 취업역량 Up 연합 경진대회 성료 | https://www.ulsanpress.net/news/articleView.html?idxno=579425",
+    "울과대 화학공학과, 제1회 OTS 챌린지&amp;경진대회 '대상' | https://www.ulsanpress.net/news/articleView.html?idxno=579142"
+   ]
+  },
+  {
+   "domain": "news.tvchosun.com",
+   "n": 4,
+   "samples": [
+    "[퍼레이드_초대석] 시인 된 가수 박상철 &quot;삶의 굴곡, 詩로 반죽&quot; | https://news.tvchosun.com/site/data/html_dir/2026/06/24/2026062490036.html",
+    "&quot;과감하게 돌진하라&quot; 꿈나무 키우는 셰프들…열흘 간의 미식 향연 '서울. | https://news.tvchosun.com/site/data/html_dir/2026/05/23/2026052390164.html"
+   ]
+  },
+  {
+   "domain": "ohmynews.com",
+   "n": 4,
+   "samples": [
+    "주호치민 총영사관 별관, 사설 유학원 영업장으로 전락? | https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003242104&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+    "디카시, 지역문예운동에서 국제 학술운동으로...'국제디카시학회' 12일 ... | https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003241494&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news"
+   ]
+  },
+  {
+   "domain": "joongboo.com",
+   "n": 4,
+   "samples": [
+    "[전국소년체전 영광의 얼굴] 의정부여중, 34년만의 핸드볼 우승...&quot;작년... | https://www.joongboo.com/news/articleView.html?idxno=363726874",
+    "경기도 구기종목, 전국소년체전 효자 노릇 '톡톡' | https://www.joongboo.com/news/articleView.html?idxno=363726666"
+   ]
+  },
+  {
+   "domain": "news.tf.co.kr",
+   "n": 2,
+   "samples": [
+    "<b>경남</b><b>정보대</b> 졸업생 영화 '물만골', 부산독립영화제 본선 진출 '눈 | https://news.tf.co.kr/read/national/2376311.htm",
+    "<b>경남</b><b>정보대</b> 졸업생 영화 '물만골', 부산독립영화제 본선 진출 '눈 | https://news.tf.co.kr/read/national/2376311.htm"
+   ]
+  },
+  {
+   "domain": "hankyung.com",
+   "n": 2,
+   "samples": [
+    "23대 1…전문대 반도체학과 경쟁률 수직상승 | https://www.hankyung.com/article/2026100425931",
+    "23대 1…전문대 반도체학과 경쟁률 수직상승 | https://www.hankyung.com/article/2026100425931"
+   ]
+  },
+  {
+   "domain": "segye.com",
+   "n": 2,
+   "samples": [
+    "“수업 몰아 일할 시간 보장”… <b>대학</b>이 취업통로 자처 [심층기획-외국... | https://www.segye.com/newsView/20260920509642?OutUrl=naver",
+    "“수업 몰아 일할 시간 보장”… <b>대학</b>이 취업통로 자처 [심층기획-외국... | https://www.segye.com/newsView/20260920509642?OutUrl=naver"
+   ]
+  },
+  {
+   "domain": "businesskorea.co.kr",
+   "n": 2,
+   "samples": [
+    "부산시-MS, 데이터센터 실무 인재 35명 배출 | https://www.businesskorea.co.kr/news/articleView.html?idxno=277138",
+    "부산시-MS, 데이터센터 실무 인재 35명 배출 | https://www.businesskorea.co.kr/news/articleView.html?idxno=277138"
+   ]
+  },
+  {
+   "domain": "100ssd.co.kr",
+   "n": 2,
+   "samples": [
+    "대한노인회 부산연합회, '제4회 부산광역시 경로당 여가박람회' 개최 | https://www.100ssd.co.kr/news/articleView.html?idxno=212721",
+    "대한노인회 부산연합회, '제4회 부산광역시 경로당 여가박람회' 개최 | https://www.100ssd.co.kr/news/articleView.html?idxno=212721"
+   ]
+  },
+  {
+   "domain": "cc.newdaily.co.kr",
+   "n": 2,
+   "samples": [
+    "충북대, 이차전지 경진대회 전부문 수상 ‘기염’ | https://cc.newdaily.co.kr/site/data/html/2026/09/08/2026090800347.html",
+    "충북대, 이차전지 경진대회 전부문 수상 ‘기염’ | https://cc.newdaily.co.kr/site/data/html/2026/09/08/2026090800347.html"
+   ]
+  },
+  {
+   "domain": "news.bbsi.co.kr",
+   "n": 2,
+   "samples": [
+    "<b>경남</b><b>정보대</b> 네일아트전공 학생들, '네일국제대회'  그랜드 챔피언  | https://news.bbsi.co.kr/news/articleView.html?idxno=4104620",
+    "<b>경남</b><b>정보대</b> 네일아트전공 학생들, '네일국제대회'  그랜드 챔피언  | https://news.bbsi.co.kr/news/articleView.html?idxno=4104620"
+   ]
+  },
+  {
+   "domain": "bloter.net",
+   "n": 2,
+   "samples": [
+    "[27 과기정통부 예산]③ 양자기술 24.3% 증액…3대 클러스터 시동 | https://www.bloter.net/news/articleView.html?idxno=672267",
+    "[27 과기정통부 예산]③ 양자기술 24.3% 증액…3대 클러스터 시동 | https://www.bloter.net/news/articleView.html?idxno=672267"
+   ]
+  },
+  {
+   "domain": "news.knn.co.kr",
+   "n": 2,
+   "samples": [
+    "[2027 지역<b>대학</b>을 가다] 부산 최초 전문<b>대학</b> <b>경남</b> | https://news.knn.co.kr/news/article_sns/1685",
+    "[2027 지역<b>대학</b>을 가다] 부산 최초 전문<b>대학</b> <b>경남</b> | https://news.knn.co.kr/news/article_sns/1685"
+   ]
+  },
+  {
+   "domain": "dailian.co.kr",
+   "n": 2,
+   "samples": [
+    "서울·전남광주·동남권 3곳, 첫 ‘양자클러스터’ 지정 | https://www.dailian.co.kr/news/view/1684629/?sc=Naver",
+    "서울·전남광주·동남권 3곳, 첫 ‘양자클러스터’ 지정 | https://www.dailian.co.kr/news/view/1684629/?sc=Naver"
+   ]
+  },
+  {
+   "domain": "dynews.co.kr",
+   "n": 2,
+   "samples": [
+    "충북대, 교실 밖으로 나온 배터리 교육 | https://www.dynews.co.kr/news/articleView.html?idxno=863516",
+    "충북대, 교실 밖으로 나온 배터리 교육 | https://www.dynews.co.kr/news/articleView.html?idxno=863516"
+   ]
+  },
+  {
+   "domain": "kyeonggi.com",
+   "n": 2,
+   "samples": [
+    "국제ESG경영학회, 단국대서 ‘2026 하계 학술세미나’ 성료 | https://www.kyeonggi.com/article/20260825580028",
+    "국제ESG경영학회, 단국대서 ‘2026 하계 학술세미나’ 성료 | https://www.kyeonggi.com/article/20260825580028"
+   ]
+  },
+  {
+   "domain": "ktv.go.kr",
+   "n": 2,
+   "samples": [
+    "사라지는 거리의 구두수선대···숙련기술인 보호 필요 | https://www.ktv.go.kr/content/view?content_id=759854",
+    "사라지는 거리의 구두수선대···숙련기술인 보호 필요 | https://www.ktv.go.kr/content/view?content_id=759854"
+   ]
+  },
+  {
+   "domain": "thedrive.co.kr",
+   "n": 2,
+   "samples": [
+    "한솔요리학원 부산점, 릴레이 진로전략설명회 진행 “2학기, 요리입시 ... | https://thedrive.co.kr/news/newsview.php?ncode=1065593698822060",
+    "한솔요리학원 부산점, 릴레이 진로전략설명회 진행 “2학기, 요리입시 ... | https://thedrive.co.kr/news/newsview.php?ncode=1065593698822060"
+   ]
+  },
+  {
+   "domain": "cbci.co.kr",
+   "n": 2,
+   "samples": [
+    "전문<b>대학</b> 브랜드평판 8월 1위 경복<b>대학교</b>…서울예술<b>대학교</b | https://www.cbci.co.kr/news/articleView.html?idxno=599621",
+    "전문<b>대학</b> 브랜드평판 8월 1위 경복<b>대학교</b>…서울예술<b>대학교</b | https://www.cbci.co.kr/news/articleView.html?idxno=599621"
+   ]
+  },
+  {
+   "domain": "beyondpost.co.kr",
+   "n": 2,
+   "samples": [
+    "경복<b>대학교</b>, 전문<b>대학</b> 브랜드평판 2026년 8월...1위 | http://www.beyondpost.co.kr/view.php?ud=20260820081445164146a9e4dd7f_30",
+    "경복<b>대학교</b>, 전문<b>대학</b> 브랜드평판 2026년 8월...1위 | http://www.beyondpost.co.kr/view.php?ud=20260820081445164146a9e4dd7f_30"
+   ]
+  },
+  {
+   "domain": "lak.co.kr",
+   "n": 2,
+   "samples": [
+    "2026 교육혁신포럼서 빛난 지역 <b>대학</b> ‘정원 인력 양성’ 사례 | http://www.lak.co.kr/news/boardview.php?id=23662",
+    "2026 교육혁신포럼서 빛난 지역 <b>대학</b> ‘정원 인력 양성’ 사례 | http://www.lak.co.kr/news/boardview.php?id=23662"
+   ]
+  },
+  {
+   "domain": "cctimes.kr",
+   "n": 2,
+   "samples": [
+    "제천서 디카시 특강·공모전 열린다 | http://www.cctimes.kr/news/articleView.html?idxno=919040",
+    "제천서 디카시 특강·공모전 열린다 | http://www.cctimes.kr/news/articleView.html?idxno=919040"
+   ]
+  },
+  {
+   "domain": "jeonmae.co.kr",
+   "n": 2,
+   "samples": [
+    "부산교육청, 여름방학 맞아 고교생 지역연계 교육과정 운영 | https://www.jeonmae.co.kr/news/articleView.html?idxno=1278197",
+    "부산교육청, 여름방학 맞아 고교생 지역연계 교육과정 운영 | https://www.jeonmae.co.kr/news/articleView.html?idxno=1278197"
+   ]
+  },
+  {
+   "domain": "smartbizn.com",
+   "n": 2,
+   "samples": [
+    "부산교육청, 여름방학 '지역연계 교육과정' 개강 ···고교·<b>대학</b> 학점... | https://www.smartbizn.com/news/articleView.html?idxno=149437",
+    "부산교육청, 여름방학 '지역연계 교육과정' 개강 ···고교·<b>대학</b> 학점... | https://www.smartbizn.com/news/articleView.html?idxno=149437"
+   ]
+  },
+  {
+   "domain": "sidae.com",
+   "n": 2,
+   "samples": [
+    "[부산교육청 소식] 여름방학 맞아 고교생 진로·적성 교육과정 운영 | https://www.sidae.com/article/2026072708190027322",
+    "[부산교육청 소식] 여름방학 맞아 고교생 진로·적성 교육과정 운영 | https://www.sidae.com/article/2026072708190027322"
+   ]
+  },
+  {
+   "domain": "gndomin.com",
+   "n": 2,
+   "samples": [
+    "동원과기대 AI 취업역량 연합 경진대회 성료 | http://www.gndomin.com/news/articleView.html?idxno=482347",
+    "동원과기대 AI 취업역량 연합 경진대회 성료 | http://www.gndomin.com/news/articleView.html?idxno=482347"
+   ]
+  },
+  {
+   "domain": "tournews21.com",
+   "n": 2,
+   "samples": [
+    "한국폴리텍대 석유화학공정기술교육원, 제1회 석유화학플랜트 OTS 경진대... | https://www.tournews21.com/news/articleView.html?idxno=138746",
+    "한국폴리텍대 석유화학공정기술교육원, 제1회 석유화학플랜트 OTS 경진대... | https://www.tournews21.com/news/articleView.html?idxno=138746"
+   ]
+  },
+  {
+   "domain": "ujeil.com",
+   "n": 2,
+   "samples": [
+    "울산과학대, OTS 챌린지&amp;경진대회 대상 | http://www.ujeil.com/news/articleView.html?idxno=388818",
+    "울산과학대, OTS 챌린지&amp;경진대회 대상 | http://www.ujeil.com/news/articleView.html?idxno=388818"
+   ]
+  },
+  {
+   "domain": "ccdn.co.kr",
+   "n": 2,
+   "samples": [
+    "충북대, 이차전지 미래 인재 '취·창업 역량' 키웠다 | https://www.ccdn.co.kr/news/articleView.html?idxno=1088413",
+    "충북대, 이차전지 미래 인재 '취·창업 역량' 키웠다 | https://www.ccdn.co.kr/news/articleView.html?idxno=1088413"
+   ]
+  },
+  {
+   "domain": "imaeil.com",
+   "n": 2,
+   "samples": [
+    "[인물수첩] 김민수 제30대 경북 영천소방서장 | https://www.imaeil.com/page/view/2026070511215480205",
+    "[인물수첩] 김민수 제30대 경북 영천소방서장 | https://www.imaeil.com/page/view/2026070511215480205"
+   ]
+  },
+  {
+   "domain": "pointe.co.kr",
+   "n": 2,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, 외국인 유학생 '한국 정착' 돕는 멘토링 캠프 열어 | https://www.pointe.co.kr/news/articleView.html?idxno=81359",
+    "<b>경남</b><b>정보대</b>, 외국인 유학생 '한국 정착' 돕는 멘토링 캠프 열어 | https://www.pointe.co.kr/news/articleView.html?idxno=81359"
+   ]
+  },
+  {
+   "domain": "fpn119.co.kr",
+   "n": 2,
+   "samples": [
+    "한국소방안전원 부산, 소방기술자 대상 CAD 실습 전문화교육 | http://fpn119.co.kr/253150",
+    "한국소방안전원 부산, 소방기술자 대상 CAD 실습 전문화교육 | http://fpn119.co.kr/253150"
+   ]
+  },
+  {
+   "domain": "doctorsnews.co.kr",
+   "n": 2,
+   "samples": [
+    "한국병원홍보협회 부울경 지회, 상반기 세미나 성료 | http://www.doctorsnews.co.kr/news/articleView.html?idxno=165190",
+    "한국병원홍보협회 부울경 지회, 상반기 세미나 성료 | http://www.doctorsnews.co.kr/news/articleView.html?idxno=165190"
+   ]
+  },
+  {
+   "domain": "doctorstimes.com",
+   "n": 2,
+   "samples": [
+    "[병원계 소식] 6월 29일 | http://www.doctorstimes.com/news/articleView.html?idxno=238794",
+    "[병원계 소식] 6월 29일 | http://www.doctorstimes.com/news/articleView.html?idxno=238794"
+   ]
+  },
+  {
+   "domain": "whosaeng.com",
+   "n": 2,
+   "samples": [
+    "병원홍보협회 부울경지회, 상반기 홍보 세미나 성료 | http://www.whosaeng.com/171683",
+    "병원홍보협회 부울경지회, 상반기 홍보 세미나 성료 | http://www.whosaeng.com/171683"
+   ]
+  },
+  {
+   "domain": "bosa.co.kr",
+   "n": 2,
+   "samples": [
+    "한국병원홍보협 부울경지회, 2026년 상반기 세미나 성료 | https://www.bosa.co.kr/news/articleView.html?idxno=3007227",
+    "한국병원홍보협 부울경지회, 2026년 상반기 세미나 성료 | https://www.bosa.co.kr/news/articleView.html?idxno=3007227"
+   ]
+  },
+  {
+   "domain": "kormedi.com",
+   "n": 2,
+   "samples": [
+    "&quot;AI 시대, 병의원 홍보 전략 어떻게 해야 될까?&quot; | https://kormedi.com/?p=2829347",
+    "&quot;AI 시대, 병의원 홍보 전략 어떻게 해야 될까?&quot; | https://kormedi.com/?p=2829347"
+   ]
+  },
+  {
+   "domain": "chosun.com",
+   "n": 2,
+   "samples": [
+    "보훈 가족 초청해 삼계탕 대접 | https://www.chosun.com/national/national_general/2026/06/24/CT75QTL3KRDZXCN5BC76F5GOB4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+    "보훈 가족 초청해 삼계탕 대접 | https://www.chosun.com/national/national_general/2026/06/24/CT75QTL3KRDZXCN5BC76F5GOB4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news"
+   ]
+  },
+  {
+   "domain": "dhnews.co.kr",
+   "n": 2,
+   "samples": [
+    "광주여대, 국제보건뷰티 EXPO서 중국인 유학생 전원 수상 | https://dhnews.co.kr/news/view/1065603123969255",
+    "광주여대, 국제보건뷰티 EXPO서 중국인 유학생 전원 수상 | https://dhnews.co.kr/news/view/1065603123969255"
+   ]
+  },
+  {
+   "domain": "kyongbuk.co.kr",
+   "n": 2,
+   "samples": [
+    "국제디카시학회 12일 창립…지역 문예운동서 세계 학술무대로 | https://www.kyongbuk.co.kr/news/articleView.html?idxno=4075114",
+    "국제디카시학회 12일 창립…지역 문예운동서 세계 학술무대로 | https://www.kyongbuk.co.kr/news/articleView.html?idxno=4075114"
+   ]
+  },
+  {
+   "domain": "idaegu.co.kr",
+   "n": 2,
+   "samples": [
+    "새 문학장르 '디카시', 국제 학술운동으로 도약...국제디카시학회 12일 ... | https://www.idaegu.co.kr/news/articleView.html?idxno=550510",
+    "새 문학장르 '디카시', 국제 학술운동으로 도약...국제디카시학회 12일 ... | https://www.idaegu.co.kr/news/articleView.html?idxno=550510"
+   ]
+  },
+  {
+   "domain": "dream.kotra.or.kr",
+   "n": 2,
+   "samples": [
+    "2026 베트남 K-AI·디지털 무역사절단 개최기 | http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=110&CONTENTS_NO=1&bbsGbn=245&bbsSn=245&pNttSn=241727",
+    "2026 베트남 K-AI·디지털 무역사절단 개최기 | http://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=110&CONTENTS_NO=1&bbsGbn=245&bbsSn=245&pNttSn=241727"
+   ]
+  },
+  {
+   "domain": "idomin.com",
+   "n": 2,
+   "samples": [
+    "국제디카시학회 창립 발기인대회 연다 | https://www.idomin.com/news/articleView.html?idxno=2007518",
+    "국제디카시학회 창립 발기인대회 연다 | https://www.idomin.com/news/articleView.html?idxno=2007518"
+   ]
+  },
+  {
+   "domain": "ekn.kr",
+   "n": 2,
+   "samples": [
+    "<b>경남</b><b>정보대</b>, ‘2026 K-RISE 외국인 커뮤니티 위원회’ 개최 | https://www.ekn.kr/web/view.php?key=20260602021460051",
+    "<b>경남</b><b>정보대</b>, ‘2026 K-RISE 외국인 커뮤니티 위원회’ 개최 | https://www.ekn.kr/web/view.php?key=20260602021460051"
+   ]
+  },
+  {
+   "domain": "cfnews.kr",
+   "n": 2,
+   "samples": [
+    "남계서원에서 일두선비문화제 개최 | https://www.cfnews.kr/news/article.html?no=108558",
+    "남계서원에서 일두선비문화제 개최 | https://www.cfnews.kr/news/article.html?no=108558"
+   ]
+  },
+  {
+   "domain": "news2day.co.kr",
+   "n": 2,
+   "samples": [
+    "[N2 뷰] 부산서 열린 '제55회 전국소년체전 핸드볼', 한국 핸드볼 미래 ... | https://www.news2day.co.kr/article/20260528500199",
+    "[N2 뷰] 부산서 열린 '제55회 전국소년체전 핸드볼', 한국 핸드볼 미래 ... | https://www.news2day.co.kr/article/20260528500199"
+   ]
+  },
+  {
+   "domain": "segyebiz.com",
+   "n": 2,
+   "samples": [
+    "전국소년체육대회 핸드볼, 부산서 막 내려…진천상산초 전국 3관왕 달성 | http://www.segyebiz.com/newsView/20260527508818?OutUrl=naver",
+    "전국소년체육대회 핸드볼, 부산서 막 내려…진천상산초 전국 3관왕 달성 | http://www.segyebiz.com/newsView/20260527508818?OutUrl=naver"
+   ]
+  },
+  {
+   "domain": "sportsworldi.com",
+   "n": 2,
+   "samples": [
+    "대한핸드볼협회, 전국소년체육대회 핸드볼 경기 마무리 | https://www.sportsworldi.com/newsView/20260527508779",
+    "대한핸드볼협회, 전국소년체육대회 핸드볼 경기 마무리 | https://www.sportsworldi.com/newsView/20260527508779"
+   ]
+  },
+  {
+   "domain": "edu.donga.com",
+   "n": 2,
+   "samples": [
+    "전국소년체육대회 핸드볼 마무리… 초·중등 4개 종별 우승팀 가려져 | https://edu.donga.com/news/articleView.html?idxno=108078",
+    "전국소년체육대회 핸드볼 마무리… 초·중등 4개 종별 우승팀 가려져 | https://edu.donga.com/news/articleView.html?idxno=108078"
+   ]
+  },
+  {
+   "domain": "mdtoday.co.kr",
+   "n": 2,
+   "samples": [
+    "연세척병원, <b>경남</b><b>정보대</b> 병원의료행정과 성인학습자 대상 현장견학 실 | https://mdtoday.co.kr/news/view/1065598239691820",
+    "연세척병원, <b>경남</b><b>정보대</b> 병원의료행정과 성인학습자 대상 현장견학 실 | https://mdtoday.co.kr/news/view/1065598239691820"
+   ]
+  },
+  {
+   "domain": "wikitree.co.kr",
+   "n": 2,
+   "samples": [
+    "주말 나들이 명소 부동의 1위…23일 하루에 다 끝내는 부산가족축제 총... | https://www.wikitree.co.kr/articles/1137745",
+    "주말 나들이 명소 부동의 1위…23일 하루에 다 끝내는 부산가족축제 총... | https://www.wikitree.co.kr/articles/1137745"
+   ]
+  },
+  {
+   "domain": "kgnews.co.kr",
+   "n": 2,
+   "samples": [
+    "“미래 챔피언들의 뜨거운 승부”…제55회 전국소년체육대회 부산 ‘화... | https://www.kgnews.co.kr/news/article.html?no=896630",
+    "“미래 챔피언들의 뜨거운 승부”…제55회 전국소년체육대회 부산 ‘화... | https://www.kgnews.co.kr/news/article.html?no=896630"
+   ]
+  },
+  {
+   "domain": "aitimes.kr",
+   "n": 2,
+   "samples": [
+    "교육부, 전문<b>대학</b>의 인공지능·디지털 전환 선도할 24개 사업단 신규 선... | https://www.aitimes.kr/news/articleView.html?idxno=39983",
+    "교육부, 전문<b>대학</b>의 인공지능·디지털 전환 선도할 24개 사업단 신규 선... | https://www.aitimes.kr/news/articleView.html?idxno=39983"
+   ]
+  },
+  {
+   "domain": "dkilbo.com",
+   "n": 2,
+   "samples": [
+    "대구한의대 경산동의한방촌, <b>경남</b><b>정보대</b> 학생에 한방웰니스 체험교육 | https://www.dkilbo.com/news/articleView.html?idxno=544101",
+    "대구한의대 경산동의한방촌, <b>경남</b><b>정보대</b> 학생에 한방웰니스 체험교육 | https://www.dkilbo.com/news/articleView.html?idxno=544101"
+   ]
+  },
+  {
+   "domain": "biz.heraldcorp.com",
+   "n": 2,
+   "samples": [
+    "대구한의대 경산동의한방촌, <b>경남</b><b>정보대</b> 학생 대상 한방웰니스 체험교 | https://biz.heraldcorp.com/article/10734354?ref=naver",
+    "대구한의대 경산동의한방촌, <b>경남</b><b>정보대</b> 학생 대상 한방웰니스 체험교 | https://biz.heraldcorp.com/article/10734354?ref=naver"
+   ]
+  }
+ ]
+}

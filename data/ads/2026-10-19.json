@@ -1,0 +1,761 @@
+{
+ "date": "2026-10-19",
+ "checked_at": "2026-10-19T09:54:32.887454+09:00",
+ "attempts": 3,
+ "results": [
+  {
+   "name": "부산일보",
+   "home": "https://www.busan.com/",
+   "pc": {
+    "found": true,
+    "attempts": 1,
+    "hits": [
+     {
+      "tag": "IMG",
+      "link": "",
+      "img": "https://www.busan.com/nas/wcms/wcms_data/photos/2026/10/16/2026101615191966474_m.jpg",
+      "alt": "이은희 에스테틱, 경남정보대 글로벌K뷰티학과에 장학금 1천만 원 쾌척",
+      "w": 221,
+      "h": 141,
+      "x": 1062,
+      "y": 3871,
+      "frame": "https://www.busan.com/"
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.busan.com/",
+    "title": "부산일보",
+    "shot": "data/ads/shots/2026-10-19/부산일보_pc.jpg"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://mobile.busan.com/",
+    "title": "부산일보"
+   }
+  },
+  {
+   "name": "국제신문",
+   "home": "https://www.kookje.co.kr/",
+   "pc": {
+    "found": true,
+    "attempts": 1,
+    "hits": [
+     {
+      "tag": "IMG",
+      "link": "",
+      "img": "https://www.kookje.co.kr/news2011/screennews/504_20261019_20261016.99099004659i1.jpg",
+      "alt": "경남정보대 동문 기업인, 후배 위해 장학금 1000만 원 기탁",
+      "w": 91,
+      "h": 66,
+      "x": 1049,
+      "y": 1753,
+      "frame": "https://www.kookje.co.kr/"
+     }
+    ],
+    "error": "",
+    "final_url": "https://www.kookje.co.kr/",
+    "title": "부산의 대표 정론지, 국제신문",
+    "shot": "data/ads/shots/2026-10-19/국제신문_pc.jpg"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.kookje.co.kr/mobile/",
+    "title": "국제신문"
+   }
+  },
+  {
+   "name": "머니투데이",
+   "home": "https://www.mt.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.mt.co.kr/",
+    "title": "머니투데이 - 돈이 보이는 리얼타임 뉴스"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.mt.co.kr/",
+    "title": "머니투데이 - 돈이 보이는 리얼타임 뉴스"
+   }
+  },
+  {
+   "name": "데일리한국",
+   "home": "https://daily.hankooki.com/",
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://daily.hankooki.com/",
+    "title": "데일리한국"
+   },
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://daily.hankooki.com/",
+    "title": "데일리한국"
+   }
+  },
+  {
+   "name": "아시아경제",
+   "home": "https://www.asiae.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.asiae.co.kr/",
+    "title": "아시아경제 : 투자가를 위한 경제콘텐츠 플랫폼"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.asiae.co.kr/",
+    "title": "아시아경제 : 투자가를 위한 경제콘텐츠 플랫폼"
+   }
+  },
+  {
+   "name": "메트로신문",
+   "home": "https://www.metroseoul.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "Page.goto: Timeout 40000ms exceeded.\nCall log:\nnavigating to \"https://www.metroseoul.co.kr/\", waiting until \"domcontentloaded\"\n",
+    "final_url": "",
+    "title": ""
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "Page.goto: Timeout 40000ms exceeded.\nCall log:\nnavigating to \"https://www.metroseoul.co.kr/\", waiting until \"domcontentloaded\"\n",
+    "final_url": "",
+    "title": ""
+   }
+  },
+  {
+   "name": "국제뉴스",
+   "home": "https://www.gukjenews.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.gukjenews.com/",
+    "title": "국제뉴스"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.gukjenews.com/",
+    "title": "국제뉴스"
+   }
+  },
+  {
+   "name": "일요신문",
+   "home": "https://ilyo.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.ilyo.co.kr/",
+    "title": "일요신문"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.ilyo.co.kr/",
+    "title": "일요신문"
+   }
+  },
+  {
+   "name": "민주신문",
+   "home": "https://www.iminju.net/",
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.iminju.net/",
+    "title": "민주신문"
+   },
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.iminju.net/",
+    "title": "민주신문"
+   }
+  },
+  {
+   "name": "이투데이",
+   "home": "https://www.etoday.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.etoday.co.kr/",
+    "title": "프리미엄 경제신문 이투데이"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.etoday.co.kr/",
+    "title": "프리미엄 경제신문 이투데이"
+   }
+  },
+  {
+   "name": "아주경제",
+   "home": "https://www.ajunews.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.ajunews.com/",
+    "title": "아주경제 : 5개국어 글로벌 경제지"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.ajunews.com/",
+    "title": "아주경제 : 5개국어 글로벌 경제지"
+   }
+  },
+  {
+   "name": "시사매거진",
+   "home": "https://www.sisamagazine.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.sisamagazine.co.kr/",
+    "title": "시사매거진 | 깊이 있는 시선, 사실에 근거한 보도"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.sisamagazine.co.kr/",
+    "title": "시사매거진 | 깊이 있는 시선, 사실에 근거한 보도"
+   }
+  },
+  {
+   "name": "아시아투데이",
+   "home": "https://www.asiatoday.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.asiatoday.co.kr/",
+    "title": "아시아투데이"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.asiatoday.co.kr/kn/index.php",
+    "title": "아시아투데이"
+   }
+  },
+  {
+   "name": "베타뉴스",
+   "home": "https://www.betanews.net/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.betanews.net/",
+    "title": "베타뉴스 - 경제를 보는 새로운 관점"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.betanews.net/",
+    "title": "베타뉴스 - 경제를 보는 새로운 관점"
+   }
+  },
+  {
+   "name": "파이낸셜뉴스",
+   "home": "https://www.fnnews.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.fnnews.com/",
+    "title": "파이낸셜뉴스 – First-Class 경제신문"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.fnnews.com/",
+    "title": "파이낸셜뉴스 – First-Class 경제신문"
+   }
+  },
+  {
+   "name": "쿠키뉴스",
+   "home": "https://www.kukinews.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.kukinews.com/",
+    "title": "Attention Required! | Cloudflare"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.kukinews.com/",
+    "title": "Attention Required! | Cloudflare"
+   }
+  },
+  {
+   "name": "글로벌이코노믹",
+   "home": "https://www.g-enews.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.g-enews.com/",
+    "title": "글로벌이코노믹"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "http://m.g-enews.com/",
+    "title": "글로벌이코노믹"
+   }
+  },
+  {
+   "name": "서울파이낸스",
+   "home": "https://www.seoulfn.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.seoulfn.com/",
+    "title": "서울파이낸스"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.seoulfn.com/",
+    "title": "서울파이낸스"
+   }
+  },
+  {
+   "name": "펜앤마이크",
+   "home": "https://www.pennmike.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.pennmike.com/",
+    "title": "펜앤마이크"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.pennmike.com/",
+    "title": "펜앤마이크"
+   }
+  },
+  {
+   "name": "내외경제TV",
+   "home": "https://www.nbntv.co.kr/",
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.nbntv.co.kr/",
+    "title": "내외경제TV"
+   },
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.nbntv.co.kr/",
+    "title": "내외경제TV"
+   }
+  },
+  {
+   "name": "글로벌경제",
+   "home": "https://www.getnews.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.getnews.co.kr/",
+    "title": "글로벌경제신문"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.getnews.co.kr/",
+    "title": "글로벌경제신문"
+   }
+  },
+  {
+   "name": "MBN",
+   "home": "https://www.mbn.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.mbn.co.kr/",
+    "title": "MBN 매일방송"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.mbn.co.kr/",
+    "title": "MBN 모바일 메인"
+   }
+  },
+  {
+   "name": "헤럴드경제",
+   "home": "https://biz.heraldcorp.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://biz.heraldcorp.com/",
+    "title": "헤럴드경제"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://mbiz.heraldcorp.com/",
+    "title": "헤럴드경제 모바일 - 헤럴드경제"
+   }
+  },
+  {
+   "name": "대한경제",
+   "home": "https://www.dnews.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.dnews.co.kr/",
+    "title": "대한경제"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.dnews.co.kr/m_home/",
+    "title": "대한경제"
+   }
+  },
+  {
+   "name": "뉴스1",
+   "home": "https://www.news1.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.news1.kr/",
+    "title": "뉴스1"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.news1.kr/",
+    "title": "뉴스1"
+   }
+  },
+  {
+   "name": "신아일보",
+   "home": "https://www.shinailbo.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.shinailbo.co.kr/",
+    "title": "신아일보"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.shinailbo.co.kr/",
+    "title": "신아일보"
+   }
+  },
+  {
+   "name": "아이뉴스24",
+   "home": "https://www.inews24.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.inews24.com/",
+    "title": "아이뉴스24"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.inews24.com/",
+    "title": "아이뉴스24"
+   }
+  },
+  {
+   "name": "CBS",
+   "home": "https://www.nocutnews.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.nocutnews.co.kr/",
+    "title": "노컷뉴스"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.nocutnews.co.kr/",
+    "title": "노컷뉴스"
+   }
+  },
+  {
+   "name": "한국대학신문",
+   "home": "https://news.unn.net/",
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://news.unn.net/",
+    "title": "한국대학신문 - 411개 대학을 연결하는 '힘'"
+   },
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "Page.goto: Timeout 40000ms exceeded.\nCall log:\nnavigating to \"https://news.unn.net/\", waiting until \"domcontentloaded\"\n",
+    "final_url": "",
+    "title": ""
+   }
+  },
+  {
+   "name": "내일신문",
+   "home": "https://www.naeil.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.naeil.com/",
+    "title": "내일신문"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.naeil.com/",
+    "title": "내일신문"
+   }
+  },
+  {
+   "name": "뉴시스",
+   "home": "https://www.newsis.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.newsis.com/",
+    "title": ":: 공감언론 뉴시스통신사 ::"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://mobile.newsis.com/",
+    "title": "뉴시스"
+   }
+  },
+  {
+   "name": "에너지경제",
+   "home": "https://www.ekn.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.ekn.kr/web/",
+    "title": "에너지경제신문"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.ekn.kr/index.php?",
+    "title": "에너지경제신문"
+   }
+  },
+  {
+   "name": "동아일보",
+   "home": "https://www.donga.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.donga.com/",
+    "title": "동아일보"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.donga.com/",
+    "title": "동아일보"
+   }
+  },
+  {
+   "name": "글로벌뉴스통신",
+   "home": ""
+  },
+  {
+   "name": "이뉴스한국",
+   "home": ""
+  },
+  {
+   "name": "KNN",
+   "home": "https://www.knn.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://news.knn.co.kr/news",
+    "title": "부산경남대표방송 KNN 뉴스"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://news.knn.co.kr/news",
+    "title": "부산경남대표방송 KNN 뉴스"
+   }
+  },
+  {
+   "name": "BBS불교방송",
+   "home": "https://news.bbsi.co.kr/",
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://news.bbsi.co.kr/",
+    "title": "불교방송"
+   },
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://news.bbsi.co.kr/",
+    "title": "불교방송"
+   }
+  },
+  {
+   "name": "한스경제",
+   "home": "https://www.hansbiz.co.kr/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.hansbiz.co.kr/",
+    "title": "한스경제"
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.hansbiz.co.kr/",
+    "title": "한스경제"
+   }
+  }
+ ]
+}
