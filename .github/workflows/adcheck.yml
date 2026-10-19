@@ -1,0 +1,57 @@
+name: 언론사 배너 점검
+
+# 자동 예약 없음: 매일 09:00 Claude 발행 작업이 수집(collect.yml) 뒤에 이 워크플로를 직접 실행한다.
+on:
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: "시험 모드(전체 화면 캡처 + 언론사 도메인 조사)"
+        type: boolean
+        default: false
+      only:
+        description: "특정 언론사만(쉼표 구분, 비우면 전체)"
+        type: string
+        default: ""
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  adcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright==1.47.0 requests==2.32.3 && python -m playwright install --with-deps chromium
+      - name: 언론사 도메인 조사 (시험 모드)
+        if: ${{ inputs.probe }}
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python domain_survey.py
+      - name: 배너 점검
+        env:
+          AD_FULLSHOT: ${{ inputs.probe && '1' || '0' }}
+          AD_ONLY: ${{ inputs.only }}
+        run: python ad_check.py
+      - name: 전체 화면 캡처 올리기 (시험 모드)
+        if: ${{ inputs.probe }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe-shots
+          path: probe_shots/
+          retention-days: 7
+      - name: 저장
+        run: |
+          git config user.name "campus-morning-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          git commit -m "배너 점검 $(TZ=Asia/Seoul date +%F)" || echo "변경 없음"
+          git pull --rebase -q && git push
