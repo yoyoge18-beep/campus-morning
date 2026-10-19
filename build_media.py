@@ -44,12 +44,20 @@ for p in sorted(Path("data/ads").glob("????-??-??.json")):
                     "status": "노출" if seen else ("점검 실패" if failed else "미확인")})
         for prof, x in (("PC", pc), ("모바일", mo)):
             sp = x.get("shot")
-            if x.get("found") and sp and Path(sp).exists() and Path(sp).stat().st_size < 150_000:
+            if x.get("found") and sp and Path(sp).exists() and Path(sp).stat().st_size < 400_000:
                 shots[r["name"]] = (d["date"], prof, sp)   # 날짜순이라 마지막이 최신
 
 latest_ad = ad_days[-1] if ad_days else None
 latest_kit = article_days[-1] if article_days else None
 month = (latest_kit or latest_ad or datetime.now(KST).strftime("%Y-%m-%d"))[:7]
+
+
+def data_url(path):
+    """캡처(jpg) 또는 저장한 배너 이미지 원본을 data: 주소로. 형식은 파일 앞부분으로 판단."""
+    raw = Path(path).read_bytes()
+    mime = ("image/png" if raw[:8] == b"\x89PNG\r\n\x1a\n" else "image/gif" if raw[:4] == b"GIF8"
+            else "image/webp" if raw[8:12] == b"WEBP" else "image/jpeg")
+    return f"data:{mime};base64," + base64.b64encode(raw).decode()
 
 
 def periods(rows):
@@ -97,7 +105,7 @@ for o in cfg:
         "banner_since": per[-1]["start"] if on_now and per else None,
         "banner_last_seen": per[-1]["end"] if per else None,
         "banner_days_month": sum(1 for r in lg if r["date"].startswith(month) and r["status"] == "노출"),
-        "shot": ("data:image/jpeg;base64," + base64.b64encode(Path(shot[2]).read_bytes()).decode()) if shot else None,
+        "shot": data_url(shot[2]) if shot else None,
         "shot_date": shot[0] if shot else None,
         "shot_view": shot[1] if shot else None,
         "home": o.get("home", ""),

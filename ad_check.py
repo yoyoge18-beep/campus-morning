@@ -28,6 +28,8 @@ ONLY = [s for s in os.environ.get("AD_ONLY", "").split(",") if s]
 
 KIT_RE = re.compile(r"kit\.ac\.kr|경남정보대", re.I)
 URL_RE = re.compile(r"kit\.ac\.kr", re.I)
+# 광고 중간 페이지가 자바스크립트·meta 로 경남정보대에 보내는 경우
+JSREDIR_RE = re.compile(r"(location(\.href)?\s*=|location\.(replace|assign)\(|http-equiv=[\"']?refresh[^>]*url=)[^<\n]{0,300}?kit\.ac\.kr", re.I)
 
 PROFILES = {
     "pc": dict(viewport={"width": 1366, "height": 900},
@@ -55,7 +57,8 @@ FIND_JS = r"""
                  x: Math.round(r.left + window.scrollX), y: Math.round(r.top + window.scrollY)};
     if (/kit\.ac\.kr/i.test(attrs)) { kit.push(row); continue; }
     // 광고 후보: 이미지가 든 바깥 링크(언론사 자체 주소가 아닌 것), 일정 크기 이상
-    if (el.tagName === 'A' && img && row.w >= 80 && row.h >= 40) {
+    // 슬라이드처럼 지금 안 보이는 광고도 잡도록 이미지 원본 크기로 판단
+    if (el.tagName === 'A' && img && Math.max(row.w, img.naturalWidth || 0) >= 80 && Math.max(row.h, img.naturalHeight || 0) >= 40) {
       let host = '';
       try { host = new URL(el.href, location.href).hostname; } catch(e) {}
       const base = (topHost || '').split('.').slice(-2).join('.');
@@ -90,39 +93,46 @@ async def scan_page(page):
     return hits, ads
 
 
-async def resolve_ads(ctx, ads, limit=30):
-    """광고 클릭 주소를 실제로 따라가 최종 도착 주소를 확인(경남정보대로 가는지)."""
-    seen, out = set(), []
+async def resolve_ads(ctx, ads, limit=24):
+    """광고 클릭 주소를 실제로 따라가 최종 도착 주소를 확인(경남정보대로 가는지). 동시에 따라간다."""
+    seen, todo = set(), []
     for a in ads:
         href = a.get("href", "")
-        if not href.startswith("http") or href in seen:
-            continue
-        seen.add(href)
-        if len(seen) > limit:
-            break
-        final, kit, url = "", False, href
-        try:
-            # 이동 단계를 하나씩 따라가며 주소에 kit.ac.kr 가 나오는지 확인
-            for _ in range(8):
-                if URL_RE.search(unquote(unquote(url))):
-                    kit = True
-                    break
-                resp = await asyncio.wait_for(ctx.request.get(url, max_redirects=0, timeout=8000), 10)
-                loc = resp.headers.get("location")
-                if 300 <= resp.status < 400 and loc:
-                    url = urljoin(url, loc)
-                    continue
-                if resp.ok:
-                    body = (await asyncio.wait_for(resp.text(), 5))[:30000]
-                    kit = bool(URL_RE.search(unquote(body)))   # 자바스크립트·meta 방식 이동
+        if href.startswith("http") and href not in seen and len(todo) < limit:
+            seen.add(href)
+            todo.append(a)
+    sem = asyncio.Semaphore(8)
+
+    async def one(a):
+        async with sem:
+            await follow(ctx, a)
+        return a
+
+    return list(await asyncio.gather(*(one(a) for a in todo)))
+
+
+async def follow(ctx, a):
+    final, kit, url = "", False, a["href"]
+    try:
+        # 이동 단계를 하나씩 따라가며 주소에 kit.ac.kr 가 나오는지 확인
+        for _ in range(8):
+            if URL_RE.search(unquote(unquote(url))):
+                kit = True
                 break
-            final = url
-        except Exception as e:
-            final = url + " ERR " + str(e)[:60]
-        a["final"] = final[:200]
-        a["kit"] = kit
-        out.append(a)
-    return out
+            resp = await asyncio.wait_for(ctx.request.get(url, max_redirects=0, timeout=6000), 8)
+            loc = resp.headers.get("location")
+            if 300 <= resp.status < 400 and loc:
+                url = urljoin(url, loc)
+                continue
+            if resp.ok:
+                body = (await asyncio.wait_for(resp.text(), 5))[:30000]
+                kit = bool(JSREDIR_RE.search(unquote(body)))   # 자바스크립트·meta 방식 이동
+            break
+        final = url
+    except Exception as e:
+        final = url + " ERR " + str(e)[:60]
+    a["final"] = final[:200]
+    a["kit"] = kit
 
 
 async def check_one(browser, outlet, profile, shot_dir):
@@ -204,6 +214,18 @@ async def one_attempt(ctx, outlet, profile, shot_dir, attempt, res):
             res["shot"] = str(shot)
         except Exception as e:
             res["shot_error"] = str(e)[:120]
+            # 슬라이드 등으로 지금 안 보이는 배너: 배너 이미지 파일 자체를 저장
+            src = next((h_.get("img") for h_ in hits if str(h_.get("img", "")).startswith("http")), "")
+            if src:
+                try:
+                    r = await asyncio.wait_for(page.context.request.get(src, timeout=8000), 10)
+                    body = await r.body()
+                    if r.ok and 0 < len(body) < 400_000:
+                        img_path = shot.with_suffix(".img")
+                        img_path.write_bytes(body)
+                        res["shot"] = str(img_path)
+                except Exception as e2:
+                    res["shot_error"] += " / " + str(e2)[:60]
         res["error"] = ""
         return True
     return False
