@@ -23,7 +23,7 @@ permissions:
 jobs:
   adcheck:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,18 +37,20 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python domain_survey.py
       - name: 배너 점검
+        timeout-minutes: 30
         env:
           AD_FULLSHOT: ${{ inputs.probe && '1' || '0' }}
           AD_ONLY: ${{ inputs.only }}
         run: python ad_check.py
-      - name: 전체 화면 캡처 올리기 (시험 모드)
-        if: ${{ inputs.probe }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: probe-shots
-          path: probe_shots/
-          retention-days: 7
+      - name: 화면 캡처를 probe-shots 브랜치에 올리기 (시험 모드)
+        if: ${{ always() && inputs.probe }}
+        run: |
+          mkdir -p /tmp/shots && cp -r probe_shots/. /tmp/shots/ 2>/dev/null || true
+          cd /tmp/shots && git init -q -b probe-shots && git config user.name "campus-morning-bot" \
+            && git config user.email "actions@users.noreply.github.com" && git add -A && git commit -qm "시험 캡처 $(TZ=Asia/Seoul date +%F)" \
+            && git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" probe-shots
       - name: 저장
+        if: ${{ always() }}
         run: |
           git config user.name "campus-morning-bot"
           git config user.email "actions@users.noreply.github.com"

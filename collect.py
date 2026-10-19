@@ -214,6 +214,52 @@ def google_news(query: str, since: datetime = None) -> list[dict]:
     return out
 
 
+def save_managed_kit(by_url: dict):
+    """광고비 지원 관리 언론사(managed_outlets.json)의 경남정보대 기사 — 언론사별 기사 노출 집계용.
+    월요일 확장 범위와 관계없이 하루(전날 09:00~당일 09:00) 기준으로만 센다."""
+    try:
+        cfg = json.loads(Path("managed_outlets.json").read_text(encoding="utf-8"))["outlets"]
+    except Exception as e:
+        print(f"[managed] {e}", file=sys.stderr)
+        return
+    by_name = {o["name"]: o for o in cfg}
+
+    def managed_of(it):
+        d = (it.get("domain") or "").lower()
+        for o in cfg:
+            if any(d == x or d.endswith("." + x) for x in o["domains"]):
+                return o["name"]
+        src = (it.get("source") or "").replace(" ", "")
+        for n in by_name:
+            if src and (src == n.replace(" ", "") or src.startswith(n)):
+                return n
+        return None
+
+    rows, seen = [], set()
+    for it in sorted(by_url.values(), key=lambda x: x["via"] != "naver"):
+        if it["priority"] != 1:
+            continue
+        t = datetime.fromisoformat(it["published"])
+        if not (SINCE <= t < END):
+            continue
+        name = managed_of(it)
+        if not name:
+            continue
+        tkey = (name, re.sub(r"\W", "", it["title"])[:25])
+        if tkey in seen:
+            continue
+        seen.add(tkey)
+        rows.append({"outlet": name, "title": it["title"], "url": it["url"],
+                     "published": it["published"], "via": it["via"],
+                     "in_title": "경남정보" in it["title"]})
+    day = END.strftime("%Y-%m-%d")
+    Path("data/kit").mkdir(parents=True, exist_ok=True)
+    Path(f"data/kit/{day}.json").write_text(json.dumps(
+        {"date": day, "window_start": SINCE.isoformat(), "window_end": END.isoformat(),
+         "count": len(rows), "items": rows}, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"관리 언론사 경남정보대 기사 {len(rows)}건", file=sys.stderr)
+
+
 def main():
     cid = os.environ.get("NAVER_CLIENT_ID")
     secret = os.environ.get("NAVER_CLIENT_SECRET")
@@ -274,6 +320,8 @@ def main():
             it["priority"] = 2
         else:
             del by_url[url]
+
+    save_managed_kit(by_url)
 
     # 지정 언론사만 남김
     kept = {}
