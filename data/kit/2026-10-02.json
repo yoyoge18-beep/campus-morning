@@ -2,16 +2,8 @@
  "date": "2026-10-02",
  "window_start": "2026-10-01T09:00:00+09:00",
  "window_end": "2026-10-02T09:00:00+09:00",
- "count": 15,
+ "count": 13,
  "items": [
-  {
-   "outlet": "대한경제",
-   "title": "[부산ㆍ경남 대학 브리핑 모음(10월2일)] ㈜채정, 동의대학교에 대학발...",
-   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610011715415540245",
-   "published": "2026-10-02T08:42:00+09:00",
-   "via": "naver",
-   "in_title": false
-  },
   {
    "outlet": "CBS",
    "title": "경남정보대·동의과학대, 수시 1차 경쟁률 상승",
@@ -27,14 +19,6 @@
    "published": "2026-10-02T08:07:00+09:00",
    "via": "naver",
    "in_title": true
-  },
-  {
-   "outlet": "글로벌뉴스통신",
-   "title": "[최광임의 디카시 행진 267]읽지 않아도 좋은 날 (유용숙, 독자)",
-   "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=646697",
-   "published": "2026-10-01T19:32:00+09:00",
-   "via": "naver",
-   "in_title": false
   },
   {
    "outlet": "아시아경제",

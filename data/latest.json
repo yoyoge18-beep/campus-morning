@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "collected_at": "2026-10-19T10:42:38.737567+09:00",
+ "collected_at": "2026-10-19T10:57:30.892913+09:00",
  "window_start": "2026-10-18T09:00:00+09:00",
  "window_end": "2026-10-19T09:00:00+09:00",
  "window_start_kit": "2026-10-16T09:00:00+09:00",
@@ -881,12 +881,12 @@
    "date_verified": true
   },
   {
-   "title": "“월급 188만원 입금 1시간뒤 카드값-이자 줄줄이… 844원 남아”",
-   "url": "https://www.donga.com/news/Society/article/all/20261019/134863636/2",
-   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755809?sid=102",
+   "title": "반도체주 급락속… ‘국민 노후자금’ 석달새 182조 날아갔다",
+   "url": "https://www.donga.com/news/Economy/article/all/20261019/134863543/2",
+   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755815?sid=101",
    "domain": "donga.com",
    "published": "2026-10-19T04:31:00+09:00",
-   "snippet": "수능을 마친 뒤 생활비와 월세 60만 원을 직접 벌어 온 김 씨는 행정고시나 법학전문대학원처럼 오래 준비해야 하는 미래는 처음부터 지웠다. “저는 부모한테서 월세를 지원받는 친구들이 그렇게 부러울 수가...",
+   "snippet": "이진기 성균관대 법학전문대학원 교수도 “운용 담당자에게 어느 정도까지의 권한을 주고, 잘못했을 때 어디까지 책임지게 하느냐에 관한 것을 법률에 명시해야 할 것”이라고 주장했다.",
    "query": "전문대학",
    "via": "naver",
    "priority": 3,
@@ -895,12 +895,12 @@
    "date_verified": true
   },
   {
-   "title": "반도체주 급락속… ‘국민 노후자금’ 석달새 182조 날아갔다",
-   "url": "https://www.donga.com/news/Economy/article/all/20261019/134863543/2",
-   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755815?sid=101",
+   "title": "“월급 188만원 입금 1시간뒤 카드값-이자 줄줄이… 844원 남아”",
+   "url": "https://www.donga.com/news/Society/article/all/20261019/134863636/2",
+   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755809?sid=102",
    "domain": "donga.com",
    "published": "2026-10-19T04:31:00+09:00",
-   "snippet": "이진기 성균관대 법학전문대학원 교수도 “운용 담당자에게 어느 정도까지의 권한을 주고, 잘못했을 때 어디까지 책임지게 하느냐에 관한 것을 법률에 명시해야 할 것”이라고 주장했다.",
+   "snippet": "수능을 마친 뒤 생활비와 월세 60만 원을 직접 벌어 온 김 씨는 행정고시나 법학전문대학원처럼 오래 준비해야 하는 미래는 처음부터 지웠다. “저는 부모한테서 월세를 지원받는 친구들이 그렇게 부러울 수가...",
    "query": "전문대학",
    "via": "naver",
    "priority": 3,
@@ -994,8 +994,8 @@
   },
   {
    "title": "강원대학교, 춘천막국수닭갈비축제 참여",
-   "url": "https://www.yna.co.kr/view/PYH20261018048500062?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016383778?sid=102",
+   "url": "https://www.yna.co.kr/view/PYH20261018048600062?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016383779?sid=102",
    "domain": "yna.co.kr",
    "published": "2026-10-18T14:24:00+09:00",
    "snippet": "지난 17일 강원 춘천시 공지천 수변 산책로 일대에서 열린 '2026 춘천막국수닭갈비축제'에서 강원대학교 관계자들이 '지역과 대학이 함께하는 글로컬대학' 홍보 부스를 운영하고 있다. 2026.10.18 [강원대학교 제공....",
@@ -1008,8 +1008,8 @@
   },
   {
    "title": "강원대학교, 춘천막국수닭갈비축제 참여",
-   "url": "https://www.yna.co.kr/view/PYH20261018048600062?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016383779?sid=102",
+   "url": "https://www.yna.co.kr/view/PYH20261018048500062?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016383778?sid=102",
    "domain": "yna.co.kr",
    "published": "2026-10-18T14:24:00+09:00",
    "snippet": "지난 17일 강원 춘천시 공지천 수변 산책로 일대에서 열린 '2026 춘천막국수닭갈비축제'에서 강원대학교 관계자들이 '지역과 대학이 함께하는 글로컬대학' 홍보 부스를 운영하고 있다. 2026.10.18 [강원대학교 제공....",

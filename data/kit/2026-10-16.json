@@ -2,7 +2,7 @@
  "date": "2026-10-16",
  "window_start": "2026-10-15T09:00:00+09:00",
  "window_end": "2026-10-16T09:00:00+09:00",
- "count": 15,
+ "count": 14,
  "items": [
   {
    "outlet": "메트로신문",
@@ -11,14 +11,6 @@
    "published": "2026-10-16T08:34:00+09:00",
    "via": "naver",
    "in_title": true
-  },
-  {
-   "outlet": "대한경제",
-   "title": "[부산ㆍ경남 대학 브리핑 모음(10월16일)] 동아대 대학원 재난관리학과...",
-   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610151534525610780",
-   "published": "2026-10-16T08:00:00+09:00",
-   "via": "naver",
-   "in_title": false
   },
   {
    "outlet": "머니투데이",
