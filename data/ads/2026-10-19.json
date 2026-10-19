@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "checked_at": "2026-10-19T10:15:27.853338+09:00",
+ "checked_at": "2026-10-19T11:13:15.871856+09:00",
  "attempts": 3,
  "results": [
   {
@@ -36,7 +36,7 @@
     "found": false,
     "attempts": 3,
     "hits": [],
-    "error": "시간 초과",
+    "error": "",
     "final_url": "https://www.busan.com/",
     "title": "부산일보",
     "ads": [
@@ -65,9 +65,9 @@
       "h": 77
      },
      {
-      "host": "kami.kr",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/260929woff.jpg",
-      "final": "http://kami.kr/notice/74",
+      "host": "wof.kr",
+      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/260929wof.jpg",
+      "final": "http://wof.kr/2026/03_registration/01_registration_open.asp",
       "kit": false,
       "w": 291,
       "h": 77
@@ -95,6 +95,22 @@
       "kit": false,
       "w": 300,
       "h": 250
+     },
+     {
+      "host": "ta.ksd.or.kr",
+      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/261019ksd.jpg",
+      "final": "https://ta.ksd.or.kr/index.jsp ERR APIRequestContext.get: read ECONNRESET\nCall log:\n→ GET https",
+      "kit": false,
+      "w": 300,
+      "h": 80
+     },
+     {
+      "host": "welfare.gyeongnam.go.kr",
+      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/261019gn.jpg",
+      "final": "https://welfare.gyeongnam.go.kr/main.gsnd",
+      "kit": false,
+      "w": 350,
+      "h": 143
      },
      {
       "host": "www.reb.or.kr",
@@ -215,70 +231,6 @@
       "kit": false,
       "w": 181,
       "h": 250
-     },
-     {
-      "host": "council.busan.go.kr",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/250723hub.jpg",
-      "final": "https://council.busan.go.kr/council/index",
-      "kit": false,
-      "w": 300,
-      "h": 250
-     },
-     {
-      "host": "www.bonmedia.kr",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/0117b.jpg",
-      "final": "https://www.bonmedia.kr/",
-      "kit": false,
-      "w": 570,
-      "h": 110
-     },
-     {
-      "host": "www.kami.kr",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/0322ka.jpg",
-      "final": "http://www.kami.kr/",
-      "kit": false,
-      "w": 570,
-      "h": 110
-     },
-     {
-      "host": "builculture.com",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/0130mmm.jpg",
-      "final": "https://builculture.com/",
-      "kit": false,
-      "w": 570,
-      "h": 110
-     },
-     {
-      "host": "www.busan.go.kr",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/san_busan_banner.jpg",
-      "final": "https://www.busan.go.kr/depart/truckInsurance ERR APIRequestContext.get: read ECONNRESET\nCall log:\n→ GET https",
-      "kit": false,
-      "w": 570,
-      "h": 110
-     },
-     {
-      "host": "www.npsonair.kr",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/1216a.jpg",
-      "final": "https://www.npsonair.kr/finance/list.html ERR APIRequestContext.get: unable to verify the first certificat",
-      "kit": false,
-      "w": 570,
-      "h": 110
-     },
-     {
-      "host": "www.busan.go.kr",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/0913d.jpg",
-      "final": "https://www.busan.go.kr/bige/daily-busan?bbsNo=10&srchCl=Daily+Busan",
-      "kit": false,
-      "w": 570,
-      "h": 110
-     },
-     {
-      "host": "litt.ly",
-      "img": "https://www.busan.com/nas/wcms/public/pc/images/new/260908hm.jpg",
-      "final": "https://litt.ly/ocean_literary_awards",
-      "kit": false,
-      "w": 570,
-      "h": 110
      }
     ]
    }
@@ -286,37 +238,11 @@
   {
    "name": "국제신문",
    "home": "https://www.kookje.co.kr/",
-   "mobile": {
-    "found": false,
-    "attempts": 3,
-    "hits": [],
-    "error": "",
-    "final_url": "https://www.kookje.co.kr/mobile/",
-    "title": "국제신문",
-    "ads": [
-     {
-      "host": "busanmedi.com",
-      "img": "https://www.kookje.co.kr/news2011/screennews/medi_20261012111735516.jpg",
-      "final": "http://busanmedi.com/gnuboard4/bbs/board.php?bo_table=board3&wr_id=1055&page=2&page=2",
-      "kit": false,
-      "w": 310,
-      "h": 90
-     },
-     {
-      "host": "mombusan.org",
-      "img": "https://www.kookje.co.kr/design/bn_mombusan2026.jpg",
-      "final": "http://mombusan.org/main/main.php",
-      "kit": false,
-      "w": 298,
-      "h": 150
-     }
-    ]
-   },
    "pc": {
     "found": false,
     "attempts": 3,
     "hits": [],
-    "error": "시간 초과",
+    "error": "",
     "final_url": "https://www.kookje.co.kr/",
     "title": "부산의 대표 정론지, 국제신문",
     "ads": [
@@ -325,16 +251,16 @@
       "img": "https://www.kookje.co.kr/design/bn_mombusan2026.jpg",
       "final": "http://mombusan.org/main/main.php",
       "kit": false,
-      "w": 298,
-      "h": 150
+      "w": 0,
+      "h": 0
      },
      {
       "host": "www.kjmarathon.com",
       "img": "https://www.kookje.co.kr/design/bn_marathon2026.jpg?1",
       "final": "https://www.kjmarathon.com/ko/",
       "kit": false,
-      "w": 298,
-      "h": 150
+      "w": 0,
+      "h": 0
      },
      {
       "host": "www.drbs.or.kr",
@@ -443,7 +369,7 @@
      {
       "host": "www.ksd.or.kr",
       "img": "https://www.kookje.co.kr/design/bn_ksd2610.jpg",
-      "final": "https://www.ksd.or.kr/ko/",
+      "final": "https://www.ksd.or.kr/ko/ ERR APIRequestContext.get: read ECONNRESET\nCall log:\n→ GET https",
       "kit": false,
       "w": 250,
       "h": 250
@@ -511,30 +437,40 @@
       "kit": false,
       "w": 250,
       "h": 98
+     }
+    ]
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.kookje.co.kr/mobile/",
+    "title": "국제신문",
+    "ads": [
+     {
+      "host": "busanmedi.com",
+      "img": "https://www.kookje.co.kr/news2011/screennews/medi_20261012112310968.jpg",
+      "final": "http://busanmedi.com/gnuboard4/bbs/board.php?bo_table=board3&wr_id=1038&page=2&page=2",
+      "kit": false,
+      "w": 310,
+      "h": 90
      },
      {
-      "host": "www.umff.kr",
-      "img": "https://www.kookje.co.kr/design/bn_ulju2607.jpg",
-      "final": "https://www.umff.kr/kor/default.asp ERR 'utf-8' codec can't decode byte 0xbf in position 52: invalid",
+      "host": "mombusan.org",
+      "img": "https://www.kookje.co.kr/design/bn_mombusan2026.jpg",
+      "final": "http://mombusan.org/main/main.php",
       "kit": false,
-      "w": 250,
-      "h": 137
+      "w": 0,
+      "h": 0
      },
      {
-      "host": "www.hanafn.com",
-      "img": "https://www.kookje.co.kr/design/bn_hana2502.jpg",
-      "final": "https://www.hanafn.com/main/index.do",
+      "host": "www.kjmarathon.com",
+      "img": "https://www.kookje.co.kr/design/bn_marathon2026.jpg?1",
+      "final": "https://www.kjmarathon.com/ko/",
       "kit": false,
-      "w": 250,
-      "h": 83
-     },
-     {
-      "host": "www.galmaetgil.org",
-      "img": "https://www.kookje.co.kr/design/bn_grwalking2021.jpg",
-      "final": "https://www.galmaetgil.org/",
-      "kit": false,
-      "w": 250,
-      "h": 70
+      "w": 0,
+      "h": 0
      }
     ]
    }
@@ -585,6 +521,14 @@
     "title": "머니투데이 - 돈이 보이는 리얼타임 뉴스",
     "ads": [
      {
+      "host": "www.shinsegaegroupnewsroom.com",
+      "img": "https://menu.mt.co.kr/cdn-cgi/image/w=473,h=,f=auto/mt/banner/HM_L_MO_78a7ae50-5f15-4b65-b251-16d548c4812a.jpg",
+      "final": "https://www.shinsegaegroupnewsroom.com/?utm_source=mt&utm_medium=banner&utm_campaign=main",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
       "host": "sep.kr",
       "img": "https://menu.mt.co.kr/cdn-cgi/image/w=473,h=,f=auto/mt/banner/HM_2T_1_0b0a1211-24ac-436d-a2e3-6271e8f96789.jpg",
       "final": "https://sep.kr/",
@@ -602,32 +546,32 @@
      },
      {
       "host": "ads.mtgroup.kr",
-      "img": "https://menu.mt.co.kr/news/banner/image/2026/20261014173612.jpg",
-      "final": "https://technology.or.kr/%ec%82%b0%ec%97%85%ea%b8%b0%ec%88%a0-rd-%ec%a0%95%ec%b1%85-%ec%95%84%ec%9d%b4%eb%94%94%ec%96%b4-%ea%b3%b5%eb%aa%a8%ec%a0%84-%ec%95%88%eb%82%b4/",
+      "img": "https://menu.mt.co.kr/news/banner/image/2026/20261006160151.jpg",
+      "final": "https://www.youtube.com/watch?v=6-1dpO7uMyU",
       "kit": false,
       "w": 160,
       "h": 600
      },
      {
       "host": "dspserver.adpnut.com",
+      "img": "https://img.adpnut.com/creative/267a61ff4677ad7a97c521738319e444.jpg",
+      "final": "https://dspserver.adpnut.com/ron/click/6100e612e9dd4195892329?aW52X2lkPTI0OTA0JnByZF9pZD0zMCZjYW1faWQ9ODc3JmFkc19pZD0zNjk0JmN0dl9ncnBfaWQ9NTY4MiZjdHZfaWQ9MjYzNzMmdG1wX2lkPTE2JmRldmljZT0xJnVpPVRIJmlzX3",
+      "kit": false,
+      "w": 160,
+      "h": 200
+     },
+     {
+      "host": "dspserver.adpnut.com",
+      "img": "https://img.adpnut.com/creative/4533130b75975522a720d6cdbc696840.jpg",
+      "final": "https://dspserver.adpnut.com/ron/click/6100e612e9dd4195892329?aW52X2lkPTI0OTA0JnByZF9pZD0zMCZjYW1faWQ9NzIwJmFkc19pZD0zMDc5JmN0dl9ncnBfaWQ9NDU3MyZjdHZfaWQ9MjYyOTgmdG1wX2lkPTE2JmRldmljZT0xJnVpPVRIJmlzX3",
+      "kit": false,
+      "w": 160,
+      "h": 200
+     },
+     {
+      "host": "dspserver.adpnut.com",
       "img": "https://img.adpnut.com/creative/fc253030279e4efabf3dae6de68e0fcb.jpg",
-      "final": "https://dspserver.adpnut.com/ron/click/6100e612e9dd4195892329?aW52X2lkPTI0OTA0JnByZF9pZD0zMCZjYW1faWQ9NzcwJmFkc19pZD0zMzUxJmN0dl9ncnBfaWQ9NTA5OSZjdHZfaWQ9MjE2MDYmdG1wX2lkPTE4JmRldmljZT0xJnVpPVRIJmlzX3",
-      "kit": false,
-      "w": 160,
-      "h": 200
-     },
-     {
-      "host": "dspserver.adpnut.com",
-      "img": "https://img.adpnut.com/creative/b61713a195843e12d0f84eb78c3ba977.jpg",
-      "final": "https://dspserver.adpnut.com/ron/click/6100e612e9dd4195892329?aW52X2lkPTI0OTA0JnByZF9pZD0zMCZjYW1faWQ9OTg4JmFkc19pZD0zOTI5JmN0dl9ncnBfaWQ9NTk1OCZjdHZfaWQ9MjY1MjImdG1wX2lkPTE4JmRldmljZT0xJnVpPVRIJmlzX3",
-      "kit": false,
-      "w": 160,
-      "h": 200
-     },
-     {
-      "host": "dspserver.adpnut.com",
-      "img": "https://img.adpnut.com/creative/76957ad20347051f7492d58cb37bd690.jpg",
-      "final": "https://dspserver.adpnut.com/ron/click/6100e612e9dd4195892329?aW52X2lkPTI0OTA0JnByZF9pZD0zMCZjYW1faWQ9NDU3JmFkc19pZD0xNzMzJmN0dl9ncnBfaWQ9Mjk4OSZjdHZfaWQ9MjYyOTAmdG1wX2lkPTE4JmRldmljZT0xJnVpPVRIJmlzX3",
+      "final": "https://dspserver.adpnut.com/ron/click/6100e612e9dd4195892329?aW52X2lkPTI0OTA0JnByZF9pZD0zMCZjYW1faWQ9NzcwJmFkc19pZD0zMzUxJmN0dl9ncnBfaWQ9NTA5OSZjdHZfaWQ9MjE2MDYmdG1wX2lkPTE2JmRldmljZT0xJnVpPVRIJmlzX3",
       "kit": false,
       "w": 160,
       "h": 200
@@ -657,10 +601,66 @@
      {
       "host": "www.skhynix.com",
       "img": "https://daily.hankooki.com/bannerpop/uploads/image/1768955269925962401.jpg",
-      "final": "https://www.skhynix.com/",
+      "final": "https://www.skhynix.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
-      "w": 300,
-      "h": 250
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "news.samsung.com",
+      "img": "https://daily.hankooki.com/bannerpop/uploads/image/17805371042095940558.gif",
+      "final": "https://news.samsung.com/global/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "lgsmileproject.com",
+      "img": "https://daily.hankooki.com/bannerpop/uploads/image/1790746399286791678.gif",
+      "final": "https://lgsmileproject.com/moment?utm_source=media&utm_medium=qr&utm_campaign=moment&utm_content=contest_01",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.nhelife.co.kr",
+      "img": "https://daily.hankooki.com/bannerpop/uploads/image/17268078841816682623.jpg",
+      "final": "https://www.nhelife.co.kr/main.nhl ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.bing.com",
+      "img": "https://daily.hankooki.com/bannerpop/uploads/image/17761331802096110205.png",
+      "final": "https://www.bing.com/search?pglt=425&q=%EC%A0%84%EB%B6%81&cvid=e55014518a314df9a83d32bac5efc7ae&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAuGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIG",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.lguplus.com",
+      "img": "https://daily.hankooki.com/bannerpop/uploads/image/1790641540395904817.jpg",
+      "final": "https://www.lguplus.com/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "abr.ge",
+      "img": "https://daily.hankooki.com/bannerpop/uploads/image/1790814134217540718.jpg",
+      "final": "https://direct.hanwhalife.com/products/CMS00038?airbridge_referrer=airbridge%3Dtrue%26client_id%3D2ed41e10-6a36-47a6-a102-de6a860e457c%26event_uuid%3D8f306d9e-5520-569a-8ec6-7a0b9d09791b%26referrer_ti",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.high1.com",
+      "img": "https://daily.hankooki.com/bannerpop/uploads/image/1790814528881409381.jpg",
+      "final": "https://www.high1.com/www/index.do",
+      "kit": false,
+      "w": 0,
+      "h": 0
      },
      {
       "host": "www.i-sh.co.kr",
@@ -673,7 +673,7 @@
      {
       "host": "m-able.app",
       "img": "https://cdn.daily.hankooki.com/bannerpop/uploads/image/17908139111630834738.jpg",
-      "final": "https://welcomemable.kbsec.com/?section=sec-a-1&airbridge_referrer=airbridge%3Dtrue%26client_id%3D9fde7a61-0fb8-4392-ad1d-ecc797a91401%26event_uuid%3D4437b7d3-2a90-56f5-b538-72ede4c265bc%26referrer_ti",
+      "final": "https://welcomemable.kbsec.com/?section=sec-a-1&airbridge_referrer=airbridge%3Dtrue%26client_id%3D37642817-21ed-4775-baf9-8950c329e224%26event_uuid%3D3145d2fd-7ea6-5108-9daf-f807f95763e8%26referrer_ti",
       "kit": false,
       "w": 300,
       "h": 60
@@ -721,7 +721,7 @@
      {
       "host": "www.hanafn.com",
       "img": "https://cdn.daily.hankooki.com/bannerpop/uploads/image/17271401451079623932.jpg",
-      "final": "https://www.hanafn.com:8002/",
+      "final": "http://www.hanafn.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 300,
       "h": 60
@@ -753,7 +753,7 @@
      {
       "host": "www.hanaw.com",
       "img": "https://cdn.daily.hankooki.com/bannerpop/uploads/image/1682641688736585756.jpg",
-      "final": "https://www.hanaw.com/",
+      "final": "https://www.hanaw.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 300,
       "h": 120
@@ -789,14 +789,6 @@
       "kit": false,
       "w": 300,
       "h": 121
-     },
-     {
-      "host": "www.inc.or.kr",
-      "img": "https://cdn.daily.hankooki.com/image/inc_logo-2.png",
-      "final": "http://www.inc.or.kr/",
-      "kit": false,
-      "w": 99,
-      "h": 101
      }
     ]
    }
@@ -828,22 +820,244 @@
     "found": false,
     "attempts": 3,
     "hits": [],
-    "error": "Page.goto: Timeout 40000ms exceeded.\nCall log:\nnavigating to \"https://www.metroseoul.co.kr/\", waiting until \"domcontentloaded\"\n",
-    "final_url": "",
-    "title": ""
+    "error": "",
+    "final_url": "https://www.metroseoul.co.kr/",
+    "title": "메트로신문",
+    "ads": [
+     {
+      "host": "www.journalist.or.kr",
+      "img": "https://cdn.emetro.co.kr/data1/resources/pc/images/etc/korea_reporter_association.png",
+      "final": "http://www.journalist.or.kr/",
+      "kit": false,
+      "w": 187,
+      "h": 51
+     },
+     {
+      "host": "www.kina.or.kr",
+      "img": "https://cdn.emetro.co.kr/data1/resources/pc/images/etc/korea_internet_association.png",
+      "final": "https://www.kina.or.kr/",
+      "kit": false,
+      "w": 185,
+      "h": 53
+     },
+     {
+      "host": "www.ins.or.kr",
+      "img": "https://cdn.emetro.co.kr/data1/resources/pc/images/etc/footer-logo02.png",
+      "final": "https://www.ins.or.kr/",
+      "kit": false,
+      "w": 185,
+      "h": 64
+     },
+     {
+      "host": "www.idi.or.kr",
+      "img": "https://cdn.emetro.co.kr/data1/resources/pc/images/etc/idi1.png",
+      "final": "https://www.idi.or.kr/ ERR APIRequestContext.get: getaddrinfo ENOTFOUND www.idi.or.kr\nC",
+      "kit": false,
+      "w": 187,
+      "h": 81
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/indices/s-and-p-500.svg",
+      "final": "https://kr.tradingview.com/symbols/SPX500/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 316,
+      "h": 44
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/indices/nasdaq-100.svg",
+      "final": "https://kr.tradingview.com/symbols/FOREXCOM-NAS100/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 334,
+      "h": 44
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/country/US.svg",
+      "final": "https://kr.tradingview.com/symbols/EURUSD/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 376,
+      "h": 44
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC.svg",
+      "final": "https://kr.tradingview.com/symbols/BTCUSD/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 308,
+      "h": 44
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/crypto/XTVCETH.svg",
+      "final": "https://kr.tradingview.com/symbols/ETHUSD/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 317,
+      "h": 44
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/country/KR.svg",
+      "final": "https://kr.tradingview.com/symbols/USDKRW/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 310,
+      "h": 44
+     }
+    ]
    },
    "mobile": {
     "found": false,
     "attempts": 3,
     "hits": [],
-    "error": "Page.goto: Timeout 40000ms exceeded.\nCall log:\nnavigating to \"https://www.metroseoul.co.kr/\", waiting until \"domcontentloaded\"\n",
-    "final_url": "",
-    "title": ""
+    "error": "",
+    "final_url": "https://www.metroseoul.co.kr/",
+    "title": "메트로신문",
+    "ads": [
+     {
+      "host": "www.journalist.or.kr",
+      "img": "https://cdn.emetro.co.kr/data1/resources/pc/images/etc/korea_reporter_association.png",
+      "final": "http://www.journalist.or.kr/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.kina.or.kr",
+      "img": "https://cdn.emetro.co.kr/data1/resources/pc/images/etc/korea_internet_association.png",
+      "final": "https://www.kina.or.kr/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.ins.or.kr",
+      "img": "https://cdn.emetro.co.kr/data1/resources/pc/images/etc/footer-logo02.png",
+      "final": "https://www.ins.or.kr/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.idi.or.kr",
+      "img": "https://cdn.emetro.co.kr/data1/resources/pc/images/etc/idi1.png",
+      "final": "https://www.idi.or.kr/ ERR APIRequestContext.get: getaddrinfo ENOTFOUND www.idi.or.kr\nC",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/indices/s-and-p-500.svg",
+      "final": "https://kr.tradingview.com/symbols/SPX500/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 123,
+      "h": 72
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/indices/nasdaq-100.svg",
+      "final": "https://kr.tradingview.com/symbols/FOREXCOM-NAS100/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 130,
+      "h": 72
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/country/US.svg",
+      "final": "https://kr.tradingview.com/symbols/EURUSD/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 146,
+      "h": 72
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC.svg",
+      "final": "https://kr.tradingview.com/symbols/BTCUSD/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 119,
+      "h": 72
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/crypto/XTVCETH.svg",
+      "final": "https://kr.tradingview.com/symbols/ETHUSD/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 123,
+      "h": 72
+     },
+     {
+      "host": "kr.tradingview.com",
+      "img": "https://s3-symbol-logo.tradingview.com/country/KR.svg",
+      "final": "https://kr.tradingview.com/symbols/USDKRW/?utm_source=www.metroseoul.co.kr&utm_medium=widget_new&utm_campaign=ticker-tape",
+      "kit": false,
+      "w": 123,
+      "h": 72
+     }
+    ]
    }
   },
   {
    "name": "국제뉴스",
    "home": "https://www.gukjenews.com/",
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.gukjenews.com/",
+    "title": "국제뉴스",
+    "ads": [
+     {
+      "host": "api.adapi.co.kr",
+      "img": "https://ads-partners.coupang.com/openapi/image/1jnPrn2HDoNVsJPd1lSl1zSEYlrWeXeQYpdlwwwQ0LMOpCvsTRWbF4AuLYqRM15dMSgAVQym72dax0dgUW4ZzsQHO9nVTN2petgKc9iGDvP6pHFnidWXNNvs8UuvrmmT7L_0chLWl-Sm5eg31UxF2Mw_GQWfaTqsWLdutq2CCD8TsFY3tweF2M524qGbnr0Ljr7JMsAj8csP2acaEii-RAGO2AbM44RaYMvx8u3i_9JWZ2jeULP4XApiA-dOH",
+      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF2809432&subid=cdspgjnsb9432s&subparam=cps_8c602792fe554faf4dd8ea2bf240591012412f80&pageKey=9371774&itemId=21184770164&vendorItemId=88377301422&traceid=V0-193",
+      "kit": false,
+      "w": 159,
+      "h": 145
+     },
+     {
+      "host": "api.adapi.co.kr",
+      "img": "https://ads-partners.coupang.com/openapi/image/Xilt6OvJiT5qBr1hXkx-vETTm8nC5xDC-JYL1P6LZvtJumZNt3a7GPcy5pTnLQnN8DT1il9JoUuUIWKR34HfnxRkmsbJLrp7kg073uajksJymWgJfDbuDZCi8mn1F7I7EA93yuCZ32cP1LlnkFTtVq_oJQn_6e8I5_cdtQkC2R8pauuae_FJ1xk16lnOMj2Mr94B0ZBTBaAPfNaf4GC5DLVhE-XunASLYDaSWJSJofvMlJ3JN0wvtykS-NSSF",
+      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF2809432&subid=cdspgjnsb9432s&subparam=cps_8c602792fe554faf4dd8ea2bf240591012412f80&pageKey=34846576&itemId=129683461&vendorItemId=3270894003&traceid=V0-193-2",
+      "kit": false,
+      "w": 159,
+      "h": 145
+     },
+     {
+      "host": "api.adapi.co.kr",
+      "img": "https://ads-partners.coupang.com/openapi/image/EYiq9_sId9XPEDjkEUBlsKRRG3oWNGEYp-TIl2x5pbt4dZaAZe8AdIwi0FUyf8z_X97LJQ1M8yRZ8vk62OC9NyQvKj6Ya6dAqUZnxfM6G4NfNgVeYzAAtcS_JWLSoWkzHElVvsMYDfljt9XlZ6T60hIrjWNnGHvGotXEDoKcXMmaVCphU-4pLLRG6kXlRSTISI05ISmtDWT1eq6J60EvzIeS8c4F4Dms3Txtq5jPD81QFPayEQ6jS2qzFZhTU",
+      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF2809432&subid=cdspgjnsb9432s&subparam=cps_8c602792fe554faf4dd8ea2bf240591012412f80&pageKey=8548508229&itemId=21436080703&vendorItemId=84095676789&traceid=V0-",
+      "kit": false,
+      "w": 159,
+      "h": 145
+     },
+     {
+      "host": "api.adapi.co.kr",
+      "img": "https://ads-partners.coupang.com/openapi/image/3LoW_CwOkpoA2G8m3OEQILLNhGh3NVR0mTuvaahAuK6ljiL7yKp2Btq_FSt9ryW8gOYPghafKyVvVa87Efb505EXIq2moU1MOYG5sbpEPJCF7yDzck7k4oOo1nmAYBrJStGw6_7fQpV5E6k-MuJNugIx0Gi9jRmadfuJaD0jn1kjmv18VqHo1tUPtW7JpmghE2kl9XwrI6Jun6AlBRqABi_6HXik9qg5sBHIDDq2hnK_06h7yntm9XYv3GdRy",
+      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF2809432&subid=cdspgjnsb9432s&subparam=cps_8c602792fe554faf4dd8ea2bf240591012412f80&pageKey=8788886173&itemId=10833917555&vendorItemId=3000036302&traceid=V0-1",
+      "kit": false,
+      "w": 159,
+      "h": 145
+     },
+     {
+      "host": "api.adapi.co.kr",
+      "img": "https://ads-partners.coupang.com/openapi/image/L--0kdW4ytvGHy-dL-Vi39kEw3YTcyqWDDn_gPDgxWYwbd41kPPESIkm2zoTsEH7Tj_YnndyoqxzalrpLwrycp0y6FlOdD3cneKc-warGVsNB68tDZkz0Df3rKHq_XaRaZFqWiSa-PvkPTZlzkkcNQhOx0Wdjz2lN5iFXUS-UDGuTXqg3whRsoFcnP5tRthniwRAgPnr0C4WjSL4OqkPR54XHrjV4S7V18kF8QZyxuy-Fgd4t5_pk4reMJMgm",
+      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF2809432&subid=cdspgjnsb9432s&subparam=cps_8c602792fe554faf4dd8ea2bf240591012412f80&pageKey=329389373&itemId=9060755624&vendorItemId=3006697064&traceid=V0-193",
+      "kit": false,
+      "w": 159,
+      "h": 145
+     },
+     {
+      "host": "api.adapi.co.kr",
+      "img": "https://ads-partners.coupang.com/openapi/image/lZH-ybz5EFnkSl4XlYw5pFKcO48omiktHizyE97t7KH9TIm3YHd4kidO-P9Lq10eJH_SyFlJyPinZk_lKUi5mzflyjgrVs6IJCl_aeqSgigNxNkHhZ2A0HLxJAbAXTRMNg04aH_80UL7NeAy-B9p2OIOFqJFXQ1t65u7N4pv_UIN7QoYj8E6X0BJevbRupUJvszlWXzw8Z0_hb4dPwUgPJK4tXdwZUa6hUuBtFivvl3Hiq4tXBgeEblvRBj6V",
+      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF2809432&subid=cdspgjnsb9432s&subparam=cps_8c602792fe554faf4dd8ea2bf240591012412f80&pageKey=9339378797&itemId=27696234741&vendorItemId=94658002773&traceid=V0-",
+      "kit": false,
+      "w": 159,
+      "h": 145
+     }
+    ]
+   },
    "pc": {
     "found": false,
     "attempts": 3,
@@ -903,9 +1117,9 @@
      {
       "host": "www.tradingview.com",
       "img": "https://s3-symbol-logo.tradingview.com/crypto/XTVCBTC.svg",
-      "final": "https://www.tradingview.com/symbols/BTCKRW/?utm_source=www.gukjenews.com&utm_medium=widget&utm_campaign=ticker-tape",
+      "final": "https://www.tradingview.com/symbols/BITHUMB-BTCKRW/?utm_source=www.gukjenews.com&utm_medium=widget&utm_campaign=ticker-tape",
       "kit": false,
-      "w": 377,
+      "w": 375,
       "h": 44
      },
      {
@@ -965,64 +1179,6 @@
       "h": 44
      }
     ]
-   },
-   "mobile": {
-    "found": false,
-    "attempts": 3,
-    "hits": [],
-    "error": "",
-    "final_url": "https://www.gukjenews.com/",
-    "title": "국제뉴스",
-    "ads": [
-     {
-      "host": "api.adapi.co.kr",
-      "img": "https://ads-partners.coupang.com/openapi/image/Va0vfPgUvYUea8CcVbG9RiC1Yg74e_YnXDNb9GCBX0_i7ClITDEtM37xoOt2DYbvXy8BLKuXMJbzH8Hjx3Fd9K0MHHBWwrFYRy508ivUvbk0IygucezUx8eV-nfdxsB5feF21GcFfQ_VKSAvtDEPyD7qWsyJtzurBs_Io7HYCQ3Ljd9PVW-1y82T0UxG-MnRDO0t48tEMv0EcnZ9kw0EadBlqRH4gDcOjHzzCBnH6WKRlmR_2P_wo3sWJCImw",
-      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF7087645&subid=cdspgjnsb7645s&subparam=cps_aff5283ff593f2874d0ed1d76d3b51d03ade48a3&pageKey=7397036159&itemId=21229008067&vendorItemId=88277157678&traceid=V0-",
-      "kit": false,
-      "w": 159,
-      "h": 145
-     },
-     {
-      "host": "api.adapi.co.kr",
-      "img": "https://ads-partners.coupang.com/openapi/image/OFf1b7J0xN6gotyqODKEBO_1Y-4G-JSHwP0Y4xBYxXx7EGp8j8vaque7mBKkxR87wRDdRUGrT7jQKLweLygFpI5QBENq9rD6S1yDSeHg_9AufMrf5mtj3kB92WuZ2ktWPyX4vOzU2KN8eVN8iKapUHrZZCSFmeB2Zc_zshonYIwT2OhMdGG8KFBU4UnZT0b7lnxIAi6WzbeK7kN2Ndqlja5nQiVnAVSo2wjS2jvsuViyE8vRUm9mwNH8McJO0",
-      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF7087645&subid=cdspgjnsb7645s&subparam=cps_aff5283ff593f2874d0ed1d76d3b51d03ade48a3&pageKey=9436839612&itemId=28063816619&vendorItemId=95020521507&traceid=V0-",
-      "kit": false,
-      "w": 159,
-      "h": 145
-     },
-     {
-      "host": "api.adapi.co.kr",
-      "img": "https://ads-partners.coupang.com/openapi/image/buvmmtIvnJbfalxfbnAOuih1ueUWT-ufGZCZ6CRmCJMnWdHkxKZ8OaeMPFboV9K638XwvcyLDUpKsr9IapdIEv_6s-GDZolgOIA00ZD2cTrVo_k5BakMWtuMkp2w-_hnlcw_Lqz1xcLTDavrbCi8VKdfMDA-ReOP9R40pLRgDxNEq6Fv_RYehlUsef8lJXv_9J6p4kPvtlMKdiM8QYYP8K2qIws5afecpQ7bDIHpwghEM_GUELH0R6TvY3lr-",
-      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF7087645&subid=cdspgjnsb7645s&subparam=cps_aff5283ff593f2874d0ed1d76d3b51d03ade48a3&pageKey=6987907142&itemId=17093078748&vendorItemId=84216258869&traceid=V0-",
-      "kit": false,
-      "w": 159,
-      "h": 145
-     },
-     {
-      "host": "api.adapi.co.kr",
-      "img": "https://ads-partners.coupang.com/openapi/image/-MCgp2_rr7Buitx9-CMnlgcIg1Nqz6I5YOV6jBya1fxSVEWU0AU6cQ-0rfct8iFgkJNCctNA-Ldd2ci8qH2HVaRT6GK9uslQyYXcoIW2olSfUrnwBnCEHUu7571Zh49CEuoq2KpXGJwYTFW5v_kmx4ItxpzlnGrO8pwvK-9Em26tDabghUJ_q63AN8vs1gBo4GbsjYAQV9wDXX_bYZK78yJq_CaW_pVjiwjOjl6SqjNNWo_-A5UT2c3uea4KO",
-      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF7087645&subid=cdspgjnsb7645s&subparam=cps_aff5283ff593f2874d0ed1d76d3b51d03ade48a3&pageKey=6991217590&itemId=25044922341&vendorItemId=91981837582&traceid=V0-",
-      "kit": false,
-      "w": 159,
-      "h": 145
-     },
-     {
-      "host": "api.adapi.co.kr",
-      "img": "https://ads-partners.coupang.com/openapi/image/SvipQzDzi6a0yMtcSqZCjiskkzoTxGkjsu82blNdD4uq3vQGuSK4fej2GBV8idRBlSB56QUYY5FUZOnelYrhOEXwkEm1FYCXPTjFcEUBET4aFXX_O3SI_Jx8e6p3ymxVpnJVap2Of2fHIjUV6iZurZDcGPZ1r2W9mR-d6I3kH49lD0WH-IOxe5rctWcbjuuOwCK7I5dUPtjwh2qdCKuMMcTXblhLl1Gk7LJoYXbDY_BfMA7WlM5VXbRzEhSKs",
-      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF7087645&subid=cdspgjnsb7645s&subparam=cps_aff5283ff593f2874d0ed1d76d3b51d03ade48a3&pageKey=9437231485&itemId=22067483328&vendorItemId=80926676987&traceid=V0-",
-      "kit": false,
-      "w": 159,
-      "h": 145
-     },
-     {
-      "host": "api.adapi.co.kr",
-      "img": "https://ads-partners.coupang.com/openapi/image/btB4gXRrtVRCrQRubhCfVT4fQ1ovgrQ4bKXT5phEpeH0DEuESdW5khtHCTOLvMTQmRW24xFQ4_66_RJ2csf-ez6vXichgrzJyvfRx7uWnNs42RtO1ABJ9vGnitAddLWkSC2vgCL98bQmrf5MSVilR1K1g8KvXCG9XeM-nI1kqpBFyEXkZRSpOXHI1qJab8gK_lA7w5G_70MVaLFgF24sh_nL0Y4JzrOI6rtLfD5-o9Sj-TDoSyeQn3yJpXoOZ",
-      "final": "https://link.coupang.com/re/AFFSDP?lptag=AF7087645&subid=cdspgjnsb7645s&subparam=cps_aff5283ff593f2874d0ed1d76d3b51d03ade48a3&pageKey=1583567802&itemId=16189142540&vendorItemId=83384328563&traceid=V0-",
-      "kit": false,
-      "w": 159,
-      "h": 145
-     }
-    ]
    }
   },
   {
@@ -1042,7 +1198,17 @@
     "hits": [],
     "error": "",
     "final_url": "https://m.ilyo.co.kr/",
-    "title": "일요신문"
+    "title": "일요신문",
+    "ads": [
+     {
+      "host": "www.bizhankook.com",
+      "img": "https://m.ilyo.co.kr/pages/_resources/images/layout/leftmenu_banner_biz.png",
+      "final": "https://bizhankook.com/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     }
+    ]
    }
   },
   {
@@ -1060,7 +1226,7 @@
     "found": false,
     "attempts": 3,
     "hits": [],
-    "error": "시간 초과",
+    "error": "",
     "final_url": "https://www.iminju.net/",
     "title": "민주신문",
     "ads": [
@@ -1147,7 +1313,7 @@
      {
       "host": "www.kamco.or.kr",
       "img": "https://www.iminju.net/bannerpop/uploads/image/16669194511725666297.jpg",
-      "final": "http://www.kamco.or.kr/main.do ERR APIRequestContext.get: Request timed out after 8000ms\nCall l",
+      "final": "http://www.kamco.or.kr/main.do ERR APIRequestContext.get: Request timed out after 6000ms\nCall l",
       "kit": false,
       "w": 264,
       "h": 55
@@ -1235,7 +1401,7 @@
      {
       "host": "www.skhynix.com",
       "img": "https://www.iminju.net/bannerpop/uploads/image/1776651723890812376.jpg",
-      "final": "https://www.skhynix.com/",
+      "final": "https://www.skhynix.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 264,
       "h": 70
@@ -1255,54 +1421,6 @@
       "kit": false,
       "w": 264,
       "h": 98
-     },
-     {
-      "host": "www.samsungsds.com",
-      "img": "https://www.iminju.net/bannerpop/uploads/image/1791850780247761973.jpg",
-      "final": "https://www.samsungsds.com/kr/index.html?utm_source=paid_naverbrand&utm_medium=sa-pc&utm_campaign=hq2024_April&utm_content=homelink",
-      "kit": false,
-      "w": 264,
-      "h": 60
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://www.iminju.net/bannerpop/uploads/image/17881503051246105749.jpg",
-      "final": "https://www.youtube.com/watch?si=xWPOk9PYa3XxIWGv&v=U5hVShO9o4c&feature=youtu.be",
-      "kit": false,
-      "w": 264,
-      "h": 60
-     },
-     {
-      "host": "www.ls-electric.com",
-      "img": "https://www.iminju.net/bannerpop/uploads/image/1787636221955406102.jpg",
-      "final": "https://www.ls-electric.com/ko/",
-      "kit": false,
-      "w": 264,
-      "h": 65
-     },
-     {
-      "host": "www.hyundaigroup.com",
-      "img": "https://www.iminju.net/bannerpop/uploads/image/1780029142627591054.jpg",
-      "final": "https://www.hyundaigroup.com/",
-      "kit": false,
-      "w": 264,
-      "h": 73
-     },
-     {
-      "host": "www.dkpharm.co.kr",
-      "img": "https://www.iminju.net/bannerpop/uploads/image/1790666028924731620.jpg",
-      "final": "https://www.dkpharm.co.kr/",
-      "kit": false,
-      "w": 264,
-      "h": 80
-     },
-     {
-      "host": "www.samsunglife.com",
-      "img": "https://www.iminju.net/bannerpop/uploads/image/1783987981174029610.jpg",
-      "final": "https://www.samsunglife.com/",
-      "kit": false,
-      "w": 264,
-      "h": 81
      }
     ]
    }
@@ -1310,32 +1428,6 @@
   {
    "name": "이투데이",
    "home": "https://www.etoday.co.kr/",
-   "mobile": {
-    "found": false,
-    "attempts": 3,
-    "hits": [],
-    "error": "",
-    "final_url": "https://m.etoday.co.kr/",
-    "title": "프리미엄 경제신문 이투데이",
-    "ads": [
-     {
-      "host": "bithumbnanumrun.com",
-      "img": "https://img.etoday.co.kr/web/eto_ad/750_140_M_5.png?v=1791952759",
-      "final": "https://bithumbnanumrun.com/",
-      "kit": false,
-      "w": 390,
-      "h": 73
-     },
-     {
-      "host": "etodayhxi.com",
-      "img": "https://img.etoday.co.kr/web/eto_ad/750_140_M_9.jpg?v=1791952759",
-      "final": "https://etodayhxi.com/",
-      "kit": false,
-      "w": 390,
-      "h": 73
-     }
-    ]
-   },
    "pc": {
     "found": false,
     "attempts": 3,
@@ -1362,16 +1454,16 @@
      },
      {
       "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/5669092050330979835",
-      "final": "https://www.lge.co.kr/category/wash-combo?subCateId=CT50251000",
+      "img": "https://tpc.googlesyndication.com/simgad/3364520674007187738",
+      "final": "https://www.lh.or.kr/index.es?sid=a1",
       "kit": false,
       "w": 300,
       "h": 250
      },
      {
       "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/2779375195720667166",
-      "final": "https://www.youtube.com/watch?v=spL5htzDSCo",
+      "img": "https://tpc.googlesyndication.com/simgad/8913763895636834914",
+      "final": "https://www.kwater.or.kr/main.do?s_mid=1",
       "kit": false,
       "w": 300,
       "h": 250
@@ -1383,6 +1475,32 @@
       "kit": false,
       "w": 970,
       "h": 90
+     }
+    ]
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.etoday.co.kr/",
+    "title": "프리미엄 경제신문 이투데이",
+    "ads": [
+     {
+      "host": "bithumbnanumrun.com",
+      "img": "https://img.etoday.co.kr/web/eto_ad/750_140_M_5.png?v=1791952759",
+      "final": "https://bithumbnanumrun.com/",
+      "kit": false,
+      "w": 390,
+      "h": 73
+     },
+     {
+      "host": "etodayhxi.com",
+      "img": "https://img.etoday.co.kr/web/eto_ad/750_140_M_9.jpg?v=1791952759",
+      "final": "https://etodayhxi.com/",
+      "kit": false,
+      "w": 390,
+      "h": 73
      }
     ]
    }
@@ -1407,9 +1525,9 @@
       "h": 80
      },
      {
-      "host": "www.kofia.or.kr",
-      "img": "https://image.ajunews.com/content/ads/2026/20260706095747652000.png",
-      "final": "https://www.kofia.or.kr/index.do",
+      "host": "ta.ksd.or.kr",
+      "img": "https://image.ajunews.com/content/ads/2026/20260918151750356700.png",
+      "final": "https://ta.ksd.or.kr/index.jsp ERR APIRequestContext.get: read ECONNRESET\nCall log:\n→ GET https",
       "kit": false,
       "w": 300,
       "h": 80
@@ -1464,40 +1582,40 @@
      },
      {
       "host": "www.kyungjeilbo.com",
+      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019104017948422_518_323.jpg",
+      "final": "https://www.kyungjeilbo.com/view/20261019103636092",
+      "kit": false,
+      "w": 380,
+      "h": 100
+     },
+     {
+      "host": "www.kyungjeilbo.com",
+      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019110147208923_518_323.jpg",
+      "final": "https://www.kyungjeilbo.com/view/20261019110005167",
+      "kit": false,
+      "w": 380,
+      "h": 100
+     },
+     {
+      "host": "www.kyungjeilbo.com",
+      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019093411321530_518_323.jpg",
+      "final": "https://www.kyungjeilbo.com/view/20261019092403738",
+      "kit": false,
+      "w": 380,
+      "h": 100
+     },
+     {
+      "host": "www.kyungjeilbo.com",
+      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019091628733789_518_323.jpg",
+      "final": "https://www.kyungjeilbo.com/view/20261019090209640",
+      "kit": false,
+      "w": 380,
+      "h": 100
+     },
+     {
+      "host": "www.kyungjeilbo.com",
       "img": "https://image.ajunews.com/content/image/2026/10/19/20261019090409661737_518_323.png",
       "final": "https://www.kyungjeilbo.com/view/20261019090226641",
-      "kit": false,
-      "w": 380,
-      "h": 100
-     },
-     {
-      "host": "www.kyungjeilbo.com",
-      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019073954211444_518_323.jpg",
-      "final": "https://www.kyungjeilbo.com/view/20261019073607393",
-      "kit": false,
-      "w": 380,
-      "h": 100
-     },
-     {
-      "host": "www.kyungjeilbo.com",
-      "img": "https://image.ajunews.com/content/image/2026/10/18/20261018155356360833_518_323.jpg",
-      "final": "https://www.kyungjeilbo.com/view/20261018155018934",
-      "kit": false,
-      "w": 380,
-      "h": 100
-     },
-     {
-      "host": "www.kyungjeilbo.com",
-      "img": "https://image.ajunews.com/content/image/2026/10/18/20261018153501935027_518_323.jpg",
-      "final": "https://www.kyungjeilbo.com/view/20261018152941897",
-      "kit": false,
-      "w": 380,
-      "h": 100
-     },
-     {
-      "host": "www.kyungjeilbo.com",
-      "img": "https://image.ajunews.com/content/image/2026/10/18/20261018151816130571_518_323.jpg",
-      "final": "https://www.kyungjeilbo.com/view/20261018150648861",
       "kit": false,
       "w": 380,
       "h": 100
@@ -1553,6 +1671,22 @@
     "title": "아주경제 : 5개국어 글로벌 경제지",
     "ads": [
      {
+      "host": "www.elizabetharden.co.kr",
+      "img": "https://image.ajunews.com/content/ads/2026/20261012154152388370.png",
+      "final": "https://www.elizabetharden.co.kr/product/sublist.asp?cate=16221 ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.shinyoung.com",
+      "img": "https://image.ajunews.com/content/ads/2026/20260929153249580090.png",
+      "final": "https://www.shinyoung.com/?page=00000",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
       "host": "youtu.be",
       "img": "https://i.ytimg.com/vi/BjZbq9IW_ME/hq720.jpg",
       "final": "https://m.youtube.com/watch?v=BjZbq9IW_ME&feature=youtu.be",
@@ -1602,40 +1736,40 @@
      },
      {
       "host": "www.kyungjeilbo.com",
+      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019104017948422_518_323.jpg",
+      "final": "https://m.kyungjeilbo.com/view/20261019103636092",
+      "kit": false,
+      "w": 360,
+      "h": 90
+     },
+     {
+      "host": "www.kyungjeilbo.com",
+      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019110147208923_518_323.jpg",
+      "final": "https://m.kyungjeilbo.com/view/20261019110005167",
+      "kit": false,
+      "w": 360,
+      "h": 90
+     },
+     {
+      "host": "www.kyungjeilbo.com",
+      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019093411321530_518_323.jpg",
+      "final": "https://m.kyungjeilbo.com/view/20261019092403738",
+      "kit": false,
+      "w": 360,
+      "h": 90
+     },
+     {
+      "host": "www.kyungjeilbo.com",
+      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019091628733789_518_323.jpg",
+      "final": "https://m.kyungjeilbo.com/view/20261019090209640",
+      "kit": false,
+      "w": 360,
+      "h": 90
+     },
+     {
+      "host": "www.kyungjeilbo.com",
       "img": "https://image.ajunews.com/content/image/2026/10/19/20261019090409661737_518_323.png",
       "final": "https://m.kyungjeilbo.com/view/20261019090226641",
-      "kit": false,
-      "w": 360,
-      "h": 90
-     },
-     {
-      "host": "www.kyungjeilbo.com",
-      "img": "https://image.ajunews.com/content/image/2026/10/19/20261019073954211444_518_323.jpg",
-      "final": "https://m.kyungjeilbo.com/view/20261019073607393",
-      "kit": false,
-      "w": 360,
-      "h": 90
-     },
-     {
-      "host": "www.kyungjeilbo.com",
-      "img": "https://image.ajunews.com/content/image/2026/10/18/20261018155356360833_518_323.jpg",
-      "final": "https://m.kyungjeilbo.com/view/20261018155018934",
-      "kit": false,
-      "w": 360,
-      "h": 90
-     },
-     {
-      "host": "www.kyungjeilbo.com",
-      "img": "https://image.ajunews.com/content/image/2026/10/18/20261018153501935027_518_323.jpg",
-      "final": "https://m.kyungjeilbo.com/view/20261018152941897",
-      "kit": false,
-      "w": 360,
-      "h": 90
-     },
-     {
-      "host": "www.kyungjeilbo.com",
-      "img": "https://image.ajunews.com/content/image/2026/10/18/20261018151816130571_518_323.jpg",
-      "final": "https://m.kyungjeilbo.com/view/20261018150648861",
       "kit": false,
       "w": 360,
       "h": 90
@@ -1682,7 +1816,7 @@
      },
      {
       "host": "adgrp1.ad4989.co.kr",
-      "img": "https://cdn3.ad4989.co.kr/group1/02U0/01_q0/1756094806735.jpeg",
+      "img": "https://cdn11.ad4989.co.kr/group1/02U0/01_q0/1756094806735.jpeg",
       "final": "https://adgrp1.ad4989.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=05I8%26bannerid=2shZ%26campaignid=01q0",
       "kit": false,
       "w": 320,
@@ -1721,7 +1855,7 @@
      {
       "host": "www.hanafn.com",
       "img": "https://www.sisamagazine.co.kr/publication/d9c0662bb96c67d0d938bbe17277e5cb879972852774b9a78ff38c69cbf5ba97.jpeg",
-      "final": "https://www.hanafn.com:8002/",
+      "final": "http://www.hanafn.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 128,
       "h": 50
@@ -1745,7 +1879,7 @@
      {
       "host": "www.ulsannews.net",
       "img": "https://www.sisamagazine.co.kr/publication/51ae1154d2bff734fba820f42862c5f24e29c943ec43f0c3870feface38183b8.jpeg",
-      "final": "https://www.ulsannews.net/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
+      "final": "https://www.ulsannews.net/",
       "kit": false,
       "w": 281,
       "h": 50
@@ -1779,7 +1913,7 @@
      {
       "host": "www.hanafn.com",
       "img": "https://www.sisamagazine.co.kr/publication/d9c0662bb96c67d0d938bbe17277e5cb879972852774b9a78ff38c69cbf5ba97.jpeg",
-      "final": "https://www.hanafn.com:8002/",
+      "final": "http://www.hanafn.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 153,
       "h": 50
@@ -1803,7 +1937,7 @@
      {
       "host": "www.ulsannews.net",
       "img": "https://www.sisamagazine.co.kr/publication/51ae1154d2bff734fba820f42862c5f24e29c943ec43f0c3870feface38183b8.jpeg",
-      "final": "https://www.ulsannews.net/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
+      "final": "http://m.ulsannews.net/",
       "kit": false,
       "w": 332,
       "h": 50
@@ -1855,9 +1989,9 @@
       "h": 126
      },
      {
-      "host": "www.shinhancard.com",
-      "img": "https://img.asiatoday.co.kr/adver/banner_img/2026/09/ad_103_20260921_165134.jpg",
-      "final": "https://www.shinhancard.com/pconts/html/card/micro/discount_plan_micro.html?plus=tr",
+      "host": "adapi.feeldmc.com",
+      "img": "https://img.asiatoday.co.kr/adver/banner_img/2026/10/ad_103_20261006_132822.gif",
+      "final": "https://www.youtube.com/watch?v=6-1dpO7uMyU",
       "kit": false,
       "w": 320,
       "h": 149
@@ -1871,28 +2005,28 @@
       "h": 149
      },
      {
-      "host": "www.ksure.or.kr",
-      "img": "https://img.asiatoday.co.kr/adver/banner_img/2026/10/ad_107_20261015_174834.jpg",
-      "final": "https://www.ksure.or.kr/",
+      "host": "www.kogas.or.kr",
+      "img": "https://img.asiatoday.co.kr/adver/banner_img/2026/10/ad_107_20261013_092033.jpg",
+      "final": "https://www.kogas.or.kr/site/koGas/main",
+      "kit": false,
+      "w": 320,
+      "h": 149
+     },
+     {
+      "host": "www.lemi.or.kr",
+      "img": "https://img.asiatoday.co.kr/adver/banner_img/2026/10/ad_108_20261015_174920.jpg",
+      "final": "https://www.lemi.or.kr/contents.do?menuno=274",
       "kit": false,
       "w": 320,
       "h": 149
      },
      {
       "host": "youtu.be",
-      "img": "https://img.asiatoday.co.kr/adver/banner_img/2026/09/ad_131_20260923_184705.jpg",
-      "final": "https://www.youtube.com/watch?si=o2576sTa7kyJk-Hr&v=Hizke6WPTQs&feature=youtu.be",
+      "img": "https://img.asiatoday.co.kr/adver/banner_img/2026/10/ad_109_20261016_171231.jpg",
+      "final": "https://www.youtube.com/watch?si=djxDzSjW3xTmGDCO&v=oyq1nD3_4dc&feature=youtu.be",
       "kit": false,
-      "w": 320,
-      "h": 149
-     },
-     {
-      "host": "www.khug.or.kr",
-      "img": "https://img.asiatoday.co.kr/adver/banner_img/2026/10/ad_109_20261002_103744.png",
-      "final": "https://www.khug.or.kr/index_hug_in.jsp ERR 'utf-8' codec can't decode byte 0xc1 in position 716: invali",
-      "kit": false,
-      "w": 274,
-      "h": 263
+      "w": 300,
+      "h": 250
      }
     ]
    }
@@ -1919,10 +2053,18 @@
      {
       "host": "www.hanafn.com",
       "img": "https://beta.kod.es/data/beta/upload/save/banner/beta17827962295576.jpg",
-      "final": "https://www.hanafn.com:8002/main/index.do",
+      "final": "https://www.hanafn.com:8002/main/index.do ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 600,
       "h": 83
+     },
+     {
+      "host": "prod.danawa.com",
+      "img": "https://beta.kod.es/data/beta/upload/save/banner/beta17504187979494.jpg",
+      "final": "https://prod.danawa.com/info/?pcode=69697058&cate=112751",
+      "kit": false,
+      "w": 0,
+      "h": 0
      },
      {
       "host": "www.shinhangroup.com",
@@ -1951,7 +2093,7 @@
      {
       "host": "www.skhynix.com",
       "img": "https://beta.kod.es/data/beta/upload/save/banner/beta17647319443759.jpg",
-      "final": "https://www.skhynix.com/",
+      "final": "https://www.skhynix.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 300,
       "h": 245
@@ -2026,7 +2168,7 @@
   {
    "name": "쿠키뉴스",
    "home": "https://www.kukinews.com/",
-   "pc": {
+   "mobile": {
     "found": false,
     "attempts": 3,
     "hits": [],
@@ -2034,7 +2176,7 @@
     "final_url": "https://www.kukinews.com/",
     "title": "Attention Required! | Cloudflare"
    },
-   "mobile": {
+   "pc": {
     "found": false,
     "attempts": 3,
     "hits": [],
@@ -2046,6 +2188,14 @@
   {
    "name": "글로벌이코노믹",
    "home": "https://www.g-enews.com/",
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "http://m.g-enews.com/",
+    "title": "글로벌이코노믹"
+   },
    "pc": {
     "found": false,
     "attempts": 3,
@@ -2065,20 +2215,12 @@
      {
       "host": "www.globalmotors.co.kr",
       "img": "https://nimage.g-enews.com/phpwas/restmb_setimgmake.php?w=92&h=58&m=1&simg=202610020747350436631a5c2dd38218237203104.jpg",
-      "final": "http://www.globalmotors.co.kr/view.php?ud=20261002074450115931a5c2dd38_5",
+      "final": "http://www.globalmotors.co.kr/view.php?ud=20261002074450115931a5c2dd38_5 ERR ",
       "kit": false,
       "w": 92,
       "h": 58
      }
     ]
-   },
-   "mobile": {
-    "found": false,
-    "attempts": 3,
-    "hits": [],
-    "error": "",
-    "final_url": "http://m.g-enews.com/",
-    "title": "글로벌이코노믹"
    }
   },
   {
@@ -2119,7 +2261,7 @@
      {
       "host": "adapi.feeldmc.com",
       "img": "https://cdn.seoulfn.com/bannerpop/uploads/image/179072689417973137.jpg",
-      "final": "https://okbfex.kbstar.com/quics?page=opensn&airbridge_referrer=airbridge%3Dtrue%26client_id%3Dafcd799a-7c54-4295-bed7-ac6605176721%26event_uuid%3Dfc9c84c3-3325-5169-b387-a691a29380ef%26referrer_timest",
+      "final": "https://okbfex.kbstar.com/quics?page=opensn&airbridge_referrer=airbridge%3Dtrue%26client_id%3Dc191b199-a174-461f-b025-a5f0a9a96202%26event_uuid%3D2ca65d0c-6ea8-58d4-8752-a4c6ba3c0e9c%26referrer_timest",
       "kit": false,
       "w": 300,
       "h": 100
@@ -2175,7 +2317,7 @@
      {
       "host": "www.skhynix.com",
       "img": "https://cdn.seoulfn.com/bannerpop/uploads/image/1788156737606717588.jpg",
-      "final": "https://www.skhynix.com/",
+      "final": "https://www.skhynix.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 245,
       "h": 82
@@ -2395,7 +2537,7 @@
      {
       "host": "adapi.feeldmc.com",
       "img": "https://cdn.getnews.co.kr/bannerpop/uploads/image/179067693260817545.jpg",
-      "final": "https://okbfex.kbstar.com/quics?page=opensn&airbridge_referrer=airbridge%3Dtrue%26client_id%3Dcf793bcf-e539-4f52-a22a-2f2e0fdeade8%26event_uuid%3D82703352-e155-51a8-9333-01ccabf1442f%26referrer_timest",
+      "final": "https://okbfex.kbstar.com/quics?page=opensn&airbridge_referrer=airbridge%3Dtrue%26client_id%3D3933e978-d5ce-4872-8a44-454f0a6659e7%26event_uuid%3Dc72df046-58c7-5a7e-ad45-e2005d58d9af%26referrer_timest",
       "kit": false,
       "w": 216,
       "h": 214
@@ -2403,7 +2545,7 @@
      {
       "host": "www.skhynix.com",
       "img": "https://cdn.getnews.co.kr/bannerpop/uploads/image/17647249652144652085.jpg",
-      "final": "https://www.skhynix.com/",
+      "final": "https://www.skhynix.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 216,
       "h": 214
@@ -2411,7 +2553,7 @@
      {
       "host": "www.hanafn.com",
       "img": "https://cdn.getnews.co.kr/bannerpop/uploads/image/17356086141025165836.png",
-      "final": "https://www.hanafn.com:8002/",
+      "final": "http://www.hanafn.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 216,
       "h": 214
@@ -2459,7 +2601,7 @@
      {
       "host": "www.uiwang.go.kr",
       "img": "https://cdn.getnews.co.kr/bannerpop/uploads/image/17918769411550483785.jpg",
-      "final": "https://www.uiwang.go.kr/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
+      "final": "https://www.uiwang.go.kr/index",
       "kit": false,
       "w": 216,
       "h": 100
@@ -2589,7 +2731,7 @@
      {
       "host": "www.skhynix.com",
       "img": "https://cdn.getnews.co.kr/bannerpop/uploads/image/17647249652144652085.jpg",
-      "final": "https://www.skhynix.com/",
+      "final": "https://www.skhynix.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 350,
       "h": 214
@@ -2597,7 +2739,7 @@
      {
       "host": "www.hanafn.com",
       "img": "https://cdn.getnews.co.kr/bannerpop/uploads/image/17356086141025165836.png",
-      "final": "https://www.hanafn.com:8002/",
+      "final": "http://www.hanafn.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 350,
       "h": 214
@@ -2645,7 +2787,7 @@
      {
       "host": "www.uiwang.go.kr",
       "img": "https://cdn.getnews.co.kr/bannerpop/uploads/image/17918769411550483785.jpg",
-      "final": "https://www.uiwang.go.kr/index",
+      "final": "https://www.uiwang.go.kr/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 350,
       "h": 100
@@ -2719,6 +2861,38 @@
       "kit": false,
       "w": 240,
       "h": 203
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://i.ytimg.com/vi/l2hTRLaDs0o/mqdefault.jpg",
+      "final": "https://www.youtube.com/watch?si=mBaro9NVqCOfQN_D&v=l2hTRLaDs0o&feature=youtu.be",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://i.ytimg.com/vi/YqbseVAm9po/mqdefault.jpg",
+      "final": "https://www.youtube.com/watch?si=PL_IEjSF34NBrCl-&v=YqbseVAm9po&feature=youtu.be",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://i.ytimg.com/vi/8saZIVKxz6s/mqdefault.jpg",
+      "final": "https://www.youtube.com/watch?si=W0Vjpgy92GO-TifY&v=8saZIVKxz6s&feature=youtu.be",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://i.ytimg.com/vi/ArIzo660bkE/mqdefault.jpg",
+      "final": "https://www.youtube.com/watch?si=y1CnKt-RNYVJBmaz&v=ArIzo660bkE&feature=youtu.be",
+      "kit": false,
+      "w": 0,
+      "h": 0
      }
     ]
    },
@@ -2769,6 +2943,38 @@
       "kit": false,
       "w": 164,
       "h": 148
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://i.ytimg.com/vi/l2hTRLaDs0o/mqdefault.jpg",
+      "final": "https://m.youtube.com/watch?si=mBaro9NVqCOfQN_D&v=l2hTRLaDs0o&feature=youtu.be",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://i.ytimg.com/vi/YqbseVAm9po/mqdefault.jpg",
+      "final": "https://m.youtube.com/watch?si=PL_IEjSF34NBrCl-&v=YqbseVAm9po&feature=youtu.be",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://i.ytimg.com/vi/8saZIVKxz6s/mqdefault.jpg",
+      "final": "https://m.youtube.com/watch?si=W0Vjpgy92GO-TifY&v=8saZIVKxz6s&feature=youtu.be",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://i.ytimg.com/vi/ArIzo660bkE/mqdefault.jpg",
+      "final": "https://m.youtube.com/watch?si=y1CnKt-RNYVJBmaz&v=ArIzo660bkE&feature=youtu.be",
+      "kit": false,
+      "w": 0,
+      "h": 0
      }
     ]
    }
@@ -2776,6 +2982,208 @@
   {
    "name": "헤럴드경제",
    "home": "https://biz.heraldcorp.com/",
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://biz.heraldcorp.com/",
+    "title": "헤럴드경제",
+    "ads": [
+     {
+      "host": "www.koreaherald.com",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.3c930a14429e439cb4afe08471621608_T1.gif",
+      "final": "https://www.koreaherald.com/article/10896135",
+      "kit": false,
+      "w": 114,
+      "h": 251
+     },
+     {
+      "host": "www.koreaherald.com",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.a9f2659e34e24c279a71e8c43330422f_T1.gif",
+      "final": "https://www.koreaherald.com/article/10906354",
+      "kit": false,
+      "w": 164,
+      "h": 292
+     },
+     {
+      "host": "www.koreaherald.com",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261015.d4dd881eab584b4e8ce6ec52a672b278_T1.gif",
+      "final": "https://www.koreaherald.com/article/10904163",
+      "kit": false,
+      "w": 114,
+      "h": 251
+     },
+     {
+      "host": "www.koreaherald.com",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261014.7ef2eb06bdec41a2a4ce1e749d467227_T1.gif",
+      "final": "https://www.koreaherald.com/article/10902792",
+      "kit": false,
+      "w": 43,
+      "h": 217
+     },
+     {
+      "host": "www.koreaherald.com",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/13/news-p.v1.20261013.78692699312346e2a2817fabedf14bb6_T1.gif",
+      "final": "https://www.koreaherald.com/article/10901448",
+      "kit": false,
+      "w": 29,
+      "h": 187
+     },
+     {
+      "host": "www.daishin.com",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202608/565d1e1c-21a6-4672-a535-30a90e18d240.png",
+      "final": "https://www.daishin.com/content/w/customer/event/eventDetail.ds?m=1109&p=12933&v=12835&cid=5193",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "scaila.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202605/93224faf-73fd-45c2-a431-a9959cdf3d98.png",
+      "final": "https://scaila.kr/apex/?utm_source=herald&utm_medium=display&utm_campaign=apex_herald_banner_2026q2&utm_content=banner_home",
+      "kit": false,
+      "w": 319,
+      "h": 170
+     },
+     {
+      "host": "www.asiapacificconference.com",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/7b1ed660-fce9-4cd6-826e-adfdd8616d4a.png",
+      "final": "https://www.asiapacificconference.com/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.artandbridge.com",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/5fcf1370-f1c4-4c2e-bdd7-ce330b2de054.jpg",
+      "final": "https://www.artandbridge.com/competitions/c8259e20-48dc-4881-9195-187df4b133c1",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.incheon.go.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202610/be3b7778-7384-4d3a-ab00-36b6eb6d54f4.jpg",
+      "final": "https://www.incheon.go.kr/index",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "dbinsure.co.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202608/2d32556c-a593-4989-9d98-06179aa2f2c2.jpg",
+      "final": "https://dbinsure.co.kr/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "securities.koreainvestment.com",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202608/4e7debaa-7548-4272-bead-3455f256a50d.png",
+      "final": "https://securities.koreainvestment.com/main/Main.jsp",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.jeonnam.go.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/3a5b9e1a-b186-4195-8181-6dce8d7eaa6b.jpg",
+      "final": "https://www.jeonnam.go.kr/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.idbins.com",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/22e2b686-e41e-4315-a070-5661847dde53.jpg",
+      "final": "https://www.idbins.com/FWMAIV0001.do",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.mpva.go.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/066f9914-85a9-4b03-a85c-474d517648c2.png",
+      "final": "https://www.mpva.go.kr/mpva/selectBbsNttView.do?key=2158&bbsNo=436&nttNo=275421&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.suncheon.go.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/97a955a8-8fdb-409c-957f-9e7a40e2f7ef.jpg",
+      "final": "https://www.suncheon.go.kr/kr/ ERR ",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.saemangeum.go.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/2d13136f-0fcd-4a5c-8e39-8db38f7678a6.jpg",
+      "final": "https://www.saemangeum.go.kr/sda/main.do",
+      "kit": false,
+      "w": 319,
+      "h": 170
+     },
+     {
+      "host": "www.gwangju.go.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/13412bd9-f385-4657-a7fe-3f6f8ba927d5.jpg",
+      "final": "https://www.gwangju.go.kr/siiru.do",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.gh.or.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/d9e7e66e-22fb-4351-ac1c-1c0ce98a9bcc.jpg",
+      "final": "https://www.gh.or.kr/gh/index.do",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.yongin.go.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202609/be92fc91-de18-4880-b90f-b655d395f792.gif",
+      "final": "https://www.yongin.go.kr/index.do",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "island.yeosu2026.or.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202610/37f36f68-385b-4f2d-b87e-f02e3041c6b9.png",
+      "final": "https://island.yeosu2026.or.kr/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.ksure.or.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202610/30d324d0-48f1-41e6-9f81-bf2069e1cacd.png",
+      "final": "https://www.ksure.or.kr/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.khnp.co.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202610/d0b7294d-baa9-4f7a-b810-57dc76f50493.jpg",
+      "final": "https://www.khnp.co.kr/main/index.do",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.comwel.or.kr",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202610/b071d065-35cf-4ce9-a93f-260f69857c16.jpg",
+      "final": "https://www.comwel.or.kr/comwel/landing.jsp",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     }
+    ]
+   },
    "mobile": {
     "found": false,
     "attempts": 3,
@@ -2799,6 +3207,22 @@
       "kit": false,
       "w": 153,
       "h": 331
+     },
+     {
+      "host": "m.koreaherald.com",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/14/news-p.v1.20261014.7ef2eb06bdec41a2a4ce1e749d467227_T1.gif",
+      "final": "https://m.koreaherald.com/article/10902792",
+      "kit": false,
+      "w": 64,
+      "h": 287
+     },
+     {
+      "host": "www.shinsegaegroupnewsroom.com",
+      "img": "https://wimg.heraldcorp.com/svc/banner/202511/699ceb03-d90a-4e76-876b-449c88f6fab6.gif",
+      "final": "https://www.shinsegaegroupnewsroom.com/?utm_source=bizherald&utm_medium=banner&utm_campaign=main",
+      "kit": false,
+      "w": 0,
+      "h": 0
      },
      {
       "host": "youtu.be",
@@ -2890,269 +3314,51 @@
      },
      {
       "host": "m.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.fe4451ba7fe540319356497b38c06bdd_T1.jpg",
-      "final": "https://m.heraldmuse.com/article/10906801",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-a.v1.20261019.c22527b246bb4af1ba4bdeed29bf1b19_T1.png",
+      "final": "https://m.heraldmuse.com/article/10907017",
       "kit": false,
       "w": 232,
       "h": 232
      },
      {
       "host": "m.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.ff2b42b1cebb4269acba43af46bf913c_T1.png",
-      "final": "https://m.heraldmuse.com/article/10906796",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.4a7f9ef3425641c9b32d142b030a8f84_T1.jpg",
+      "final": "https://m.heraldmuse.com/article/10906995",
       "kit": false,
       "w": 114,
       "h": 114
      },
      {
       "host": "m.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.d0344e4e1779484fbdd6cac90fee2e89_T1.jpg",
-      "final": "https://m.heraldmuse.com/article/10906782",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.2f782b8a535049049184060fa4298ab0_T1.jpg",
+      "final": "https://m.heraldmuse.com/article/10906968",
       "kit": false,
       "w": 114,
       "h": 114
      },
      {
       "host": "m.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.05a455782ddf4ee286f0a50a624d2075_T1.jpg",
-      "final": "https://m.heraldmuse.com/article/10906781",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.0003c93a86be485aa8655cfc938d6186_T1.png",
+      "final": "https://m.heraldmuse.com/article/10906965",
       "kit": false,
       "w": 114,
       "h": 114
      },
      {
       "host": "m.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.1b13ef7cbfc84198be9e554275d6fdff_T1.jpg",
-      "final": "https://m.heraldmuse.com/article/10906780",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.dc1f8eae5cb74a40a3ba7eb77c5b1dfd_T1.jpg",
+      "final": "https://m.heraldmuse.com/article/10906962",
       "kit": false,
       "w": 114,
       "h": 114
      },
      {
       "host": "m.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.13793a4cc7ef483eb055ccbb5f16b7df_T1.jpg",
-      "final": "https://m.heraldmuse.com/article/10906779",
+      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.0acf4c9b17f64a9fb82e4045e09bfa5b_T1.jpg",
+      "final": "https://m.heraldmuse.com/article/10906946",
       "kit": false,
       "w": 232,
       "h": 232
-     }
-    ]
-   },
-   "pc": {
-    "found": false,
-    "attempts": 3,
-    "hits": [],
-    "error": "",
-    "final_url": "https://biz.heraldcorp.com/",
-    "title": "헤럴드경제",
-    "ads": [
-     {
-      "host": "www.koreaherald.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/07/news-p.v1.20261007.3c930a14429e439cb4afe08471621608_T1.gif",
-      "final": "https://www.koreaherald.com/article/10896135",
-      "kit": false,
-      "w": 114,
-      "h": 251
-     },
-     {
-      "host": "www.koreaherald.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/18/news-p.v1.20261018.a9f2659e34e24c279a71e8c43330422f_T1.gif",
-      "final": "https://www.koreaherald.com/article/10906354",
-      "kit": false,
-      "w": 164,
-      "h": 292
-     },
-     {
-      "host": "www.koreaherald.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261015.d4dd881eab584b4e8ce6ec52a672b278_T1.gif",
-      "final": "https://www.koreaherald.com/article/10904163",
-      "kit": false,
-      "w": 114,
-      "h": 251
-     },
-     {
-      "host": "www.asiapacificconference.com",
-      "img": "https://wimg.heraldcorp.com/svc/banner/202609/7b1ed660-fce9-4cd6-826e-adfdd8616d4a.png",
-      "final": "https://www.asiapacificconference.com/",
-      "kit": false,
-      "w": 319,
-      "h": 170
-     },
-     {
-      "host": "securities.koreainvestment.com",
-      "img": "https://wimg.heraldcorp.com/svc/banner/202608/4e7debaa-7548-4272-bead-3455f256a50d.png",
-      "final": "https://securities.koreainvestment.com/main/Main.jsp",
-      "kit": false,
-      "w": 319,
-      "h": 170
-     },
-     {
-      "host": "ipsi.kopo.ac.kr",
-      "img": "https://wimg.heraldcorp.com/svc/banner/202610/12ad7570-482d-4753-a3b4-62d779728c23.jpg",
-      "final": "https://ipsi.kopo.ac.kr/poly/wonseo/wonseoSearch.do ERR ",
-      "kit": false,
-      "w": 319,
-      "h": 170
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/7fu6Wzy3nbY/sddefault.jpg",
-      "final": "https://www.youtube.com/watch?v=7fu6Wzy3nbY&feature=youtu.be",
-      "kit": false,
-      "w": 401,
-      "h": 228
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/ez4vItBikgg/default.jpg",
-      "final": "https://www.youtube.com/watch?v=ez4vItBikgg&feature=youtu.be",
-      "kit": false,
-      "w": 340,
-      "h": 105
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/T8Z2vTHG6vU/default.jpg",
-      "final": "https://www.youtube.com/watch?v=T8Z2vTHG6vU&feature=youtu.be",
-      "kit": false,
-      "w": 336,
-      "h": 48
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/JwHVOBwFWRI/default.jpg",
-      "final": "https://www.youtube.com/watch?v=JwHVOBwFWRI&feature=youtu.be",
-      "kit": false,
-      "w": 340,
-      "h": 48
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/nWlkuiAu9n0/sddefault.jpg",
-      "final": "https://www.youtube.com/watch?v=nWlkuiAu9n0&feature=youtu.be",
-      "kit": false,
-      "w": 150,
-      "h": 290
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/KFpnuKTcHY4/sddefault.jpg",
-      "final": "https://www.youtube.com/watch?v=KFpnuKTcHY4&feature=youtu.be",
-      "kit": false,
-      "w": 150,
-      "h": 290
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/XKVz5H_a22A/sddefault.jpg",
-      "final": "https://www.youtube.com/watch?v=XKVz5H_a22A&feature=youtu.be",
-      "kit": false,
-      "w": 150,
-      "h": 290
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/VPAO1kKnx98/sddefault.jpg",
-      "final": "https://www.youtube.com/watch?v=VPAO1kKnx98&feature=youtu.be",
-      "kit": false,
-      "w": 150,
-      "h": 290
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/WCH810GD9ek/sddefault.jpg",
-      "final": "https://www.youtube.com/watch?v=WCH810GD9ek&feature=youtu.be",
-      "kit": false,
-      "w": 401,
-      "h": 228
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/8Xu6EbQYTEI/default.jpg",
-      "final": "https://www.youtube.com/watch?v=8Xu6EbQYTEI&feature=youtu.be",
-      "kit": false,
-      "w": 340,
-      "h": 48
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/USPkD0eF-U4/default.jpg",
-      "final": "https://www.youtube.com/watch?v=USPkD0eF-U4&feature=youtu.be",
-      "kit": false,
-      "w": 340,
-      "h": 48
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://i.ytimg.com/vi/a_bI0C1PC4A/default.jpg",
-      "final": "https://www.youtube.com/watch?v=a_bI0C1PC4A&feature=youtu.be",
-      "kit": false,
-      "w": 340,
-      "h": 48
-     },
-     {
-      "host": "www.koreaherald.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.b85a81c8b611413e9d0f29b0cc737c72_R.jpg?type=w&w=400",
-      "final": "https://www.koreaherald.com/article/10906536",
-      "kit": false,
-      "w": 350,
-      "h": 348
-     },
-     {
-      "host": "www.realfoods.co.kr",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/16/news-p.v1.20261008.eb3a49d9ce7b4dc38d0c3dd28017d467_R.gif",
-      "final": "https://www.realfoods.co.kr/article/10905174",
-      "kit": false,
-      "w": 350,
-      "h": 252
-     },
-     {
-      "host": "www.realfoods.co.kr",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/15/news-p.v1.20261015.d2dc552f66394b92ac0e504bc7c55628_R.jpg",
-      "final": "https://www.realfoods.co.kr/article/10903214",
-      "kit": false,
-      "w": 350,
-      "h": 252
-     },
-     {
-      "host": "www.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.fe4451ba7fe540319356497b38c06bdd_T1.jpg",
-      "final": "https://www.heraldmuse.com/article/10906801",
-      "kit": false,
-      "w": 350,
-      "h": 94
-     },
-     {
-      "host": "www.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.ff2b42b1cebb4269acba43af46bf913c_T1.png",
-      "final": "https://www.heraldmuse.com/article/10906796",
-      "kit": false,
-      "w": 350,
-      "h": 94
-     },
-     {
-      "host": "www.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.d0344e4e1779484fbdd6cac90fee2e89_T1.jpg",
-      "final": "https://www.heraldmuse.com/article/10906782",
-      "kit": false,
-      "w": 350,
-      "h": 70
-     },
-     {
-      "host": "www.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.05a455782ddf4ee286f0a50a624d2075_T1.jpg",
-      "final": "https://www.heraldmuse.com/article/10906781",
-      "kit": false,
-      "w": 350,
-      "h": 64
-     },
-     {
-      "host": "www.heraldmuse.com",
-      "img": "https://wimg.heraldcorp.com/news/cms/2026/10/19/news-p.v1.20261019.1b13ef7cbfc84198be9e554275d6fdff_T1.jpg",
-      "final": "https://www.heraldmuse.com/article/10906780",
-      "kit": false,
-      "w": 350,
-      "h": 70
      }
     ]
    }
@@ -3173,8 +3379,8 @@
     "attempts": 3,
     "hits": [],
     "error": "",
-    "final_url": "https://m.dnews.co.kr/m_home/",
-    "title": "대한경제"
+    "final_url": "chrome-error://chromewebdata/",
+    "title": ""
    }
   },
   {
@@ -3186,7 +3392,25 @@
     "hits": [],
     "error": "",
     "final_url": "https://www.news1.kr/",
-    "title": "뉴스1"
+    "title": "뉴스1",
+    "ads": [
+     {
+      "host": "www.cryptohub.or.kr",
+      "img": "https://image.news1.kr/system/screens/news1/zone/115/2026/9/10/52/1789019022_OQRFW.jpg",
+      "final": "https://www.cryptohub.or.kr/",
+      "kit": false,
+      "w": 354,
+      "h": 35
+     },
+     {
+      "host": "v.daum.net",
+      "img": "https://image.news1.kr/system/resource/news1_www/banners/m/daum.jpg",
+      "final": "https://v.daum.net/channel/396/home",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     }
+    ]
    },
    "pc": {
     "found": false,
@@ -3205,65 +3429,9 @@
       "h": 59
      },
      {
-      "host": "www.kbinsure.co.kr",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F7%2F21%2F27713%2F1784606734_NBBYH.jpg&w=750&q=75",
-      "final": "https://www.kbinsure.co.kr/CG302290001.ec ERR 'utf-8' codec can't decode byte 0xb1 in position 214: invali",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F5%2F28%2F27351%2F1779943438_ASFYV.jpg&w=750&q=75",
-      "final": "https://www.youtube.com/watch?si=xWPOk9PYa3XxIWGv&v=U5hVShO9o4c&feature=youtu.be",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "adapi.feeldmc.com",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F10%2F1%2F28292%2F1790829820_QIZDV.jpg&w=750&q=75",
-      "final": "https://omoney.kbstar.com/quics?page=C042120#loading",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "www.kwater.or.kr",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2024%2F4%2F19%2F21048%2F1713480072_VBIVD.jpg&w=750&q=75",
-      "final": "https://www.kwater.or.kr/",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "direct.samsungfire.com",
-      "img": "https://image.news1.kr/system/ads_t/2026/8/28/27733/1787893353_POQOG.gif",
-      "final": "https://direct.samsungfire.com/ria/pc/product/factory/?state=Front&product=smartM&eventType=S_J_700",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "www.seoulmetro.co.kr",
-      "img": "https://image.news1.kr/system/ads_t/2026/10/19/28425/1792369270_QTHJJ.gif",
-      "final": "https://www.seoulmetro.co.kr/kr/index.do?device=PC ERR APIRequestContext.get: Client network socket disconnected be",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "www.nonghyup.com",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2024%2F10%2F23%2F22579%2F1729670432_GZFQN.jpg&w=750&q=75",
-      "final": "https://www.nonghyup.com/main/psniMain.do",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "www.samsunglife.com",
-      "img": "https://image.news1.kr/system/ads_t/2025/7/29/24723/1753766050_IFCLN.gif",
-      "final": "https://www.samsunglife.com/",
+      "host": "www.foodbank1377.org",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F10%2F1%2F28293%2F1790832157_QAFRT.jpg&w=750&q=75",
+      "final": "https://www.foodbank1377.org/",
       "kit": false,
       "w": 300,
       "h": 60
@@ -3277,89 +3445,9 @@
       "h": 60
      },
      {
-      "host": "www.hanafn.com",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F4%2F30%2F5339%2F1777515139_ZLUTU.jpg&w=1920&q=75",
-      "final": "https://www.hanafn.com/",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F7%2F16%2F27697%2F1784175153_GXXOR.jpg&w=1920&q=75",
-      "final": "https://www.youtube.com/watch?si=2yHY3QTp2WLi2qDQ&v=Oj24Uix7FD8&feature=youtu.be",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "adapi.feeldmc.com",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F9%2F30%2F28270%2F1790728107_CHMAC.jpg&w=1920&q=75",
-      "final": "https://okbfex.kbstar.com/quics?page=opensn&airbridge_referrer=airbridge%3Dtrue%26client_id%3D9045b20a-8238-44c4-802c-612acf5a8e0a%26event_uuid%3D3b69af48-97f7-53bd-94a5-6f052522ae3f%26referrer_timest",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "www.foodbank1377.org",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F10%2F1%2F28293%2F1790832157_QAFRT.jpg&w=1920&q=75",
-      "final": "https://www.foodbank1377.org/",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "lgartssponsorship.lg.co.kr",
-      "img": "https://image.news1.kr/system/ads_t/2026/4/2/26633/1775111057_FBKYK.gif",
-      "final": "https://lgartssponsorship.lg.co.kr/kr/?utm_source=media&utm_medium=digitalbanner&utm_campaign=2026_lgxguggenheim",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "securities.koreainvestment.com",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F3%2F30%2F26605%2F1774857659_UUSLE.png&w=1920&q=75",
-      "final": "https://securities.koreainvestment.com/main/Main.jsp",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
       "host": "adapi.feeldmc.com",
       "img": "https://image.news1.kr/system/ads_t/2026/10/6/28321/1791265034_FOYCI.gif",
       "final": "https://www.youtube.com/watch?v=6-1dpO7uMyU",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "www.i-sh.co.kr",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F9%2F30%2F28278%2F1790743162_TTXXB.jpg&w=1920&q=75",
-      "final": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=310008",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "news.lgdisplay.com",
-      "img": "https://image.news1.kr/system/ads_t/2025/5/27/24275/1748325757_ZIMNH.gif",
-      "final": "https://news.lgdisplay.com/",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "www.shinhan.com",
-      "img": "https://image.news1.kr/system/ads_t/2026/6/25/27558/1782371351_UBLRM.gif",
-      "final": "https://www.shinhan.com/",
-      "kit": false,
-      "w": 300,
-      "h": 60
-     },
-     {
-      "host": "www.fsb.or.kr",
-      "img": "https://image.news1.kr/system/ads_t/2026/4/17/26810/1776390140_PCLSF.gif",
-      "final": "https://www.fsb.or.kr/",
       "kit": false,
       "w": 300,
       "h": 60
@@ -3373,25 +3461,25 @@
       "h": 60
      },
      {
-      "host": "www.samsungpop.com",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2022%2F7%2F18%2F16111%2F1658098883_USLII.jpg&w=1920&q=75",
-      "final": "https://www.samsungpop.com/",
+      "host": "adapi.feeldmc.com",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F10%2F1%2F28292%2F1790829820_QIZDV.jpg&w=750&q=75",
+      "final": "https://omoney.kbstar.com/quics?page=C042120#loading",
       "kit": false,
       "w": 300,
       "h": 60
      },
      {
-      "host": "enews.sen.go.kr",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F10%2F6%2F28318%2F1791249970_JDGPS.jpg&w=1920&q=75",
-      "final": "https://enews.sen.go.kr/news/view.do?bbsSn=192144&step1=3&step2=1",
+      "host": "lgartssponsorship.lg.co.kr",
+      "img": "https://image.news1.kr/system/ads_t/2026/4/2/26633/1775111057_FBKYK.gif",
+      "final": "https://lgartssponsorship.lg.co.kr/kr/?utm_source=media&utm_medium=digitalbanner&utm_campaign=2026_lgxguggenheim",
       "kit": false,
       "w": 300,
       "h": 60
      },
      {
-      "host": "lgsmileproject.com",
-      "img": "https://image.news1.kr/system/ads_t/2026/9/30/28282/1790748612_HVJFC.gif",
-      "final": "https://lgsmileproject.com/moment?utm_source=media&utm_medium=qr&utm_campaign=moment&utm_content=contest_01",
+      "host": "www.shinhan.com",
+      "img": "https://image.news1.kr/system/ads_t/2026/6/25/27558/1782371351_UBLRM.gif",
+      "final": "https://www.shinhan.com/",
       "kit": false,
       "w": 300,
       "h": 60
@@ -3405,6 +3493,110 @@
       "h": 60
      },
      {
+      "host": "youtu.be",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F5%2F28%2F27351%2F1779943438_ASFYV.jpg&w=1920&q=75",
+      "final": "https://www.youtube.com/watch?si=xWPOk9PYa3XxIWGv&v=U5hVShO9o4c&feature=youtu.be",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "lgsmileproject.com",
+      "img": "https://image.news1.kr/system/ads_t/2026/9/30/28282/1790748612_HVJFC.gif",
+      "final": "https://lgsmileproject.com/moment?utm_source=media&utm_medium=qr&utm_campaign=moment&utm_content=contest_01",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "www.nonghyup.com",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2024%2F10%2F23%2F22579%2F1729670432_GZFQN.jpg&w=1920&q=75",
+      "final": "https://www.nonghyup.com/main/psniMain.do",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "www.fsb.or.kr",
+      "img": "https://image.news1.kr/system/ads_t/2026/4/17/26810/1776390140_PCLSF.gif",
+      "final": "https://www.fsb.or.kr/",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "www.samsungpop.com",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2022%2F7%2F18%2F16111%2F1658098883_USLII.jpg&w=1920&q=75",
+      "final": "https://www.samsungpop.com/",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "www.seoulmetro.co.kr",
+      "img": "https://image.news1.kr/system/ads_t/2026/10/19/28425/1792369270_QTHJJ.gif",
+      "final": "https://www.seoulmetro.co.kr/kr/index.do?device=PC ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "www.i-sh.co.kr",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F9%2F30%2F28278%2F1790743162_TTXXB.jpg&w=1920&q=75",
+      "final": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=310008",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "securities.koreainvestment.com",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F3%2F30%2F26605%2F1774857659_UUSLE.png&w=1920&q=75",
+      "final": "https://securities.koreainvestment.com/main/Main.jsp",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "youtu.be",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F7%2F16%2F27697%2F1784175153_GXXOR.jpg&w=1920&q=75",
+      "final": "https://www.youtube.com/watch?si=2yHY3QTp2WLi2qDQ&v=Oj24Uix7FD8&feature=youtu.be",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "enews.sen.go.kr",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F10%2F6%2F28318%2F1791249970_JDGPS.jpg&w=1920&q=75",
+      "final": "https://enews.sen.go.kr/news/view.do?bbsSn=192144&step1=3&step2=1",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "direct.samsungfire.com",
+      "img": "https://image.news1.kr/system/ads_t/2026/8/28/27733/1787893353_POQOG.gif",
+      "final": "https://direct.samsungfire.com/ria/pc/product/factory/?state=Front&product=smartM&eventType=S_J_700",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "adapi.feeldmc.com",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F9%2F30%2F28270%2F1790728107_CHMAC.jpg&w=1920&q=75",
+      "final": "https://okbfex.kbstar.com/quics?page=opensn&airbridge_referrer=airbridge%3Dtrue%26client_id%3D5a855c4d-475c-4c95-b71a-09a178123d40%26event_uuid%3D43df7b2f-e4f4-5381-a23b-129db1441a98%26referrer_timest",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
+      "host": "news.lgdisplay.com",
+      "img": "https://image.news1.kr/system/ads_t/2025/5/27/24275/1748325757_ZIMNH.gif",
+      "final": "https://news.lgdisplay.com/",
+      "kit": false,
+      "w": 300,
+      "h": 60
+     },
+     {
       "host": "m.wooricard.com",
       "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F9%2F23%2F28224%2F1790129442_NTMWA.png&w=1920&q=75",
       "final": "https://m.wooricard.com/dcmw/yh1/crd/crd01/M1CRD101S02.do?recomNo=103500",
@@ -3413,28 +3605,12 @@
       "h": 60
      },
      {
-      "host": "housinginfo.seoul.go.kr",
-      "img": "https://image.news1.kr/system/ads_t/2026/10/1/28295/1790837899_PJGXU.gif",
-      "final": "https://housinginfo.seoul.go.kr/ ERR APIRequestContext.get: unable to verify the first certificat",
+      "host": "www.hanafn.com",
+      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F4%2F30%2F5339%2F1777515139_ZLUTU.jpg&w=1920&q=75",
+      "final": "https://www.hanafn.com/ ERR ",
       "kit": false,
       "w": 300,
       "h": 60
-     },
-     {
-      "host": "v.daum.net",
-      "img": "https://image.news1.kr/system/resource/news1_www/banners/pc/daum.jpg",
-      "final": "https://v.daum.net/channel/396/home",
-      "kit": false,
-      "w": 300,
-      "h": 180
-     },
-     {
-      "host": "m.lguplus.com",
-      "img": "https://www.news1.kr/_next/image?url=https%3A%2F%2Fimage.news1.kr%2Fsystem%2Fads_t%2F2026%2F9%2F28%2F28242%2F1790575608_TOTTW.jpg&w=750&q=75",
-      "final": "https://m.lguplus.com/s/oAZZZ",
-      "kit": false,
-      "w": 300,
-      "h": 250
      }
     ]
    }
@@ -3480,160 +3656,6 @@
   {
    "name": "아이뉴스24",
    "home": "https://www.inews24.com/",
-   "pc": {
-    "found": false,
-    "attempts": 3,
-    "hits": [],
-    "error": "",
-    "final_url": "https://www.inews24.com/",
-    "title": "아이뉴스24",
-    "ads": [
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016119",
-      "kit": false,
-      "w": 265,
-      "h": 377
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016148",
-      "kit": false,
-      "w": 265,
-      "h": 377
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016129",
-      "kit": false,
-      "w": 265,
-      "h": 377
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016127",
-      "kit": false,
-      "w": 265,
-      "h": 277
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016132",
-      "kit": false,
-      "w": 265,
-      "h": 277
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016116",
-      "kit": false,
-      "w": 265,
-      "h": 277
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016339",
-      "kit": false,
-      "w": 825,
-      "h": 130
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016333",
-      "kit": false,
-      "w": 825,
-      "h": 130
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016328",
-      "kit": false,
-      "w": 825,
-      "h": 130
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016321",
-      "kit": false,
-      "w": 825,
-      "h": 130
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016309",
-      "kit": false,
-      "w": 825,
-      "h": 130
-     },
-     {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "http://www.joynews24.com/view/2016292",
-      "kit": false,
-      "w": 825,
-      "h": 130
-     },
-     {
-      "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/2556198547940229375",
-      "final": "https://www.hanafn.com:8002/",
-      "kit": false,
-      "w": 728,
-      "h": 90
-     },
-     {
-      "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/12870332945121695999",
-      "final": "https://www.ssafy.com/ksp/servlet/swp.main.controller.SwpIntroServlet?p_fix=1&utm_source=news_comm&utm_medium=affiliates&utm_campaign=news_comm_affiliates_none_all_pcmo&utm_content=17th_press5",
-      "kit": false,
-      "w": 260,
-      "h": 60
-     },
-     {
-      "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/11122300564664531569",
-      "final": "https://www.skhynix.com/",
-      "kit": false,
-      "w": 260,
-      "h": 320
-     },
-     {
-      "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/1107203399799128251",
-      "final": "https://n41.nsmartta.com/click?slot=2575&ads=45152 ERR APIRequestContext.get: unable to verify the first certificat",
-      "kit": false,
-      "w": 300,
-      "h": 250
-     },
-     {
-      "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/3736235888555357647",
-      "final": "https://product.kt.com/wDic/productDetail.do?ItemCode=1679&utm_source=web&utm_medium=da&utm_campaign=dmk2_wless_260616_charge_youtubelite",
-      "kit": false,
-      "w": 1000,
-      "h": 110
-     },
-     {
-      "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/16423305029540635920",
-      "final": "https://www.samsungpop.com/",
-      "kit": false,
-      "w": 300,
-      "h": 250
-     }
-    ]
-   },
    "mobile": {
     "found": false,
     "attempts": 3,
@@ -3644,8 +3666,16 @@
     "ads": [
      {
       "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/logo-joynews24.svg",
+      "final": "https://m.joynews24.com/",
+      "kit": false,
+      "w": 78,
+      "h": 20
+     },
+     {
+      "host": "www.joynews24.com",
       "img": "https://www.inews24.com/images/blank.svg",
-      "final": "https://m.joynews24.com/v/2016119?",
+      "final": "https://m.joynews24.com/v/2016225?",
       "kit": false,
       "w": 265,
       "h": 377
@@ -3653,7 +3683,7 @@
      {
       "host": "www.joynews24.com",
       "img": "https://www.inews24.com/images/blank.svg",
-      "final": "https://m.joynews24.com/v/2016148?",
+      "final": "https://m.joynews24.com/v/2016292?",
       "kit": false,
       "w": 265,
       "h": 377
@@ -3661,7 +3691,7 @@
      {
       "host": "www.joynews24.com",
       "img": "https://www.inews24.com/images/blank.svg",
-      "final": "https://m.joynews24.com/v/2016129?",
+      "final": "https://m.joynews24.com/v/2016265?",
       "kit": false,
       "w": 265,
       "h": 377
@@ -3669,7 +3699,7 @@
      {
       "host": "www.joynews24.com",
       "img": "https://www.inews24.com/images/blank.svg",
-      "final": "https://m.joynews24.com/v/2016127?",
+      "final": "https://m.joynews24.com/v/2016341?",
       "kit": false,
       "w": 265,
       "h": 277
@@ -3677,7 +3707,7 @@
      {
       "host": "www.joynews24.com",
       "img": "https://www.inews24.com/images/blank.svg",
-      "final": "https://m.joynews24.com/v/2016132?",
+      "final": "https://m.joynews24.com/v/2016259?",
       "kit": false,
       "w": 265,
       "h": 277
@@ -3685,10 +3715,18 @@
      {
       "host": "www.joynews24.com",
       "img": "https://www.inews24.com/images/blank.svg",
-      "final": "https://m.joynews24.com/v/2016116?",
+      "final": "https://m.joynews24.com/v/2016254?",
       "kit": false,
       "w": 265,
       "h": 277
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "https://m.joynews24.com/v/2016357?",
+      "kit": false,
+      "w": 825,
+      "h": 130
      },
      {
       "host": "www.joynews24.com",
@@ -3731,41 +3769,33 @@
       "h": 130
      },
      {
-      "host": "www.joynews24.com",
-      "img": "https://www.inews24.com/images/blank.svg",
-      "final": "https://m.joynews24.com/v/2016292?",
-      "kit": false,
-      "w": 825,
-      "h": 130
-     },
-     {
       "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/10016094456771832165",
-      "final": "https://www.jirandata.co.kr/support/product-purchase?utm_source=pcfilter&utm_medium=banner_inews&utm_campaign=ai",
+      "img": "https://tpc.googlesyndication.com/simgad/10178894864346572543",
+      "final": "https://www.sktelecom.com/",
       "kit": false,
       "w": 728,
       "h": 90
      },
      {
       "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/12870332945121695999",
-      "final": "https://www.ssafy.com/ksp/servlet/swp.main.controller.SwpIntroServlet?p_fix=1&utm_source=news_comm&utm_medium=affiliates&utm_campaign=news_comm_affiliates_none_all_pcmo&utm_content=17th_press5",
+      "img": "https://tpc.googlesyndication.com/simgad/5097036933314812225",
+      "final": "https://www.jandiro.com/",
       "kit": false,
       "w": 260,
       "h": 60
      },
      {
       "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/13834851815023959147",
-      "final": "https://www.ssafy.com/ksp/servlet/swp.main.controller.SwpIntroServlet?p_fix=1&utm_source=news_comm&utm_medium=affiliates&utm_campaign=news_comm_affiliates_none_all_pcmo&utm_content=17th_press5",
+      "img": "https://tpc.googlesyndication.com/simgad/15337143056801353407",
+      "final": "https://www.jirandata.co.kr/support/product-purchase?utm_source=pcfilter&utm_medium=banner_inews&utm_campaign=ai",
       "kit": false,
       "w": 260,
       "h": 320
      },
      {
       "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/2692994374223231601",
-      "final": "https://www.jirandata.co.kr/support/product-purchase?utm_source=pcfilter&utm_medium=banner_inews&utm_campaign=ai",
+      "img": "https://tpc.googlesyndication.com/simgad/10006861731141742815",
+      "final": "https://www.koreapost.go.kr/",
       "kit": false,
       "w": 300,
       "h": 250
@@ -3780,8 +3810,170 @@
      },
      {
       "host": "googleads.g.doubleclick.net",
-      "img": "https://tpc.googlesyndication.com/simgad/10006861731141742815",
-      "final": "https://www.koreapost.go.kr/",
+      "img": "https://tpc.googlesyndication.com/simgad/15085599919028298938",
+      "final": "https://www.chungcheong2027.com/home/main.do",
+      "kit": false,
+      "w": 300,
+      "h": 250
+     }
+    ]
+   },
+   "pc": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.inews24.com/",
+    "title": "아이뉴스24",
+    "ads": [
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/logo-joynews24.svg",
+      "final": "https://www.joynews24.com/",
+      "kit": false,
+      "w": 78,
+      "h": 20
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016225",
+      "kit": false,
+      "w": 265,
+      "h": 377
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016292",
+      "kit": false,
+      "w": 265,
+      "h": 377
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016265",
+      "kit": false,
+      "w": 265,
+      "h": 377
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016341",
+      "kit": false,
+      "w": 265,
+      "h": 277
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016259",
+      "kit": false,
+      "w": 265,
+      "h": 277
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016254",
+      "kit": false,
+      "w": 265,
+      "h": 277
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016357",
+      "kit": false,
+      "w": 825,
+      "h": 130
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016339",
+      "kit": false,
+      "w": 825,
+      "h": 130
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016333",
+      "kit": false,
+      "w": 825,
+      "h": 130
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016328",
+      "kit": false,
+      "w": 825,
+      "h": 130
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016321",
+      "kit": false,
+      "w": 825,
+      "h": 130
+     },
+     {
+      "host": "www.joynews24.com",
+      "img": "https://www.inews24.com/images/blank.svg",
+      "final": "http://www.joynews24.com/view/2016309",
+      "kit": false,
+      "w": 825,
+      "h": 130
+     },
+     {
+      "host": "googleads.g.doubleclick.net",
+      "img": "https://tpc.googlesyndication.com/simgad/9556802730085098988",
+      "final": "https://www.youtube.com/watch?v=6-1dpO7uMyU",
+      "kit": false,
+      "w": 728,
+      "h": 90
+     },
+     {
+      "host": "googleads.g.doubleclick.net",
+      "img": "https://tpc.googlesyndication.com/simgad/4468291091344767630",
+      "final": "https://www.jandiro.com/",
+      "kit": false,
+      "w": 260,
+      "h": 60
+     },
+     {
+      "host": "googleads.g.doubleclick.net",
+      "img": "https://tpc.googlesyndication.com/simgad/15337143056801353407",
+      "final": "https://www.jirandata.co.kr/support/product-purchase?utm_source=pcfilter&utm_medium=banner_inews&utm_campaign=ai",
+      "kit": false,
+      "w": 260,
+      "h": 320
+     },
+     {
+      "host": "googleads.g.doubleclick.net",
+      "img": "https://tpc.googlesyndication.com/simgad/18372129366800172575",
+      "final": "https://www.ckdpharm.com/",
+      "kit": false,
+      "w": 300,
+      "h": 250
+     },
+     {
+      "host": "googleads.g.doubleclick.net",
+      "img": "https://tpc.googlesyndication.com/simgad/3736235888555357647",
+      "final": "https://product.kt.com/wDic/productDetail.do?ItemCode=1679&utm_source=web&utm_medium=da&utm_campaign=dmk2_wless_260616_charge_youtubelite",
+      "kit": false,
+      "w": 1000,
+      "h": 110
+     },
+     {
+      "host": "googleads.g.doubleclick.net",
+      "img": "https://tpc.googlesyndication.com/simgad/2692994374223231601",
+      "final": "https://www.jirandata.co.kr/support/product-purchase?utm_source=pcfilter&utm_medium=banner_inews&utm_campaign=ai",
       "kit": false,
       "w": 300,
       "h": 250
@@ -3792,24 +3984,6 @@
   {
    "name": "CBS",
    "home": "https://www.nocutnews.co.kr/",
-   "mobile": {
-    "found": false,
-    "attempts": 3,
-    "hits": [],
-    "error": "",
-    "final_url": "https://m.nocutnews.co.kr/",
-    "title": "노컷뉴스",
-    "ads": [
-     {
-      "host": "v.daum.net",
-      "img": "https://file2.nocutnews.co.kr/nocut/banners/pc/20250114150215.png",
-      "final": "https://v.daum.net/channel/35/home",
-      "kit": false,
-      "w": 350,
-      "h": 56
-     }
-    ]
-   },
    "pc": {
     "found": false,
     "attempts": 3,
@@ -3836,19 +4010,19 @@
      },
      {
       "host": "white.contentsfeed.com",
-      "img": "https://ads.nocutnews.co.kr/cbsi/shinhan_283_80_260921/shinhan_28380_20260624.jpg",
-      "final": "https://shinhangroup.com/kr/main",
+      "img": "https://ads.nocutnews.co.kr/cbsi/pc_hanabank_283_80_240531/hn_28380_20260401.jpg",
+      "final": "https://www.hanafn.com/main/index.do ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 283,
       "h": 80
      },
      {
       "host": "white.contentsfeed.com",
-      "img": "https://ads.nocutnews.co.kr/cbsi/PC_k-edu_300_285_261008/sk_300285_20261008.jpg",
-      "final": "https://enews.sen.go.kr/news/view.do?bbsSn=192144&step1=3&step2=1",
+      "img": "https://ads.nocutnews.co.kr/cbsi/PC_mpark_300_285_260630/KakaoTalk_20260723_111336673.gif",
+      "final": "http://www.fgcmp.com/www/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
       "kit": false,
       "w": 300,
-      "h": 285
+      "h": 284
      },
      {
       "host": "white.contentsfeed.com",
@@ -3859,31 +4033,41 @@
       "h": 285
      }
     ]
+   },
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://m.nocutnews.co.kr/",
+    "title": "노컷뉴스",
+    "ads": [
+     {
+      "host": "v.daum.net",
+      "img": "https://file2.nocutnews.co.kr/nocut/banners/pc/20250114150215.png",
+      "final": "https://v.daum.net/channel/35/home",
+      "kit": false,
+      "w": 350,
+      "h": 56
+     },
+     {
+      "host": "www.aedi.ai",
+      "img": "https://static.piclick.kr/img/picban.png",
+      "final": "https://aisum.com/en",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     }
+    ]
    }
   },
   {
    "name": "한국대학신문",
    "home": "https://news.unn.net/",
    "mobile": {
-    "found": true,
-    "attempts": 1,
-    "hits": [
-     {
-      "tag": "AD>KIT",
-      "link": "https://scout-edu.com/ -> https://scout-edu.com/",
-      "img": "https://cdn.news.unn.net/bannerpop/uploads/image/17072041431264508530.jpg",
-      "alt": "",
-      "w": 390,
-      "h": 73,
-      "x": 0,
-      "y": 1903,
-      "href": "https://scout-edu.com/",
-      "host": "scout-edu.com",
-      "frame": "https://news.unn.net/",
-      "final": "https://scout-edu.com/",
-      "kit": true
-     }
-    ],
+    "found": false,
+    "attempts": 3,
+    "hits": [],
     "error": "",
     "final_url": "https://news.unn.net/",
     "title": "한국대학신문 - 411개 대학을 연결하는 '힘'",
@@ -3892,12 +4076,11 @@
       "host": "scout-edu.com",
       "img": "https://cdn.news.unn.net/bannerpop/uploads/image/17072041431264508530.jpg",
       "final": "https://scout-edu.com/",
-      "kit": true,
+      "kit": false,
       "w": 390,
       "h": 73
      }
-    ],
-    "shot": "data/ads/shots/2026-10-19/한국대학신문_mobile.jpg"
+    ]
    },
    "pc": {
     "found": false,
@@ -3941,7 +4124,7 @@
     "found": false,
     "attempts": 3,
     "hits": [],
-    "error": "시간 초과",
+    "error": "",
     "final_url": "https://www.naeil.com/",
     "title": "내일신문",
     "ads": [
@@ -4020,7 +4203,7 @@
      {
       "host": "www.jntle.kr",
       "img": "https://wimg.naeil.com/svc/banner/202610/da829595-fde8-428b-a940-ca35f33316c1.jpg",
-      "final": "https://www.jntle.kr/main ERR APIRequestContext.get: Request timed out after 8000ms\nCall l",
+      "final": "https://www.jntle.kr/main ERR ",
       "kit": false,
       "w": 310,
       "h": 90
@@ -4060,7 +4243,7 @@
      {
       "host": "www.shinhanlife.co.kr",
       "img": "https://wimg.naeil.com/svc/banner/202609/6adb7eac-b2af-4aa7-9956-a6de19345f1a.jpg",
-      "final": "https://www.shinhanlife.co.kr/",
+      "final": "https://www.shinhanlife.co.kr/ ERR ",
       "kit": false,
       "w": 310,
       "h": 90
@@ -4136,54 +4319,6 @@
       "kit": false,
       "w": 310,
       "h": 90
-     },
-     {
-      "host": "www.iksan.go.kr",
-      "img": "https://wimg.naeil.com/svc/banner/202610/3f0ade23-77d3-49eb-a86f-9f5288def6cd.jpg",
-      "final": "https://www.iksan.go.kr/gukhwa",
-      "kit": false,
-      "w": 310,
-      "h": 90
-     },
-     {
-      "host": "www.airport.kr",
-      "img": "https://wimg.naeil.com/svc/banner/202610/16cb57cd-9660-4297-9ad4-373cd69c841d.jpg",
-      "final": "https://www.airport.kr/co_ko/index.do",
-      "kit": false,
-      "w": 310,
-      "h": 90
-     },
-     {
-      "host": "www.kwater.or.kr",
-      "img": "https://wimg.naeil.com/svc/banner/202610/dbb23b97-a19e-40a8-a4af-4b65dad13cbe.jpg",
-      "final": "https://www.kwater.or.kr/main.do?s_mid=1",
-      "kit": false,
-      "w": 310,
-      "h": 90
-     },
-     {
-      "host": "www.kobc.or.kr",
-      "img": "https://wimg.naeil.com/svc/banner/202610/e6af920b-5b85-4d37-a8ed-0442270ff5df.jpg",
-      "final": "https://www.kobc.or.kr/ebz/shippinginfo/main.do",
-      "kit": false,
-      "w": 298,
-      "h": 148
-     },
-     {
-      "host": "island.yeosu2026.or.kr",
-      "img": "https://wimg.naeil.com/svc/banner/202609/eecfb084-74c1-4587-ba97-317c04c81b05.jpg",
-      "final": "https://island.yeosu2026.or.kr/",
-      "kit": false,
-      "w": 275,
-      "h": 90
-     },
-     {
-      "host": "www.lottecard.co.kr",
-      "img": "https://wimg.naeil.com/svc/banner/202609/d4221a8a-d428-4550-8e62-0466f6085afa.jpg",
-      "final": "https://www.lottecard.co.kr/",
-      "kit": false,
-      "w": 275,
-      "h": 90
      }
     ]
    }
@@ -4208,19 +4343,19 @@
     "title": ":: 공감언론 뉴시스통신사 ::",
     "ads": [
      {
-      "host": "www.hanafn.com",
-      "img": "https://image.newsis.com/h_www/advertise/2016/11/07/AD_20161107_000322_1735868039.jpg",
-      "final": "https://www.hanafn.com:8002/",
+      "host": "seoulmusicfestival.co.kr",
+      "img": "https://image.newsis.com/h_www/advertise/2026/09/30/AD_20260930_002923_1790753996.jpg",
+      "final": "https://seoulmusicfestival.co.kr/2026/",
       "kit": false,
       "w": 260,
       "h": 60
      },
      {
-      "host": "askinno.com",
-      "img": "https://image.newsis.com/h_www/advertise/2016/11/07/AD_20161107_000321_1782957170.jpg",
-      "final": "https://askinno.com/",
+      "host": "www.sk.co.kr",
+      "img": "https://image.newsis.com/h_www/advertise/2010/10/29/AD_20101029_28581_1524809228.jpg",
+      "final": "https://www.sk.co.kr/",
       "kit": false,
-      "w": 270,
+      "w": 260,
       "h": 60
      },
      {
@@ -4240,73 +4375,41 @@
       "h": 40
      },
      {
-      "host": "www.shinhangroup.com",
-      "img": "https://image.newsis.com/h_www/advertise/2011/03/28/AD_20110328_35101_1764222151.jpg",
-      "final": "https://shinhangroup.com/ ERR APIRequestContext.get: Request timed out after 8000ms\nCall l",
-      "kit": false,
-      "w": 260,
-      "h": 60
-     },
-     {
-      "host": "www.hanaw.com",
-      "img": "https://image.newsis.com/h_www/advertise/2016/05/03/AD_20160503_121101_1711603953.jpg",
-      "final": "https://www.hanaw.com/",
-      "kit": false,
-      "w": 260,
-      "h": 60
-     },
-     {
-      "host": "youtu.be",
-      "img": "https://image.newsis.com/h_www/advertise/2022/07/07/AD_20220707_001993_1791237230.jpg",
-      "final": "https://www.youtube.com/watch?si=_alPh5ZMuMXaeopD&v=MLSfTW72wPc&feature=youtu.be",
-      "kit": false,
-      "w": 260,
-      "h": 60
-     },
-     {
-      "host": "www.starfield.co.kr",
-      "img": "https://image.newsis.com/h_www/advertise/2023/10/30/AD_20231030_002282_1698641704.jpg",
-      "final": "https://www.starfield.co.kr/goyang/main.do",
-      "kit": false,
-      "w": 260,
-      "h": 60
-     },
-     {
-      "host": "m-able.app",
-      "img": "https://image.newsis.com/h_www/advertise/2017/08/29/AD_20170829_000803_1790755512.jpg",
-      "final": "https://welcomemable.kbsec.com/?section=sec-a-1&airbridge_referrer=airbridge%3Dtrue%26client_id%3D1dc16855-f376-40e8-899c-e8c5dfef275e%26event_uuid%3De90848da-1342-5642-9f18-8d50758ce433%26referrer_ti",
-      "kit": false,
-      "w": 260,
-      "h": 60
-     },
-     {
-      "host": "www.lgensol.com",
-      "img": "https://image.newsis.com/h_www/advertise/2021/02/23/AD_20210223_001764_1787037635.jpg",
-      "final": "https://www.lgensol.com/kr/index",
-      "kit": false,
-      "w": 260,
-      "h": 60
-     },
-     {
       "host": "adapi.feeldmc.com",
-      "img": "https://image.newsis.com/h_www/advertise/2016/08/29/AD_20160829_126141_1790749592.jpg",
-      "final": "https://omoney.kbstar.com/quics?page=C042120#loading",
+      "img": "https://image.newsis.com/h_www/advertise/2017/04/20/AD_20170420_000662_1791271386.gif",
+      "final": "https://www.youtube.com/watch?v=6-1dpO7uMyU",
       "kit": false,
       "w": 260,
       "h": 60
      },
      {
-      "host": "www.bokji.net",
-      "img": "https://image.newsis.com/h_www/advertise/2026/09/28/AD_20260928_002919_1790568773.jpg",
-      "final": "https://www.bokji.net/ ERR ",
+      "host": "www.i-sh.co.kr",
+      "img": "https://image.newsis.com/h_www/advertise/2015/03/18/AD_20150318_102761_1790804971.jpg",
+      "final": "https://www.i-sh.co.kr/main/lay2/program/S1T294C295/www/brd/m_241/view.do?seq=310008",
       "kit": false,
       "w": 260,
       "h": 60
      },
      {
-      "host": "www.hf.go.kr",
-      "img": "https://image.newsis.com/h_www/advertise/2016/09/30/AD_20160930_128985_1790806037.jpg",
-      "final": "https://www.hf.go.kr:443/ko/index.do",
+      "host": "www.lguplus.com",
+      "img": "https://image.newsis.com/h_www/advertise/2011/10/18/AD_20111018_45261_1790559943.jpg",
+      "final": "https://www.lguplus.com/",
+      "kit": false,
+      "w": 260,
+      "h": 60
+     },
+     {
+      "host": "n41.nsmartta.com",
+      "img": "https://image.newsis.com/h_www/advertise/2016/11/15/AD_20161115_000364_1790632058.jpg",
+      "final": "https://n41.nsmartta.com/click?slot=2575&ads=45114 ERR APIRequestContext.get: unable to verify the first certificat",
+      "kit": false,
+      "w": 260,
+      "h": 60
+     },
+     {
+      "host": "www.dongkuk.com",
+      "img": "https://image.newsis.com/h_www/advertise/2023/11/24/AD_20231124_002300_1784855363.jpg",
+      "final": "https://www.dongkuk.com/ko/index",
       "kit": false,
       "w": 260,
       "h": 60
@@ -4317,6 +4420,14 @@
       "final": "https://www.samsung.com/us/",
       "kit": false,
       "w": 90,
+      "h": 60
+     },
+     {
+      "host": "www.hanafn.com",
+      "img": "https://img1.newsis.com/h_www/advertise/2016/11/07/AD_20161107_000322_1735868088.jpg",
+      "final": "http://www.hanafn.com/ ERR APIRequestContext.get: Connection timeout\nCall log:\n→ GET ht",
+      "kit": false,
+      "w": 200,
       "h": 60
      },
      {
@@ -4378,7 +4489,7 @@
      {
       "host": "adapi.feeldmc.com",
       "img": "https://www.ekn.kr/mnt/webdata/ad/2026/1788322778.jpg",
-      "final": "https://okbfex.kbstar.com/quics?page=opensn&airbridge_referrer=airbridge%3Dtrue%26client_id%3D3ca9391d-38b8-4e3c-b7a3-cfd406bf678a%26event_uuid%3D5d7be48b-42c2-5458-a9a3-e2fa6447e02b%26referrer_timest",
+      "final": "https://okbfex.kbstar.com/quics?page=opensn&airbridge_referrer=airbridge%3Dtrue%26client_id%3D81061cf8-3224-4706-91dd-e12de461edeb%26event_uuid%3Da1cd33a7-96cf-5ff5-a0a6-319510d04ba9%26referrer_timest",
       "kit": false,
       "w": 300,
       "h": 90
@@ -4552,6 +4663,14 @@
       "h": 150
      },
      {
+      "host": "yellow.contentsfeed.com",
+      "img": "https://image.donga.com/adma/donga/sponsor/260720_sangokxi_300250.png",
+      "final": "https://www.xi.co.kr/sangokxi/?utm_source=naver&utm_medium=cpt&utm_campaign=naver_brand&utm_term=%EC%82%B0%EA%B3%A1%EC%97%AD%EC%9E%90%EC%9D%B4",
+      "kit": false,
+      "w": 300,
+      "h": 214
+     },
+     {
       "host": "googleads.g.doubleclick.net",
       "img": "https://tpc.googlesyndication.com/simgad/8541427683523832802",
       "final": "https://www.nelamc.com/",
@@ -4568,24 +4687,8 @@
       "h": 250
      },
      {
-      "host": "ad.aceplanet.co.kr",
-      "img": "https://cdn13.ad4989.co.kr/group1/02U0/01_q7/1788844013598.jpg",
-      "final": "https://ad.aceplanet.co.kr/cgi-bin/PelicanC.dll?CLK?pageid=079K%26bannerid=2sJk%26campaignid=01q7",
-      "kit": false,
-      "w": 300,
-      "h": 250
-     },
-     {
-      "host": "apse1-x.d.adroll.com",
-      "img": "https://s.adroll.com/a/IAZ/GYS/IAZGYSEHMNAU7DV3YFSRWS.jpg",
-      "final": "https://www.homeforsale.at/9120_W_TARO_LANE_l19hbs-821s-821s?adct=a45724e30f22fa965d6e93b57d45d628",
-      "kit": false,
-      "w": 300,
-      "h": 250
-     },
-     {
       "host": "api.dable.io",
-      "img": "https://images.dable.io/t/images.dable.io/400X250/m100/dc04e2caec97867b96dfcaedf19dce0d.webp",
+      "img": "https://images.dable.io/t/images.dable.io/400X250/m100/dc04e2caec97867b96dfcaedf19dce0d.jpeg",
       "final": "https://youtext.ai/3dj_qmjngoq?utm_source=dablead&utm_medium=donga.com%2Fenlipleadx&utm_campaign=%EC%98%A8%EA%B3%A0%EC%9E%89%29%EC%A0%84%EC%B2%B4+%EB%85%B8%EC%B6%9C&utm_content=%EC%B6%94%EC%84%9D_%EB%",
       "kit": false,
       "w": 239,
@@ -4593,23 +4696,23 @@
      },
      {
       "host": "api.dable.io",
-      "img": "https://images.dable.io/t/images.dable.io/400X250/m100/94044d400fe8c381936a1814ee764e24.webp",
-      "final": "https://youtext.ai/tpgslpxdp1u?ecid=nHKanK7wBnDOR8tvuldlJXoJljR0l7AooJbIU2SGnvI&request_id=8cce5aef74575986b633715382f548d0",
+      "img": "https://images.dable.io/t/images.dable.io/400X250/m100/a69b9ecd2269f28763c0cbc1ae3123bb.jpeg",
+      "final": "https://youtext.ai/a4-q0wj6054?ecid=21FG_UApP5XTc-1CBJVkhWVh3f1R_T44Z2iJEawW-Vw&request_id=9704ebb84c681d7cf3a109fa82deb5d4",
       "kit": false,
       "w": 239,
       "h": 241
      },
      {
       "host": "api.dable.io",
-      "img": "https://images.dable.io/t/images.dable.io/400X250/m100/a69b9ecd2269f28763c0cbc1ae3123bb.webp",
-      "final": "https://youtext.ai/a4-q0wj6054?ecid=nHKanK7wBnDOR8tvuldlJXoJljR0l7AooJbIU2SGnvI&request_id=8cce5aef74575986b633715382f548d0",
+      "img": "https://images.dable.io/t/images.dable.io/400X250/m100/94044d400fe8c381936a1814ee764e24.jpeg",
+      "final": "https://youtext.ai/tpgslpxdp1u?ecid=21FG_UApP5XTc-1CBJVkhWVh3f1R_T44Z2iJEawW-Vw&request_id=9704ebb84c681d7cf3a109fa82deb5d4",
       "kit": false,
       "w": 239,
       "h": 241
      },
      {
       "host": "api.dable.io",
-      "img": "https://images.dable.io/t/images.dable.io/400X250/m100/589d9499f4b2004a8410c56c136a8a99.webp",
+      "img": "https://images.dable.io/t/images.dable.io/400X250/m100/589d9499f4b2004a8410c56c136a8a99.jpeg",
       "final": "https://youtext.ai/btq10htzidk?utm_source=dablead&utm_medium=donga.com%2Fenlipleadx&utm_campaign=%EC%98%A8%EA%B3%A0%EC%9E%89%29%EC%A0%84%EC%B2%B4+%EB%85%B8%EC%B6%9C&utm_content=%5B%EC%82%AC%EB%B3%B8%5",
       "kit": false,
       "w": 239,
@@ -4703,6 +4806,14 @@
   {
    "name": "한스경제",
    "home": "https://www.hansbiz.co.kr/",
+   "mobile": {
+    "found": false,
+    "attempts": 3,
+    "hits": [],
+    "error": "",
+    "final_url": "https://www.hansbiz.co.kr/",
+    "title": "한스경제"
+   },
    "pc": {
     "found": false,
     "attempts": 3,
@@ -4712,12 +4823,60 @@
     "title": "한스경제",
     "ads": [
      {
+      "host": "www.gyeongnam.go.kr",
+      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/1790555479377753131.jpg",
+      "final": "https://www.gyeongnam.go.kr/index.gyeong",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
       "host": "youtu.be",
-      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/17852239851806341584.jpg",
+      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/17852224601031618590.jpg",
       "final": "https://www.youtube.com/watch?si=xWPOk9PYa3XxIWGv&v=U5hVShO9o4c&feature=youtu.be",
       "kit": false,
-      "w": 300,
-      "h": 600
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.shinhancard.com",
+      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/179003591891567554.jpg",
+      "final": "https://www.shinhancard.com/pconts/html/card/micro/discount_plan_micro.html?plus=tr",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "securities.koreainvestment.com",
+      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/1789709170492911265.png",
+      "final": "https://securities.koreainvestment.com/main/Main.jsp",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "glamp.changwon.ac.kr",
+      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/1789687347501482024.png",
+      "final": "https://glamp.changwon.ac.kr/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "news.samsung.com",
+      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/17881402661636622630.gif",
+      "final": "https://news.samsung.com/global/",
+      "kit": false,
+      "w": 0,
+      "h": 0
+     },
+     {
+      "host": "www.cjfreshway.com",
+      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/1790559674798525514.jpg",
+      "final": "https://www.cjfreshway.com/index.jsp",
+      "kit": false,
+      "w": 0,
+      "h": 0
      },
      {
       "host": "www.happyesg.com",
@@ -4726,16 +4885,16 @@
       "kit": false,
       "w": 300,
       "h": 599
+     },
+     {
+      "host": "news.lgdisplay.com",
+      "img": "https://cdn.hansbiz.co.kr/bannerpop/uploads/image/17508928311114972411.png",
+      "final": "https://news.lgdisplay.com/",
+      "kit": false,
+      "w": 0,
+      "h": 0
      }
     ]
-   },
-   "mobile": {
-    "found": false,
-    "attempts": 3,
-    "hits": [],
-    "error": "",
-    "final_url": "https://www.hansbiz.co.kr/",
-    "title": "한스경제"
    }
   }
  ]
