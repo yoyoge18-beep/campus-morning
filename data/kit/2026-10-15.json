@@ -86,19 +86,19 @@
   },
   {
    "outlet": "대한경제",
-   "title": "[부산ㆍ경남 대학 브리핑 모음(10월14일)] 경남정보대, 제10회 총장배 사...",
-   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610131908271580444",
-   "published": "2026-10-14T09:02:00+09:00",
-   "via": "naver",
-   "in_title": true
-  },
-  {
-   "outlet": "대한경제",
    "title": "[부산 브리핑 모음(10월14일)] 부산 기장군, 16~18일 ‘제12회 정관생태...",
    "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610132036446960447",
    "published": "2026-10-14T09:02:00+09:00",
    "via": "naver",
    "in_title": false
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(10월14일)] 경남정보대, 제10회 총장배 사...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610131908271580444",
+   "published": "2026-10-14T09:02:00+09:00",
+   "via": "naver",
+   "in_title": true
   }
  ]
 }
