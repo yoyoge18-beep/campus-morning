@@ -264,6 +264,7 @@ def save_managed_kit(by_url: dict):
 
 
 # 네이버·구글 뉴스에 잡히지 않는 관리 언론사: 언론사 자체 검색으로 경남정보대 기사를 찾는다
+DUMP_SITE = False
 SITE_SEARCH = {
     "globalnewsagency.kr": "https://www.globalnewsagency.kr",
     "enkorea.kr": "https://www.enkorea.kr",
@@ -282,6 +283,9 @@ def site_search(domain: str, base: str) -> list[dict]:
         except Exception as e:
             print(f"[site {domain}] {e}", file=sys.stderr)
             continue
+        if DUMP_SITE:   # 형식 확인용(지난 기사 채우기 때만)
+            Path("data/probe").mkdir(parents=True, exist_ok=True)
+            Path(f"data/probe/site_{domain}_{KEYWORDS[1].index(kw)}.html").write_text(r.text, encoding="utf-8")
         soup = BeautifulSoup(r.text, "html.parser")
         n = 0
         for a in soup.select('a[href*="articleView.html"]'):
