@@ -133,12 +133,12 @@
    "in_title": false
   },
   {
-   "outlet": "내일신문",
-   "title": "경남정보대, 골목상권 창업 생존전략 노하우 전수",
-   "url": "https://www.naeil.com/news/read/605287?ref=naver",
+   "outlet": "뉴시스",
+   "title": "[부산소식]벡스코, 발달장애인 혼성 축구단에 '기부금' 등",
+   "url": "https://www.newsis.com/view/NISX20261016_0003828495",
    "published": "2026-10-16T09:12:00+09:00",
    "via": "naver",
-   "in_title": true
+   "in_title": false
   },
   {
    "outlet": "한국대학신문",
@@ -149,12 +149,12 @@
    "in_title": true
   },
   {
-   "outlet": "뉴시스",
-   "title": "[부산소식]벡스코, 발달장애인 혼성 축구단에 '기부금' 등",
-   "url": "https://www.newsis.com/view/NISX20261016_0003828495",
+   "outlet": "내일신문",
+   "title": "경남정보대, 골목상권 창업 생존전략 노하우 전수",
+   "url": "https://www.naeil.com/news/read/605287?ref=naver",
    "published": "2026-10-16T09:12:00+09:00",
    "via": "naver",
-   "in_title": false
+   "in_title": true
   }
  ]
 }

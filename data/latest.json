@@ -1,10 +1,10 @@
 {
  "date": "2026-10-20",
- "collected_at": "2026-10-20T09:08:28.609001+09:00",
+ "collected_at": "2026-10-20T09:45:07.055498+09:00",
  "window_start": "2026-10-19T09:00:00+09:00",
  "window_end": "2026-10-20T09:00:00+09:00",
  "window_start_kit": "2026-10-19T09:00:00+09:00",
- "count": 174,
+ "count": 171,
  "items": [
   {
    "title": "경남정보대 평생교육원, 미용기능장 국가자격시험 합격생 배출",
@@ -964,6 +964,7 @@
    "priority": 2,
    "queries": [
     "부산대",
+    "부산대학교",
     "부산 대학"
    ],
    "outlet": "부산일보",
@@ -1468,6 +1469,7 @@
    "priority": 2,
    "queries": [
     "부산대",
+    "부산대학교",
     "부경대",
     "국립부경대",
     "부산 대학"
@@ -2204,20 +2206,6 @@
    "date_verified": true
   },
   {
-   "title": "광운대, 중국 청도대와 전자정보공학 중외합작 교육프로그램 제1기 입학...",
-   "url": "https://edu.donga.com/news/articleView.html?idxno=112936",
-   "naver_url": "https://edu.donga.com/news/articleView.html?idxno=112936",
-   "domain": "edu.donga.com",
-   "published": "2026-10-19T15:02:00+09:00",
-   "snippet": "광운대학교(총장 윤도영)가 지난 10월 9일(금) 중국 산동성 청도시에 위치한 청도대학교(青岛大学)... 광운대와 청도대가 공동 운영하는 전자정보공학 중외합작 교육프로그램은 중국 교육부의 정식 승인을 받은 학부...",
-   "query": "대학 교육부",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "동아일보",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
    "title": "경인지역 34개 대학 총장들 ﻿\"대학 주소가 학생 미래 가르는 기준 돼선...",
    "url": "https://news.unn.net/news/articleView.html?idxno=598882",
    "naver_url": "https://news.unn.net/news/articleView.html?idxno=598882",
@@ -2228,6 +2216,20 @@
    "via": "naver",
    "priority": 3,
    "outlet": "한국대학신문",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "광운대, 중국 청도대와 전자정보공학 중외합작 교육프로그램 제1기 입학...",
+   "url": "https://edu.donga.com/news/articleView.html?idxno=112936",
+   "naver_url": "https://edu.donga.com/news/articleView.html?idxno=112936",
+   "domain": "edu.donga.com",
+   "published": "2026-10-19T15:02:00+09:00",
+   "snippet": "광운대학교(총장 윤도영)가 지난 10월 9일(금) 중국 산동성 청도시에 위치한 청도대학교(青岛大学)... 광운대와 청도대가 공동 운영하는 전자정보공학 중외합작 교육프로그램은 중국 교육부의 정식 승인을 받은 학부...",
+   "query": "대학 교육부",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "동아일보",
    "outlet_tier": 2,
    "date_verified": true
   },
@@ -2260,20 +2262,6 @@
    "date_verified": true
   },
   {
-   "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
-   "url": "https://www.yna.co.kr/view/PYH20261019157300013?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386076?sid=102",
-   "domain": "yna.co.kr",
-   "published": "2026-10-19T14:30:00+09:00",
-   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
-   "query": "대학 교육부",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "연합뉴스",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
    "title": "경남교육청, 스마트제조 인재 양성 직업교육 혁신지구 협력위",
    "url": "https://www.yna.co.kr/view/AKR20261019065200052?input=1195m",
    "naver_url": "https://n.news.naver.com/mnews/article/001/0016386070?sid=102",
@@ -2288,53 +2276,11 @@
    "date_verified": true
   },
   {
-   "title": "'대학·지역 동반성장 지원위원회' 출범",
-   "url": "https://www.yna.co.kr/view/PYH20261019156800013?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386059?sid=102",
-   "domain": "yna.co.kr",
-   "published": "2026-10-19T14:29:00+09:00",
-   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 첫 회의에서 위촉장을 받은 위원들과 기념촬영하고 있다. 2026.10.19",
-   "query": "대학 교육부",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "연합뉴스",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
-   "title": "'대학·지역 동반성장 지원위원회' 출범",
-   "url": "https://www.yna.co.kr/view/PYH20261019156900013?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386060?sid=102",
-   "domain": "yna.co.kr",
-   "published": "2026-10-19T14:29:00+09:00",
-   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
-   "query": "대학 교육부",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "연합뉴스",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
-   "title": "'대학·지역 동반성장 지원위원회' 출범",
-   "url": "https://www.yna.co.kr/view/PYH20261019156700013?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386056?sid=102",
-   "domain": "yna.co.kr",
-   "published": "2026-10-19T14:29:00+09:00",
-   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 첫 회의에서 위촉장을 받은 위원들과 기념촬영하고 있다. 2026.10.19",
-   "query": "대학 교육부",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "연합뉴스",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
    "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
-   "url": "https://www.yna.co.kr/view/PYH20261019157100013?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386054?sid=102",
+   "url": "https://www.yna.co.kr/view/PYH20261019157300013?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386076?sid=102",
    "domain": "yna.co.kr",
-   "published": "2026-10-19T14:29:00+09:00",
+   "published": "2026-10-19T14:30:00+09:00",
    "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
    "query": "대학 교육부",
    "via": "naver",
@@ -2363,8 +2309,8 @@
   },
   {
    "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
-   "url": "https://www.yna.co.kr/view/PYH20261019157200013?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386055?sid=102",
+   "url": "https://www.yna.co.kr/view/PYH20261019157100013?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386054?sid=102",
    "domain": "yna.co.kr",
    "published": "2026-10-19T14:29:00+09:00",
    "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
@@ -2379,6 +2325,62 @@
    "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
    "url": "https://www.yna.co.kr/view/PYH20261019157000013?input=1196m",
    "naver_url": "https://n.news.naver.com/mnews/article/001/0016386061?sid=102",
+   "domain": "yna.co.kr",
+   "published": "2026-10-19T14:29:00+09:00",
+   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
+   "query": "대학 교육부",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "연합뉴스",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
+   "url": "https://www.yna.co.kr/view/PYH20261019157200013?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386055?sid=102",
+   "domain": "yna.co.kr",
+   "published": "2026-10-19T14:29:00+09:00",
+   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
+   "query": "대학 교육부",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "연합뉴스",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "'대학·지역 동반성장 지원위원회' 출범",
+   "url": "https://www.yna.co.kr/view/PYH20261019156800013?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386059?sid=102",
+   "domain": "yna.co.kr",
+   "published": "2026-10-19T14:29:00+09:00",
+   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 첫 회의에서 위촉장을 받은 위원들과 기념촬영하고 있다. 2026.10.19",
+   "query": "대학 교육부",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "연합뉴스",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "'대학·지역 동반성장 지원위원회' 출범",
+   "url": "https://www.yna.co.kr/view/PYH20261019156700013?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386056?sid=102",
+   "domain": "yna.co.kr",
+   "published": "2026-10-19T14:29:00+09:00",
+   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 첫 회의에서 위촉장을 받은 위원들과 기념촬영하고 있다. 2026.10.19",
+   "query": "대학 교육부",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "연합뉴스",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "'대학·지역 동반성장 지원위원회' 출범",
+   "url": "https://www.yna.co.kr/view/PYH20261019156900013?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386060?sid=102",
    "domain": "yna.co.kr",
    "published": "2026-10-19T14:29:00+09:00",
    "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
@@ -2428,34 +2430,6 @@
    "via": "naver",
    "priority": 3,
    "outlet": "한국대학신문",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
-   "title": "전주비전대, 개교 50주년…'미래 100년 향한 5대 핵심 비전' 선포",
-   "url": "https://news.unn.net/news/articleView.html?idxno=598863",
-   "naver_url": "https://news.unn.net/news/articleView.html?idxno=598863",
-   "domain": "news.unn.net",
-   "published": "2026-10-19T11:24:00+09:00",
-   "snippet": "종합전문 기술대학' 등이다. 우병훈 총장은 \"지난 50년간 전주비전대학교는 지역 및 국가 산업 발전에 기여하는 우수한 인재를 양성해 왔다\"며, \"오늘 심은 모과나무가 알찬 결실을 맺듯, '지역의 내일을 세우며, 세계와...",
-   "query": "전문대학",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "한국대학신문",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
-   "title": "[게시판] 서희건설, 경기대 정치전문대학원에 '서희 펠로우십' 기금 출...",
-   "url": "https://www.yna.co.kr/view/AKR20261019078000505?input=1195m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016385116?sid=102",
-   "domain": "yna.co.kr",
-   "published": "2026-10-19T11:19:00+09:00",
-   "snippet": "▲ 서희건설(회장 이봉관)은 경기대 정치전문대학원(원장 민현주)에 '서희 펠로우십' 기금 3천900만원을 출연했다고 19일 밝혔다. 이 기금 출연은 2021년 시작돼 올해가 여섯 번째 기부이다. (서울=연합뉴스)",
-   "query": "전문대학",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "연합뉴스",
    "outlet_tier": 2,
    "date_verified": true
   },
@@ -2632,20 +2606,6 @@
    "via": "naver",
    "priority": 3,
    "outlet": "아주경제",
-   "outlet_tier": 3,
-   "date_verified": true
-  },
-  {
-   "title": "성균관대 IMBA, 2027학년도 전기 신입생 모집…10월 26일 원서 접수 시작",
-   "url": "https://view.asiae.co.kr/article/2026101610044643631",
-   "naver_url": "https://n.news.naver.com/mnews/article/277/0005830169?sid=101",
-   "domain": "view.asiae.co.kr",
-   "published": "2026-10-19T10:00:00+09:00",
-   "snippet": "성균관대학교 경영대학원 IMBA가 10월 26일부터 2027학년도 전기 신입생 모집을 위한 원서 접수를 시작한다고 밝혔다. 성균관대 IMBA는 국내 최초로 교육부 인가를 받아 개설된 온라인 정규 경영학 석사(MBA) 과정으로...",
-   "query": "대학 교육부",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "아시아경제",
    "outlet_tier": 3,
    "date_verified": true
   }
