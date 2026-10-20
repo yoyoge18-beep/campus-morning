@@ -302,7 +302,8 @@ def site_search(domain: str, base: str) -> list[dict]:
             out.append({"title": title[:150], "url": href, "domain": domain,
                         "published": pub.isoformat(), "snippet": text[:160],
                         "query": kw, "via": "site"})
-        print(f"[site {domain}] {kw}: 링크 {len(soup.select('a[href*=articleView.html]'))}개, 범위 안 {n}건", file=sys.stderr)
+        links = len(soup.select('a[href*="articleView.html"]'))
+        print(f"[site {domain}] {kw}: 링크 {links}개, 범위 안 {n}건", file=sys.stderr)
         time.sleep(0.3)
     return out
 
@@ -351,7 +352,12 @@ def main():
             by_url[it["url"]] = it
         time.sleep(0.15)
     for dom, base in SITE_SEARCH.items():
-        for it in site_search(dom, base):
+        try:
+            found = site_search(dom, base)
+        except Exception as e:   # 자체 검색이 실패해도 수집은 계속
+            print(f"[site {dom}] 실패: {e}", file=sys.stderr)
+            found = []
+        for it in found:
             if it["url"] not in by_url:
                 it["priority"] = 1
                 by_url[it["url"]] = it

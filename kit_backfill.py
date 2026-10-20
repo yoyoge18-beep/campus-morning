@@ -44,7 +44,12 @@ print(f"네이버 기사 {len(items)}건")
 # 네이버에 없는 관리 언론사는 자체 검색으로
 collect.SINCE_KIT = datetime.combine(start_day - timedelta(days=1), datetime.min.time()).replace(tzinfo=collect.KST)
 for dom, base in collect.SITE_SEARCH.items():
-    for it in collect.site_search(dom, base):
+    try:
+        found = collect.site_search(dom, base)
+    except Exception as e:
+        print(f"[site {dom}] 실패: {e}")
+        found = []
+    for it in found:
         it["priority"] = 1
         items.setdefault(it["url"], it)
 
