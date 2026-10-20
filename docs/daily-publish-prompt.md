@@ -48,16 +48,19 @@ Claude 예약 작업 '대학 조간 매일 발행'(매일 09:00 KST)에 들어 �
 3. index.json {"months":[...], "latest": 오늘} 을 갱신한다(이번 달이 없으면 months에 추가).
 4. Artifact publish: url 위 주소, file_path = 받아 둔 페이지 HTML(내용 수정 금지), files = {"editions/index.json": 로컬경로, "editions/<YYYY-MM>.json": 로컬경로}. capabilities는 넘기지 않는다. 지난달 파일은 건드리지 않는다.
 5. 발행 후 Artifact read로 editions/index.json의 latest가 오늘인지 확인한다.
+6. **확인되면 노출 현황(4단계)을 기다리지 말고 곧바로** PushNotification을 보낸다(성공했어도 반드시, 생략하지 않는다). 메시지는 <routine_summary> 태그 안에 한 줄: "M.D 판 N건 발행 (경남정보대 a · 부산 대학 b · 전국 c)" 뒤에 경남정보대 기사가 있으면 첫 기사 제목을 짧게 붙인다. 예: "10.17 판 21건 발행 (경남정보대 2 · 부산 대학 12 · 전국 7) — 경남정보대 AI창업학과 KIT 스타트업 포럼"
 
 ## 4. 관리 언론사 노출 현황 갱신 (대시보드 https://claude.ai/artifact/1wMnk86UhydRJB6vLrp81t)
-조간 발행이 실패했어도 이 단계는 한다. 이 단계가 실패해도 조간 결과 알림은 보낸다.
-1. 1단계에서 실행한 배너 점검 run(`actions_list` list_workflow_runs, resource_id "adcheck.yml", 실행 이후 created_at)이 completed가 될 때까지 60초마다(Bash sleep 60) 확인한다. 35분이 지나도 안 끝나거나 실패하면 기다리지 말고 계속한다(그날 배너는 '점검 전'으로 남고, 알림에 "배너 점검 실패"를 붙인다).
+조간 알림을 보낸 뒤에 한다(조간 발행이 실패했어도 이 단계는 한다).
+1. 1단계에서 실행한 배너 점검 run(`actions_list` list_workflow_runs, resource_id "adcheck.yml", 실행 이후 created_at)이 completed가 될 때까지 60초마다(Bash sleep 60) 확인한다. 35분이 지나도 안 끝나거나 실패하면 기다리지 말고 계속한다(그날 배너는 '점검 전'으로 남고, 5단계 실패 알림을 보낸다).
 2. 자료 4개를 받는다: `curl -sL "https://raw.githubusercontent.com/yoyoge18-beep/campus-morning/main/media/<id>.json?t=$(date +%s)" -o <작업폴더>/<id>.json` (id: outlets, articles, banner_log, daily). daily.json 마지막 date가 오늘인지 확인한다. 아니면 60초 뒤 다시 받기를 5번까지 한다.
 3. 파일마다 따로 Artifact publish: url 위 대시보드 주소, asset true, file_path 그 파일 → 결과의 url(`/_blob/...`)을 적어 둔다. (JSON은 한 번에 한 파일씩)
 4. ToolSearch로 `ArtifactData`를 불러온 뒤, ArtifactData list, url 대시보드 주소, collection "datasets" 로 네 문서(outlets, articles, banner_log, daily)의 version과 지금 source.url을 읽는다.
 5. ArtifactData batch 로 네 문서를 update 한다(각각 if_version): {"source": {"kind": "file", "url": <3에서 받은 url>, "name": "<id>.json"}, "updated": {"at": 지금 ISO 시각(+09:00), "by": "대학 조간 매일 발행"}}. 다른 필드는 건드리지 않는다. 페이지(files/index.html)도 건드리지 않는다.
 6. 4에서 읽은 이전 source.url 의 자산은 새 자산과 다르면 Artifact action "delete"(url 대시보드 주소, path 그 자산 id = `/_blob/` 뒤 32자리)로 지운다. 실패해도 넘어간다.
-7. outlets.json 에서 articles_today 합계(관리 언론사 기사 수)와 banner_status가 "노출 중"인 언론사 수를 센다.
+7. outlets.json 에서 banner_status가 "노출 중"인 언론사를 센다.
 
-## 5. 알림
-확인이 끝나면 성공했어도 반드시 PushNotification을 보낸다(알릴 게 없어 보여도 생략하지 않는다). 메시지는 <routine_summary> 태그 안에 한 줄: "M.D 판 N건 발행 (경남정보대 a · 부산 대학 b · 전국 c)" 뒤에 경남정보대 기사가 있으면 첫 기사 제목을 짧게 붙이고, 끝에 " / 관리 언론사 기사 x건 · 배너 y곳"을 붙인다. 예: "10.17 판 21건 발행 (경남정보대 2 · 부산 대학 12 · 전국 7) — 경남정보대 AI창업학과 KIT 스타트업 포럼 / 관리 언론사 기사 15건 · 배너 2곳"
+## 5. 노출 현황 알림 (필요할 때만)
+조간 알림과 별도로, 아래 경우에만 PushNotification을 한 번 더 보낸다(<routine_summary> 한 줄). 그 밖에는 보내지 않는다.
+- 4단계가 실패했거나 배너 점검이 실패한 경우: "노출 현황 갱신 실패 — <이유>"
+- 배너가 "노출 중"인 언론사가 있는 경우: "배너 노출 확인 y곳 — <언론사 이름들>"
