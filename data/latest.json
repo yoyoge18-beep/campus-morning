@@ -1,10 +1,10 @@
 {
  "date": "2026-10-20",
- "collected_at": "2026-10-20T09:55:49.112047+09:00",
+ "collected_at": "2026-10-20T09:59:06.542074+09:00",
  "window_start": "2026-10-19T09:00:00+09:00",
  "window_end": "2026-10-20T09:00:00+09:00",
  "window_start_kit": "2026-10-19T09:00:00+09:00",
- "count": 165,
+ "count": 171,
  "items": [
   {
    "title": "경남정보대 평생교육원, 미용기능장 국가자격시험 합격생 배출",
@@ -444,7 +444,8 @@
     "부산대학교",
     "부산여대",
     "부산 대학",
-    "대학 교육부"
+    "대학 교육부",
+    "전문대학"
    ],
    "outlet": "부산일보",
    "outlet_tier": 1,
@@ -1799,6 +1800,20 @@
    "date_verified": true
   },
   {
+   "title": "김해대–김해한일여고, 경남 앵커사업 연계 바이오헬스케어 지역인재 양...",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026101916111482936",
+   "naver_url": "https://n.news.naver.com/mnews/article/082/0001403100?sid=102",
+   "domain": "busan.com",
+   "published": "2026-10-19T16:12:00+09:00",
+   "snippet": "김해한일여자고등학교 보건의료행정과와 김해대학교 AI융합의료과 간 교육 연계를 통해 고교 단계에서 습득한 기초 직무역량을 대학의 실무 중심 전문교육으로 발전시키고, 지역 의료기관 및 바이오헬스케어 기업이...",
+   "query": "전문대학",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "부산일보",
+   "outlet_tier": 1,
+   "date_verified": true
+  },
+  {
    "title": "[기고] 가려움까지 치료하는 시대…여전히 높은 아토피 치료 문턱",
    "url": "https://www.joongang.co.kr/article/25471154",
    "naver_url": "https://n.news.naver.com/mnews/article/025/0003559095?sid=101",
@@ -2065,6 +2080,20 @@
    "date_verified": true
   },
   {
+   "title": "NIA, ‘제1회 AI 정부 포럼’…공무원 AI 개발 제도 논의",
+   "url": "https://www.joongang.co.kr/article/25470961",
+   "naver_url": "https://n.news.naver.com/mnews/article/025/0003558929?sid=101",
+   "domain": "joongang.co.kr",
+   "published": "2026-10-19T16:55:00+09:00",
+   "snippet": "김영미 상명대학교 행정학부 교수가 좌장을 맡았으며 ▶김원오 인하대학교 법학전문대학원 교수 ▶이유봉 한국법제연구원 AI데이터법제센터장 ▶최주선 법무법인 원 변호사 ▶중앙·지방정부 AI챔피언 ▶박현철...",
+   "query": "전문대학",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "중앙일보",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
    "title": "AI 안경 소지한 수험생 또 있었다…시립대, 응시 3년 제한",
    "url": "https://www.joongang.co.kr/article/25470959",
    "naver_url": "https://n.news.naver.com/mnews/article/025/0003558927?sid=102",
@@ -2075,6 +2104,20 @@
    "via": "naver",
    "priority": 3,
    "outlet": "중앙일보",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "고려사이버대, ‘XR 콘텐츠 학습자 모니터링단’ 운영",
+   "url": "https://www.donga.com/news/Society/article/all/20261019/134868001/1",
+   "naver_url": "https://n.news.naver.com/mnews/article/020/0003755978?sid=102",
+   "domain": "donga.com",
+   "published": "2026-10-19T16:51:00+09:00",
+   "snippet": "한편 고려사이버대는 오는 11월 16일부터 2027학년도 1학기 일반대학원과 경영전문대학원 신입생을 모집한다. 직장인은 산업체위탁 협약을 통해 등록금 30% 감면 혜택을 받을 수 있다. 모집 요강은 입학지원센터 홈페이지...",
+   "query": "전문대학",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "동아일보",
    "outlet_tier": 2,
    "date_verified": true
   },
@@ -2205,6 +2248,34 @@
    "date_verified": true
   },
   {
+   "title": "경인여대 산학협력단, 인천신용보증재단 인천소상공인종합지원센터와 ...",
+   "url": "https://edu.donga.com/news/articleView.html?idxno=112932",
+   "naver_url": "https://edu.donga.com/news/articleView.html?idxno=112932",
+   "domain": "edu.donga.com",
+   "published": "2026-10-19T14:54:00+09:00",
+   "snippet": "경인여자대학교 박용희 산학협력단장은 \"이번 협약은 지역 거점 전문대학인 경인여대의 실무 중심 교육 역량과 소상공인 지원 최일선에 있는 종합지원센터의 전문성이 결합하여 지역 상생의 시너지를 내는 뜻깊은 출발점...",
+   "query": "전문대학",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "동아일보",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "경남교육청, 스마트제조 인재 양성 직업교육 혁신지구 협력위",
+   "url": "https://www.yna.co.kr/view/AKR20261019065200052?input=1195m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386070?sid=102",
+   "domain": "yna.co.kr",
+   "published": "2026-10-19T14:30:00+09:00",
+   "snippet": "2022년 교육부 공모사업에 선정된 이후 직업교육 혁신 체계를 구축해 왔다. 참석자들은 산업 수요를 반영한 맞춤형 교육과정 운영, 기업·대학 연계 교육 강화, 현장 실습 및 취업 지원 확대 방안을 논의했다. 특히 학교에서...",
+   "query": "대학 교육부",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "연합뉴스",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
    "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
    "url": "https://www.yna.co.kr/view/PYH20261019157300013?input=1196m",
    "naver_url": "https://n.news.naver.com/mnews/article/001/0016386076?sid=102",
@@ -2219,12 +2290,26 @@
    "date_verified": true
   },
   {
-   "title": "경남교육청, 스마트제조 인재 양성 직업교육 혁신지구 협력위",
-   "url": "https://www.yna.co.kr/view/AKR20261019065200052?input=1195m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386070?sid=102",
+   "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
+   "url": "https://www.yna.co.kr/view/PYH20261019157100013?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386054?sid=102",
    "domain": "yna.co.kr",
-   "published": "2026-10-19T14:30:00+09:00",
-   "snippet": "2022년 교육부 공모사업에 선정된 이후 직업교육 혁신 체계를 구축해 왔다. 참석자들은 산업 수요를 반영한 맞춤형 교육과정 운영, 기업·대학 연계 교육 강화, 현장 실습 및 취업 지원 확대 방안을 논의했다. 특히 학교에서...",
+   "published": "2026-10-19T14:29:00+09:00",
+   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
+   "query": "대학 교육부",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "연합뉴스",
+   "outlet_tier": 2,
+   "date_verified": true
+  },
+  {
+   "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
+   "url": "https://www.yna.co.kr/view/PYH20261019157200013?input=1196m",
+   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386055?sid=102",
+   "domain": "yna.co.kr",
+   "published": "2026-10-19T14:29:00+09:00",
+   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
    "query": "대학 교육부",
    "via": "naver",
    "priority": 3,
@@ -2252,36 +2337,8 @@
   },
   {
    "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
-   "url": "https://www.yna.co.kr/view/PYH20261019157100013?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386054?sid=102",
-   "domain": "yna.co.kr",
-   "published": "2026-10-19T14:29:00+09:00",
-   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
-   "query": "대학 교육부",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "연합뉴스",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
-   "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
    "url": "https://www.yna.co.kr/view/PYH20261019157000013?input=1196m",
    "naver_url": "https://n.news.naver.com/mnews/article/001/0016386061?sid=102",
-   "domain": "yna.co.kr",
-   "published": "2026-10-19T14:29:00+09:00",
-   "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
-   "query": "대학 교육부",
-   "via": "naver",
-   "priority": 3,
-   "outlet": "연합뉴스",
-   "outlet_tier": 2,
-   "date_verified": true
-  },
-  {
-   "title": "'대학·지역 동반성장 지원위원회' 첫 회의",
-   "url": "https://www.yna.co.kr/view/PYH20261019157200013?input=1196m",
-   "naver_url": "https://n.news.naver.com/mnews/article/001/0016386055?sid=102",
    "domain": "yna.co.kr",
    "published": "2026-10-19T14:29:00+09:00",
    "snippet": "최교진 교육부 장관이 19일 세종시 정부세종청사에서 열린 '대학·지역 동반성장 지원위원회' 1차 회의를 주재하고 있다. 2026.10.19",
@@ -2461,6 +2518,20 @@
    "date_verified": true
   },
   {
+   "title": "김종영 교수 서울대 10개 아닌 서울대 4개로 변질…단발성 사업 넘어 특별법 제정 시급",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SN0tPQWNUM2dIUjY2Mm8zOFR4LTdhZC11aVJyYnFUMXZvTFZZT0ZycHl0RnQycUphZ181clNja0ZDWnJtdHR6VkxLdGRWX0pfR0JGaDBaU1NRUdIBWEFVX3lxTE01bzNBZDlHajJ2ZG5NMTZiWm5EQUNMZ3g5RHU5SzJSaEhsVHgtbVJKNjRtaHF2b3dvTkplVzFlNUw5ZFVpNVA0WmlncTZjaEpzdUltbXVCQjk?oc=5",
+   "source": "아주경제",
+   "domain": "ajunews.com",
+   "published": "2026-10-19T17:26:52+09:00",
+   "snippet": "",
+   "query": "대학 교육부",
+   "via": "google",
+   "priority": 3,
+   "outlet": "아주경제",
+   "outlet_tier": 3,
+   "date_verified": true
+  },
+  {
    "title": "서울시립대 논술서 AI 안경 소지자 추가 적발…교육부도 대응 나서",
    "url": "https://www.ajunews.com/view/20261019164243481",
    "naver_url": "https://www.ajunews.com/view/20261019164243481",
@@ -2479,15 +2550,33 @@
    "date_verified": true
   },
   {
+   "title": "2026 진주 K-기업가정신 국제포럼 개막… AI·우주항공 산업 미래 논의",
+   "url": "https://view.asiae.co.kr/article/2026101915202101656",
+   "naver_url": "https://n.news.naver.com/mnews/article/277/0005830430?sid=102",
+   "domain": "view.asiae.co.kr",
+   "published": "2026-10-19T15:20:00+09:00",
+   "snippet": "이 자리에서는 국내외 전문가와 대학 관계자들이 참여해 기업가정신과 공동체 발전, AI 시대의 미래인재 양성, 대학과 지역의 혁신 생태계 구축 방안 등을 논의한다. 진주시는 이번 포럼을 통해 국제기구와 기업, 대학 간...",
+   "query": "전문대학",
+   "via": "naver",
+   "priority": 3,
+   "outlet": "아시아경제",
+   "outlet_tier": 3,
+   "date_verified": true
+  },
+  {
    "title": "박수현 충남지사 \"대산산단 국가산단 전환 추진\"…서산 산업구조 바꾼다",
    "url": "https://www.ajunews.com/view/20261019091647717",
    "naver_url": "https://www.ajunews.com/view/20261019091647717",
    "domain": "ajunews.com",
    "published": "2026-10-19T14:22:00+09:00",
    "snippet": "한서대 글로컬대학 사업을 통한 전문인력 확보와 기업·연구기관 유치가 산업 거점 조성의 주요 과제로 꼽힌다. 가로림만 국가해양생태공원은 내년 예비타당성조사 통과가 관건이다. 도는 해양수산부와 협력해...",
-   "query": "글로컬대학",
+   "query": "전문대학",
    "via": "naver",
    "priority": 3,
+   "queries": [
+    "전문대학",
+    "글로컬대학"
+   ],
    "outlet": "아주경제",
    "outlet_tier": 3,
    "date_verified": true
