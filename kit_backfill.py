@@ -42,7 +42,6 @@ for q in collect.KEYWORDS[1]:
 print(f"네이버 기사 {len(items)}건")
 
 # 네이버에 없는 관리 언론사는 자체 검색으로
-collect.DUMP_SITE = True
 collect.SINCE_KIT = datetime.combine(start_day - timedelta(days=1), datetime.min.time()).replace(tzinfo=collect.KST)
 for dom, base in collect.SITE_SEARCH.items():
     try:

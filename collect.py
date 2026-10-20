@@ -295,11 +295,20 @@ def site_search(domain: str, base: str) -> list[dict]:
             href = requests.compat.urljoin(base + "/", a.get("href"))
             box = a.find_parent(["li", "div", "tr", "article"]) or a.parent
             text = box.get_text(" ", strip=True) if box else ""
-            m = re.search(r"(20\d\d)[.\-/](\d{1,2})[.\-/](\d{1,2})\s*(\d{1,2}):(\d{2})", text)
+            if "경남정보" not in title + text:   # 검색 결과 옆 다른 기사 목록은 제외
+                continue
+            # 날짜는 "2026-10-20 09:51" 또는 연도 없이 "10-20 09:51"
+            m = re.search(r"(?:(20\d\d)[.\-/])?(\d{1,2})[.\-/](\d{1,2})\s+(\d{1,2}):(\d{2})", text)
             if not m:
                 continue
-            y, mo, d, hh, mi = map(int, m.groups())
-            pub = datetime(y, mo, d, hh, mi, tzinfo=KST)
+            y = int(m.group(1)) if m.group(1) else END.year
+            mo, d, hh, mi = map(int, m.groups()[1:])
+            try:
+                pub = datetime(y, mo, d, hh, mi, tzinfo=KST)
+            except ValueError:
+                continue
+            if not m.group(1) and pub > END + timedelta(days=1):   # 연말·연초 넘어갈 때
+                pub = pub.replace(year=y - 1)
             if not in_window(pub, SINCE_KIT):
                 continue
             n += 1
