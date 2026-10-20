@@ -41,6 +41,13 @@ for q in collect.KEYWORDS[1]:
         time.sleep(0.2)
 print(f"네이버 기사 {len(items)}건")
 
+# 네이버에 없는 관리 언론사는 자체 검색으로
+collect.SINCE_KIT = datetime.combine(start_day - timedelta(days=1), datetime.min.time()).replace(tzinfo=collect.KST)
+for dom, base in collect.SITE_SEARCH.items():
+    for it in collect.site_search(dom, base):
+        it["priority"] = 1
+        items.setdefault(it["url"], it)
+
 end = collect.window_end(collect.NOW)
 day_end = datetime.combine(start_day, datetime.min.time()).replace(hour=collect.CUTOFF_HOUR, tzinfo=collect.KST)
 while day_end <= end:

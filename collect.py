@@ -263,6 +263,50 @@ def save_managed_kit(by_url: dict):
     print(f"관리 언론사 경남정보대 기사 {len(rows)}건", file=sys.stderr)
 
 
+# 네이버·구글 뉴스에 잡히지 않는 관리 언론사: 언론사 자체 검색으로 경남정보대 기사를 찾는다
+SITE_SEARCH = {
+    "globalnewsagency.kr": "https://www.globalnewsagency.kr",
+    "enkorea.kr": "https://www.enkorea.kr",
+}
+
+
+def site_search(domain: str, base: str) -> list[dict]:
+    """언론사 홈페이지 기사 검색(대부분의 지역 언론사가 쓰는 articleList.html 형식)."""
+    out = []
+    for kw in KEYWORDS[1]:
+        try:
+            r = requests.get(f"{base}/news/articleList.html",
+                             params={"sc_area": "A", "view_type": "sm", "sc_word": kw},
+                             headers=UA, timeout=20)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"[site {domain}] {e}", file=sys.stderr)
+            continue
+        soup = BeautifulSoup(r.text, "html.parser")
+        n = 0
+        for a in soup.select('a[href*="articleView.html"]'):
+            title = a.get_text(" ", strip=True)
+            if len(title) < 6:
+                continue
+            href = requests.compat.urljoin(base + "/", a.get("href"))
+            box = a.find_parent(["li", "div", "tr", "article"]) or a.parent
+            text = box.get_text(" ", strip=True) if box else ""
+            m = re.search(r"(20\d\d)[.\-/](\d{1,2})[.\-/](\d{1,2})\s*(\d{1,2}):(\d{2})", text)
+            if not m:
+                continue
+            y, mo, d, hh, mi = map(int, m.groups())
+            pub = datetime(y, mo, d, hh, mi, tzinfo=KST)
+            if not in_window(pub, SINCE_KIT):
+                continue
+            n += 1
+            out.append({"title": title[:150], "url": href, "domain": domain,
+                        "published": pub.isoformat(), "snippet": text[:160],
+                        "query": kw, "via": "site"})
+        print(f"[site {domain}] {kw}: 링크 {len(soup.select('a[href*=articleView.html]'))}개, 범위 안 {n}건", file=sys.stderr)
+        time.sleep(0.3)
+    return out
+
+
 def main():
     cid = os.environ.get("NAVER_CLIENT_ID")
     secret = os.environ.get("NAVER_CLIENT_SECRET")
@@ -306,6 +350,11 @@ def main():
             it["priority"] = 1 if "경남정보대" in it["title"] else 2
             by_url[it["url"]] = it
         time.sleep(0.15)
+    for dom, base in SITE_SEARCH.items():
+        for it in site_search(dom, base):
+            if it["url"] not in by_url:
+                it["priority"] = 1
+                by_url[it["url"]] = it
     for it in busan_ilbo():
         if it["url"] not in by_url:
             it["priority"] = 2
