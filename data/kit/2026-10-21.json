@@ -1,0 +1,24 @@
+{
+ "date": "2026-10-21",
+ "window_start": "2026-10-20T09:00:00+09:00",
+ "window_end": "2026-10-21T09:00:00+09:00",
+ "count": 2,
+ "items": [
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 부산시교육청·경남정보대·부산진해경자청",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=171110",
+   "published": "2026-10-20T14:02:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(10월20일)] 동의대 최영현·권찬영 교수,...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610192149398220219",
+   "published": "2026-10-20T09:22:00+09:00",
+   "via": "naver",
+   "in_title": false
+  }
+ ]
+}
