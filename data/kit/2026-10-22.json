@@ -1,0 +1,24 @@
+{
+ "date": "2026-10-22",
+ "window_start": "2026-10-21T09:00:00+09:00",
+ "window_end": "2026-10-22T09:00:00+09:00",
+ "count": 2,
+ "items": [
+  {
+   "outlet": "부산일보",
+   "title": "고성군, 청년 외식 창업 인재 양성 마산대와 맞손",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026102114223689305",
+   "published": "2026-10-21T14:44:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남 고성군-마산대, 손잡고 청년 외식 창업 길 연다",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3727983",
+   "published": "2026-10-21T13:58:00+09:00",
+   "via": "naver",
+   "in_title": false
+  }
+ ]
+}
