@@ -52,7 +52,7 @@ Claude 예약 작업 '대학 조간 매일 발행'(매일 09:00 KST)에 들어 �
 ## 4. 관리 언론사 기사 노출 현황 갱신 (비밀번호로 잠긴 페이지 https://claude.ai/artifact/HFMBwgnSFzoinJzxCVGmzK)
 조간 알림을 보낸 뒤에 한다(조간 발행이 실패했어도 수집이 성공했으면 한다). 배너 점검은 하지 않는다(adcheck.yml 실행 금지).
 자료는 수집 때 비밀번호(저장소 Secret `DASH_PASSWORDS`)로 암호화되어 `media/media.enc.json` 하나로 저장된다. 비밀번호는 모르고, 풀어 보지도 않는다. 이전 대시보드(https://claude.ai/artifact/1wMnk86UhydRJB6vLrp81t)는 더 이상 갱신하지 않는다.
-1. `git -C /home/claude/campus-morning fetch -q origin main && git -C /home/claude/campus-morning show origin/main:media/media.enc.json > <작업폴더>/media-enc/media.enc.json` 로 받는다. 파일 맨 앞 `"created"`의 날짜가 오늘(KST)인지 확인한다. 아니면 60초 뒤 다시 받기를 5번까지 한다. 그래도 없거나 날짜가 다르면 실패로 보고 5단계로 간다(이유: "암호화 파일이 오늘 것이 아님 — 저장소 Secret DASH_PASSWORDS 확인").
+1. `git -C /home/claude/campus-morning fetch -q origin main && git -C /home/claude/campus-morning show origin/main:media/media.enc.json > <작업폴더>/media-enc/media.enc.json` 로 받는다(폴더는 먼저 mkdir -p). 파일 맨 앞 `"created"`의 날짜가 오늘(KST)인지 확인한다. 아니면 60초 뒤 다시 받기를 5번까지 한다. 그래도 없거나 날짜가 다르면 실패로 보고 5단계로 간다(이유: "암호화 파일이 오늘 것이 아님 — 저장소 Secret DASH_PASSWORDS 확인").
 2. Artifact action "read", url 위 주소, path "index.html" 로 페이지를 받아 로컬에 저장해 둔다.
 3. Artifact publish: url 위 주소, file_path = 받아 둔 페이지 HTML(내용 수정 금지), files = {"data/media.enc.json": 1에서 받은 파일}. capabilities는 넘기지 않는다. '최신판을 보지 않았다'며 거절되면 같은 내용으로 한 번 더 발행한다.
 4. 발행 후 Artifact read, path "data/media.enc.json" 으로 created가 오늘인지 확인한다.
