@@ -1,0 +1,344 @@
+<title>언론사 노출 현황</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+@font-face{font-family:"Pretendard";src:url("fonts/PretendardVariable.woff2") format("woff2-variations"),url("fonts/PretendardVariable.woff2") format("woff2");font-weight:45 920;font-style:normal;font-display:swap}
+/* Layout: 대학 조간과 같은 머리(로고·메뉴) → 잠금 카드 또는 요약 문장·숫자 3개·날짜별 막대·언론사 표·기사 표, 단일 칼럼 max 960px */
+:root{
+  --bg:#FFFFFF; --paper:#F2F4F7; --ink:#151B26; --muted:#5B6576; --line:#DCE1E8;
+  --accent:#1D4ED8; --accent-soft:#E3EAFB; --stamp:#E11737; --ok:#0F7B4F; --bad:#C2410C;
+  --f-body:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E131B; --paper:#161D28; --ink:#E7ECF3; --muted:#9AA5B6; --line:#283244;
+  --accent:#7EA2F5; --accent-soft:#1D2A44; --stamp:#F2485E; --ok:#4ADE9B; --bad:#FB923C; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E131B; --paper:#161D28; --ink:#E7ECF3; --muted:#9AA5B6; --line:#283244;
+  --accent:#7EA2F5; --accent-soft:#1D2A44; --stamp:#F2485E; --ok:#4ADE9B; --bad:#FB923C; color-scheme:dark}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6}
+.site-top{background:var(--bg);border-bottom:1px solid var(--line)}
+.brand{display:flex;justify-content:center;padding-block:22px 18px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.brand a{display:inline-flex;border-radius:6px}
+.brand img{display:block;width:260px;max-width:70vw;height:auto}
+.brand .logo-d{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .brand .logo-l{display:none}:root:not([data-theme="light"]) .brand .logo-d{display:block}}
+:root[data-theme="dark"] .brand .logo-l{display:none}
+:root[data-theme="dark"] .brand .logo-d{display:block}
+.gnb{border-top:1px solid var(--line);display:flex;justify-content:center;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.gnb ul{list-style:none;margin:0;padding:0;display:flex;width:100%;max-width:760px}
+.gnb li{flex:1 1 0;display:flex;position:relative}
+.gnb li+li::before{content:"";position:absolute;left:0;top:50%;height:22px;margin-top:-11px;border-left:1px solid var(--line)}
+.gnb a{flex:1;text-align:center;padding:16px 8px;font:500 17px var(--f-body);letter-spacing:-.02em;color:var(--ink);text-decoration:none;border-bottom:1.5px solid transparent;margin-bottom:-1px;white-space:nowrap}
+.gnb a[aria-current="page"]{color:var(--stamp);border-bottom-color:var(--stamp)}
+.gnb a:hover,.gnb a:focus-visible{color:var(--stamp)}
+.gnb .ext{font-size:12px;margin-left:4px;color:var(--muted)}
+@media (max-width:480px){.gnb a{font-size:15px;padding:13px 4px}}
+
+.wrap{max-width:960px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:20px}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+h1{font-weight:700;font-size:clamp(24px,5.5vw,30px);line-height:1.2;margin:0;letter-spacing:-.03em;text-wrap:balance}
+.sub{color:var(--muted);font-size:13px;margin-top:6px}
+.meta{font-family:var(--f-mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.btn{font:500 14px var(--f-body);border-radius:6px;padding:9px 18px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:var(--bg)}
+.btn.ghost{background:transparent;color:var(--muted);border-color:var(--line);padding:5px 12px;font-size:12px}
+.btn:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn[disabled]{opacity:.6;cursor:progress}
+
+.lock{box-sizing:border-box;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:28px 24px;display:flex;flex-direction:column;gap:14px;max-width:440px;width:100%;margin:12px auto 0}
+.lock h2{margin:0;font-size:18px;font-weight:600;letter-spacing:-.02em}
+.lock p{margin:0;color:var(--muted);font-size:14px}
+.lock .row{display:flex;gap:8px;flex-wrap:wrap}
+.lock input[type=password]{flex:1 1 12rem;min-width:0;font:16px var(--f-body);padding:9px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink)}
+.lock label.rem{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted);cursor:pointer}
+.msg{font-size:13px;min-height:1.4em;margin:0}
+.msg.err{color:var(--bad)}
+
+.lead{margin:0;color:var(--muted);max-width:68ch}
+.lead b{color:var(--ink);font-weight:600}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr));gap:12px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:16px 18px;min-width:0;display:flex;flex-direction:column;gap:6px}
+.card h2{font-size:15px;font-weight:600;margin:0;letter-spacing:-.01em}
+.note{margin:0;color:var(--muted);font-size:12.5px}
+.tiles .note{min-height:2.8em}
+.big{font-weight:700;font-size:34px;line-height:1.1;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-top:auto}
+.big small{font-weight:400;font-size:14px;color:var(--muted);margin-left:4px;letter-spacing:0}
+.chart{position:relative;min-height:190px}
+.chart svg{display:block}
+.chart .tip{position:absolute;pointer-events:none;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:4px 9px;font-size:12px;white-space:nowrap;box-shadow:0 4px 14px rgb(0 0 0 / .12)}
+.chart .tip span{display:block;color:var(--muted);font-family:var(--f-mono);font-size:11px}
+.tools{display:flex;gap:8px;flex-wrap:wrap}
+input[type=search]{font:13px var(--f-body);padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);flex:1 1 12rem;max-width:20rem;min-width:0}
+.tbox{max-height:34rem;overflow:auto;border-top:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{position:sticky;top:0;background:var(--paper);font-weight:500;color:var(--muted);white-space:nowrap}
+th button{all:unset;cursor:pointer}
+th button:focus-visible{outline:2px solid var(--accent)}
+th[aria-sort=ascending] button::after{content:" ↑"}
+th[aria-sort=descending] button::after{content:" ↓"}
+.num{text-align:right}
+td.zero{color:var(--muted)}
+td a{color:var(--ink);text-decoration:none}
+td a:hover,td a:focus-visible{color:var(--accent);text-decoration:underline}
+td.when{font-family:var(--f-mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.method{margin:0;padding-left:1.2em;color:var(--muted);font-size:13px;display:flex;flex-direction:column;gap:4px}
+@media (max-width:640px){.hide-narrow{display:none}}
+@media (prefers-reduced-motion:no-preference){#dash{animation:in .25s ease-out}@keyframes in{from{opacity:.4}to{opacity:1}}}
+</style>
+
+<div class="site-top">
+  <header class="brand">
+    <a href="https://www.kit.ac.kr/" target="_blank" rel="noopener" aria-label="경남정보대학교 홈페이지"><img class="logo-l" src="logo.png" alt="경남정보대학교" width="260" height="42"><img class="logo-d" src="logo-dark.png" alt="경남정보대학교" width="260" height="42"></a>
+  </header>
+  <nav class="gnb" aria-label="메뉴">
+    <ul>
+      <li><a href="https://claude.ai/artifact/5v6MqnwGdhjaKEyPwWUbVM" target="_blank" rel="noopener">대학 조간<span class="ext" aria-hidden="true">↗</span></a></li>
+      <li><a href="#" aria-current="page">언론사 노출 현황</a></li>
+    </ul>
+  </nav>
+</div>
+
+<div class="wrap">
+  <div class="head">
+    <div>
+      <h1>관리 언론사 노출 현황</h1>
+      <div class="sub">관리 언론사가 낸 경남정보대 기사, 매일 09:00 판 기준</div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+      <span class="meta" id="stamp">자료 확인 중</span>
+      <button type="button" class="btn ghost" id="relock" hidden>잠그기</button>
+    </div>
+  </div>
+
+  <section class="lock" id="lock" aria-labelledby="lock-h">
+    <h2 id="lock-h">비밀번호를 넣어 주세요</h2>
+    <p>받은 비밀번호를 넣은 분만 볼 수 있습니다. 비밀번호가 없으면 담당자에게 요청해 주세요.</p>
+    <div class="row">
+      <input type="password" id="pw" autocomplete="current-password" placeholder="비밀번호" aria-label="비밀번호">
+      <button type="button" class="btn" id="open">열기</button>
+    </div>
+    <label class="rem"><input type="checkbox" id="remember"> 이 기기에서 기억하기 (내 기기에서만 켜 주세요)</label>
+    <p class="msg" id="msg" role="status"></p>
+  </section>
+
+  <div id="dash" hidden>
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <p class="lead" id="lead"></p>
+      <section class="tiles">
+        <div class="card"><h2>오늘 기사 노출</h2><p class="note">전날 09:00 ~ 오늘 09:00, 관리 언론사의 경남정보대 기사</p><div class="big"><span id="t-today">—</span><small>건</small></div></div>
+        <div class="card"><h2>이번 달 기사 노출</h2><p class="note">이달 1일 판부터 오늘 판까지</p><div class="big"><span id="t-month">—</span><small>건</small></div></div>
+        <div class="card"><h2>이번 달 기사 낸 언론사</h2><p class="note">관리 언론사 중 이달 경남정보대 기사를 1건 이상 낸 곳</p><div class="big"><span id="t-outlets">—</span><small>곳 / <span id="t-total">—</span>곳</small></div></div>
+      </section>
+      <section class="card">
+        <h2>날짜별 기사 노출</h2>
+        <p class="note">관리 언론사가 낸 경남정보대 기사 수(판 날짜 기준, 최근 45일)</p>
+        <div class="chart" id="chart"></div>
+      </section>
+      <section class="card">
+        <h2>언론사별 현황</h2>
+        <p class="note">제목을 누르면 정렬됩니다.</p>
+        <div class="tools"><input type="search" id="q-outlet" placeholder="언론사 찾기" aria-label="언론사 찾기"></div>
+        <div class="tbox"><table id="t-o"><thead><tr>
+          <th><button type="button" data-k="outlet">언론사</button></th>
+          <th class="num"><button type="button" data-k="articles_today">오늘 기사</button></th>
+          <th class="num"><button type="button" data-k="articles_month">이번 달</button></th>
+          <th class="num hide-narrow"><button type="button" data-k="articles_total">누적</button></th>
+        </tr></thead><tbody></tbody></table></div>
+      </section>
+      <section class="card">
+        <h2>기사 목록</h2>
+        <p class="note">관리 언론사의 경남정보대 기사, 최근 순</p>
+        <div class="tools"><input type="search" id="q-article" placeholder="제목·언론사 찾기" aria-label="기사 찾기"></div>
+        <div class="tbox"><table id="t-a"><thead><tr><th>보도 시각</th><th>언론사</th><th>제목</th></tr></thead><tbody></tbody></table></div>
+      </section>
+      <section class="card">
+        <h2>집계 방법</h2>
+        <ul class="method">
+          <li>매일 09:00 수집 때 네이버·구글 뉴스에서 '경남정보대'로 찾은 기사 중 관리 언론사 주소의 기사만 셉니다. 제목이나 요약에 '경남정보'가 들어간 기사만 셉니다.</li>
+          <li>하루는 전날 09:00부터 그날 09:00까지입니다. 월요일 판도 하루치(일 09:00~월 09:00)만 셉니다.</li>
+          <li>글로벌뉴스통신은 네이버 뉴스에 잡히지 않아 언론사 자체 검색으로 찾습니다. 이뉴스한국은 사이트가 자동 접속을 막고 있어 아직 집계되지 않습니다.</li>
+          <li>이 페이지의 자료는 비밀번호로 암호화되어 있고, 비밀번호를 넣으면 이 브라우저 안에서만 풀립니다.</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</div>
+
+<script>
+(() => {
+const $ = (s) => document.querySelector(s);
+const te = new TextEncoder();
+const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+const KEY = "kit-media-pw";
+const store = { get() { try { return localStorage.getItem(KEY) || ""; } catch (e) { return ""; } },
+  set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} },
+  clear() { try { localStorage.removeItem(KEY); } catch (e) {} } };
+const fmtNum = (n) => Number(n || 0).toLocaleString("ko-KR");
+const md = (d) => { const [, m, dd] = String(d).split("-"); return `${+m}.${+dd}`; };
+let bundle = null, data = null, sort = { k: "articles_month", dir: -1 };
+
+function setMsg(t, err) { const m = $("#msg"); m.textContent = t; m.className = "msg" + (err ? " err" : ""); }
+
+async function load() {
+  try {
+    const r = await fetch("data/media.enc.json?v=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    bundle = await r.json();
+    $("#stamp").textContent = bundle.created ? `자료 갱신 ${md(bundle.created.slice(0, 10))} ${bundle.created.slice(11, 16)}` : "";
+  } catch (e) {
+    $("#stamp").textContent = "";
+    setMsg("아직 올라온 자료가 없습니다. 다음 갱신(매일 09:00 이후) 뒤에 다시 열어 주세요.", true);
+    $("#open").disabled = true;
+    return;
+  }
+  const saved = store.get();
+  if (saved) { $("#pw").value = saved; $("#remember").checked = true; unlock(); }
+}
+
+async function decrypt(pw) {
+  const k = bundle.kdf;
+  const base = await crypto.subtle.importKey("raw", te.encode(pw.normalize("NFC")), "PBKDF2", false, ["deriveKey"]);
+  const kek = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: b64(k.salt), iterations: k.iterations, hash: k.hash },
+    base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+  for (const s of bundle.keys) {
+    let raw;
+    try { raw = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64(s.iv), additionalData: te.encode("kit-key-v1") }, kek, b64(s.wrapped)); }
+    catch (e) { continue; }
+    const dk = await crypto.subtle.importKey("raw", raw, "AES-GCM", false, ["decrypt"]);
+    const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64(bundle.iv), additionalData: te.encode("kit-media-v1") }, dk, b64(bundle.ct));
+    return JSON.parse(new TextDecoder().decode(plain));
+  }
+  return null;
+}
+
+async function unlock() {
+  const pw = $("#pw").value.trim();
+  if (!pw) { setMsg("비밀번호를 넣어 주세요.", true); return; }
+  if (!bundle) return;
+  if (!window.crypto || !crypto.subtle) { setMsg("이 브라우저에서는 열 수 없습니다. 최신 Chrome·Safari·Edge로 열어 주세요.", true); return; }
+  $("#open").disabled = true; setMsg("여는 중…");
+  try {
+    const d = await decrypt(pw);
+    if (!d) { store.clear(); setMsg("비밀번호가 맞지 않습니다. 다시 확인해 주세요.", true); return; }
+    if ($("#remember").checked) store.set(pw); else store.clear();
+    data = d; setMsg("");
+    $("#lock").hidden = true; $("#dash").hidden = false; $("#relock").hidden = false;
+    render();
+  } catch (e) {
+    setMsg("자료를 풀지 못했습니다. 페이지를 새로고침한 뒤 다시 해 주세요.", true);
+  } finally { $("#open").disabled = false; }
+}
+
+function relock() {
+  store.clear(); data = null;
+  $("#pw").value = ""; $("#remember").checked = false;
+  $("#dash").hidden = true; $("#relock").hidden = true; $("#lock").hidden = false;
+  $("#t-o tbody").replaceChildren(); $("#t-a tbody").replaceChildren(); $("#chart").replaceChildren();
+  setMsg("잠갔습니다. 이 기기에 기억한 비밀번호도 지웠습니다.");
+  $("#pw").focus();
+}
+
+function render() {
+  const o = data.outlets || [], dl = data.daily || [];
+  const day = dl.length ? dl[dl.length - 1].date : "";
+  const today = o.reduce((s, r) => s + (r.articles_today || 0), 0);
+  const withToday = o.filter((r) => r.articles_today > 0).length;
+  const lead = $("#lead"); lead.replaceChildren();
+  const b = (t) => { const e = document.createElement("b"); e.textContent = t; return e; };
+  lead.append(`${md(day)} 판 기준, 관리 언론사 `, b(fmtNum(o.length)), "곳 중 ", b(fmtNum(withToday)), "곳이 경남정보대 기사를 냈습니다.");
+  $("#t-today").textContent = fmtNum(today);
+  $("#t-month").textContent = fmtNum(o.reduce((s, r) => s + (r.articles_month || 0), 0));
+  $("#t-outlets").textContent = fmtNum(o.filter((r) => r.articles_month > 0).length);
+  $("#t-total").textContent = fmtNum(o.length);
+  drawChart(); drawOutlets(); drawArticles();
+}
+
+function drawChart() {
+  const el = $("#chart"); el.replaceChildren();
+  const rows = (data.daily || []).slice(-45);
+  if (!rows.length) { const p = document.createElement("p"); p.className = "note"; p.textContent = "아직 쌓인 날짜가 없습니다."; el.append(p); return; }
+  const NS = "http://www.w3.org/2000/svg";
+  const W = Math.max(el.clientWidth, 260), H = 190, m = { t: 10, r: 6, b: 26, l: 30 };
+  const max = Math.max(3, ...rows.map((r) => r.articles || 0));
+  const step = max <= 5 ? 1 : max <= 12 ? 2 : max <= 30 ? 5 : 10;
+  const top = Math.ceil(max / step) * step;
+  const y = (v) => m.t + (H - m.t - m.b) * (1 - v / top);
+  const bw = (W - m.l - m.r) / rows.length, bar = Math.min(bw * 0.72, 28);
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("width", "100%"); svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "날짜별 기사 노출 막대 그래프");
+  const add = (tag, at, text) => { const e = document.createElementNS(NS, tag); for (const k in at) e.setAttribute(k, at[k]); if (text != null) e.textContent = text; svg.append(e); return e; };
+  for (let v = 0; v <= top; v += step) {
+    add("line", { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), stroke: "var(--line)", "stroke-width": 1 });
+    add("text", { x: m.l - 6, y: y(v) + 4, "text-anchor": "end", fill: "var(--muted)", "font-size": 11 }, v);
+  }
+  const every = Math.ceil(rows.length / Math.max(1, Math.floor((W - m.l) / 46)));
+  const tip = document.createElement("div"); tip.className = "tip"; tip.hidden = true;
+  rows.forEach((r, i) => {
+    const cx = m.l + bw * i + bw / 2, v = r.articles || 0;
+    const rect = add("rect", { x: cx - bar / 2, y: y(v), width: bar, height: Math.max(0, y(0) - y(v)), rx: 3, fill: i === rows.length - 1 ? "var(--stamp)" : "var(--accent)" });
+    const hit = add("rect", { x: m.l + bw * i, y: m.t, width: bw, height: H - m.t - m.b, fill: "transparent" });
+    hit.addEventListener("mousemove", (ev) => {
+      tip.hidden = false; tip.replaceChildren();
+      const s = document.createElement("span"); s.textContent = r.date; tip.append(s, `${fmtNum(v)}건`);
+      const box = el.getBoundingClientRect(), tw = tip.offsetWidth;
+      tip.style.left = Math.min(Math.max(ev.clientX - box.left - tw / 2, 0), el.clientWidth - tw) + "px";
+      tip.style.top = Math.max(ev.clientY - box.top - 52, 0) + "px";
+    });
+    hit.addEventListener("mouseleave", () => { tip.hidden = true; });
+    if (i % every === 0 || i === rows.length - 1) add("text", { x: cx, y: H - 8, "text-anchor": "middle", fill: "var(--muted)", "font-size": 11 }, md(r.date));
+  });
+  add("line", { x1: m.l, x2: W - m.r, y1: y(0), y2: y(0), stroke: "var(--muted)", "stroke-width": 1 });
+  el.append(svg, tip);
+}
+
+function drawOutlets() {
+  const q = $("#q-outlet").value.trim();
+  const tb = $("#t-o tbody"); tb.replaceChildren();
+  const val = (r) => r[sort.k] ?? "";
+  const rows = (data.outlets || []).filter((r) => !q || r.outlet.includes(q)).slice()
+    .sort((a, b) => (val(a) < val(b) ? -1 : val(a) > val(b) ? 1 : 0) * sort.dir || a.outlet.localeCompare(b.outlet, "ko"));
+  document.querySelectorAll("#t-o th").forEach((th) => {
+    th.setAttribute("aria-sort", th.querySelector("button").dataset.k === sort.k ? (sort.dir > 0 ? "ascending" : "descending") : "none");
+  });
+  if (!rows.length) { const td = tb.insertRow().insertCell(); td.colSpan = 4; td.className = "zero"; td.textContent = "찾는 언론사가 없습니다."; return; }
+  for (const r of rows) {
+    const tr = tb.insertRow();
+    const c = (t, cls) => { const td = tr.insertCell(); td.textContent = t; if (cls) td.className = cls; };
+    c(r.outlet);
+    c(fmtNum(r.articles_today), "num" + (r.articles_today ? "" : " zero"));
+    c(fmtNum(r.articles_month), "num" + (r.articles_month ? "" : " zero"));
+    c(fmtNum(r.articles_total), "num hide-narrow" + (r.articles_total ? "" : " zero"));
+  }
+}
+
+function drawArticles() {
+  const q = $("#q-article").value.trim();
+  const tb = $("#t-a tbody"); tb.replaceChildren();
+  const rows = (data.articles || []).filter((r) => !q || r.title.includes(q) || r.outlet.includes(q)).slice(0, 300);
+  if (!rows.length) { const td = tb.insertRow().insertCell(); td.colSpan = 3; td.className = "zero"; td.textContent = q ? "찾는 기사가 없습니다." : "아직 기록된 기사가 없습니다."; return; }
+  for (const r of rows) {
+    const tr = tb.insertRow();
+    const w = tr.insertCell(); w.className = "when"; w.textContent = r.published;
+    tr.insertCell().textContent = r.outlet;
+    const t = tr.insertCell(); const a = document.createElement("a");
+    if (/^https?:\/\//.test(r.url)) a.href = r.url;
+    a.target = "_blank"; a.rel = "noopener"; a.textContent = r.title; t.append(a);
+  }
+}
+
+$("#open").addEventListener("click", unlock);
+$("#pw").addEventListener("keydown", (e) => { if (e.key === "Enter") unlock(); });
+$("#relock").addEventListener("click", relock);
+$("#q-outlet").addEventListener("input", () => data && drawOutlets());
+$("#q-article").addEventListener("input", () => data && drawArticles());
+document.querySelectorAll("#t-o th button").forEach((bt) => bt.addEventListener("click", () => {
+  const k = bt.dataset.k; sort = { k, dir: sort.k === k ? -sort.dir : (k === "outlet" ? 1 : -1) }; drawOutlets();
+}));
+let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => data && drawChart(), 150); });
+load();
+})();
+</script>

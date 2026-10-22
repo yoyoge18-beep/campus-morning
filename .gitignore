@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# 노출 현황 평문 자료는 저장소에 올리지 않는다(암호화본 media/media.enc.json만 올림)
+media/*.json
+!media/media.enc.json

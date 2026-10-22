@@ -26,7 +26,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests==2.32.3 beautifulsoup4==4.12.3 lxml==5.3.0
+      - run: pip install requests==2.32.3 beautifulsoup4==4.12.3 lxml==5.3.0 cryptography==44.0.0
       - name: 수집
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
@@ -39,6 +39,8 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python kit_backfill.py
       - name: 저장
+        env:
+          DASH_PASSWORDS: ${{ secrets.DASH_PASSWORDS }}
         run: |
           git config user.name "campus-morning-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -47,6 +49,7 @@ jobs:
           git pull --rebase -q
           # 노출 현황 자료는 최신 자료를 받은 뒤 다시 만든다(동시 저장 충돌 방지)
           python build_media.py
+          python encrypt_media.py
           git add media
           git commit -qm "노출 현황 $(TZ=Asia/Seoul date +%F)" || echo "변경 없음"
           git push || (git pull --rebase -q -X theirs && git push)

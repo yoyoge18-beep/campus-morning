@@ -14,7 +14,7 @@ Claude 예약 작업 '대학 조간 매일 발행'(매일 09:00 KST)에 들어 �
 - `actions_run_trigger` method "run_workflow", owner "yoyoge18-beep", repo "campus-morning", workflow_id "collect.yml", ref "main" 으로 수집을 실행한다.
 - 30초마다(Bash sleep 30) `actions_list` method "list_workflow_runs", resource_id "collect.yml" 로 방금 실행한 run(event workflow_dispatch, 실행 이후 created_at)의 상태를 본다. completed + success가 되면 다음으로 간다.
 - 실패했거나 10분이 지나도 끝나지 않으면 한 번만 다시 실행한다. 그래도 안 되면 발행하지 말고 PushNotification으로 실패 내용을 알리고 끝낸다. 지난 수집 파일이나 웹 검색으로 대신 채우지 않는다.
-- `curl -sL "https://raw.githubusercontent.com/yoyoge18-beep/campus-morning/main/data/latest.json?t=$(date +%s)"` 로 수집 파일을 읽는다. date가 오늘이고 window_end가 오늘 09:00(+09:00)인지 확인한다. 아니면 60초 뒤 다시 읽기를 5번까지 하고(또는 `mcp__github__get_file_contents`로 data/<오늘>.json), 그래도 다르면 발행하지 말고 알린다.
+- 수집 파일을 git으로 읽는다(저장소가 비공개여도 됨): `git -C /home/claude/campus-morning fetch -q origin main && git -C /home/claude/campus-morning show origin/main:data/latest.json > <작업폴더>/latest.json`. 그 폴더가 없으면 먼저 `git clone -q https://github.com/yoyoge18-beep/campus-morning /home/claude/campus-morning`. date가 오늘이고 window_end가 오늘 09:00(+09:00)인지 확인한다. 아니면 60초 뒤 다시 읽기를 5번까지 하고(또는 `mcp__github__get_file_contents`로 data/<오늘>.json), 그래도 다르면 발행하지 말고 알린다.
 - 항목 필드: title, url, source/domain, published, priority(1 경남정보대, 2 부산 대학, 3 전국), via(naver=원문 링크, google=구글 경유 링크, busan.com), date_verified, outlet(언론사명), outlet_tier(언론사 순위).
 
 ## 2. 고르기
@@ -49,13 +49,13 @@ Claude 예약 작업 '대학 조간 매일 발행'(매일 09:00 KST)에 들어 �
 5. 발행 후 Artifact read로 editions/index.json의 latest가 오늘인지 확인한다.
 6. **확인되면 노출 현황(4단계)을 기다리지 말고 곧바로** PushNotification을 보낸다(성공했어도 반드시, 생략하지 않는다). 메시지는 <routine_summary> 태그 안에 한 줄: "M.D 판 N건 발행 (경남정보대 a · 부산 대학 b · 전국 c)" 뒤에 경남정보대 기사가 있으면 첫 기사 제목을 짧게 붙인다. 예: "10.17 판 21건 발행 (경남정보대 2 · 부산 대학 12 · 전국 7) — 경남정보대 AI창업학과 KIT 스타트업 포럼"
 
-## 4. 관리 언론사 기사 노출 현황 갱신 (대시보드 https://claude.ai/artifact/1wMnk86UhydRJB6vLrp81t)
+## 4. 관리 언론사 기사 노출 현황 갱신 (비밀번호로 잠긴 페이지 https://claude.ai/artifact/HFMBwgnSFzoinJzxCVGmzK)
 조간 알림을 보낸 뒤에 한다(조간 발행이 실패했어도 수집이 성공했으면 한다). 배너 점검은 하지 않는다(adcheck.yml 실행 금지).
-1. 자료 3개를 받는다: `curl -sL "https://raw.githubusercontent.com/yoyoge18-beep/campus-morning/main/media/<id>.json?t=$(date +%s)" -o <작업폴더>/<id>.json` (id: outlets, articles, daily). 수집 때 함께 만들어진다. daily.json 마지막 date가 오늘인지 확인한다. 아니면 60초 뒤 다시 받기를 5번까지 한다.
-2. 파일마다 따로 Artifact publish: url 위 대시보드 주소, asset true, file_path 그 파일 → 결과의 url(`/_blob/...`)을 적어 둔다. (JSON은 한 번에 한 파일씩)
-3. ToolSearch로 `ArtifactData`를 불러온 뒤, ArtifactData list, url 대시보드 주소, collection "datasets" 로 세 문서(outlets, articles, daily)의 version과 지금 source.url을 읽는다.
-4. ArtifactData batch 로 세 문서를 update 한다(각각 if_version): {"source": {"kind": "file", "url": <2에서 받은 url>, "name": "<id>.json"}, "updated": {"at": 지금 ISO 시각(+09:00), "by": "대학 조간 매일 발행"}}. 다른 필드는 건드리지 않는다. 페이지(files/index.html)도 건드리지 않는다.
-5. 3에서 읽은 이전 source.url 의 자산은 새 자산과 다르면 Artifact action "delete"(url 대시보드 주소, path 그 자산 id = `/_blob/` 뒤 32자리)로 지운다. 실패해도 넘어간다.
+자료는 수집 때 비밀번호(저장소 Secret `DASH_PASSWORDS`)로 암호화되어 `media/media.enc.json` 하나로 저장된다. 비밀번호는 모르고, 풀어 보지도 않는다. 이전 대시보드(https://claude.ai/artifact/1wMnk86UhydRJB6vLrp81t)는 더 이상 갱신하지 않는다.
+1. `git -C /home/claude/campus-morning fetch -q origin main && git -C /home/claude/campus-morning show origin/main:media/media.enc.json > <작업폴더>/media-enc/media.enc.json` 로 받는다. 파일 맨 앞 `"created"`의 날짜가 오늘(KST)인지 확인한다. 아니면 60초 뒤 다시 받기를 5번까지 한다. 그래도 없거나 날짜가 다르면 실패로 보고 5단계로 간다(이유: "암호화 파일이 오늘 것이 아님 — 저장소 Secret DASH_PASSWORDS 확인").
+2. Artifact action "read", url 위 주소, path "index.html" 로 페이지를 받아 로컬에 저장해 둔다.
+3. Artifact publish: url 위 주소, file_path = 받아 둔 페이지 HTML(내용 수정 금지), files = {"data/media.enc.json": 1에서 받은 파일}. capabilities는 넘기지 않는다. '최신판을 보지 않았다'며 거절되면 같은 내용으로 한 번 더 발행한다.
+4. 발행 후 Artifact read, path "data/media.enc.json" 으로 created가 오늘인지 확인한다.
 
 ## 5. 노출 현황 알림 (실패했을 때만)
 4단계가 실패했을 때만 PushNotification을 한 번 더 보낸다(<routine_summary> 한 줄): "노출 현황 갱신 실패 — <이유>". 성공하면 보내지 않는다.
