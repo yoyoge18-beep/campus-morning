@@ -1,0 +1,120 @@
+{
+ "date": "2026-10-31",
+ "window_start": "2026-10-30T09:00:00+09:00",
+ "window_end": "2026-10-31T09:00:00+09:00",
+ "count": 14,
+ "items": [
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대 AI창업학과, 로컬 창업 후속 특강 진행",
+   "url": "http://www.metroseoul.co.kr/article/20261030500290",
+   "published": "2026-10-31T07:10:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "뉴시스",
+   "title": "사진으로 보는 일주일 [뉴시스Pic]",
+   "url": "https://www.newsis.com/view/NISX20261030_0003848672",
+   "published": "2026-10-31T07:00:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대 치위생과, 제22회 치과위생사 선서식·학술제 개최",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261027.99099008013",
+   "published": "2026-10-30T16:02:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대 AI창업학과, 로컬 창업 주제 ‘KIT 스타트업 포럼’ 개최",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261029.99099008904",
+   "published": "2026-10-30T16:02:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대 유학생팀, 부산지역 전문대학 축구대회 '첫 우승'",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3737808",
+   "published": "2026-10-30T15:54:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "경남정보대 외국인 유학생팀, 부산 전문대 축구대회 초대 챔피언 등극",
+   "url": "https://view.asiae.co.kr/article/2026103015540839456",
+   "published": "2026-10-30T15:54:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, ‘제1회 부산지역 전문대학 유학생 축구대회’ 우승",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261030.99099009063",
+   "published": "2026-10-30T15:40:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대, '제1회 부산지역 전문대학 유학생 축구대회' 우승",
+   "url": "https://news.unn.net/news/articleView.html?idxno=599644",
+   "published": "2026-10-30T14:48:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, ‘부산 전문대학 유학생 축구대회’서 최다 득점… 초대 우...",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026103014420984634",
+   "published": "2026-10-30T14:43:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "[경남정보대 브리핑#] 국경 넘은 화합의 장…'제1회 부산지역 전문대학...",
+   "url": "https://www.betanews.net/article/view/beta202610300033",
+   "published": "2026-10-30T14:36:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "뉴시스",
+   "title": "예비 간호사들의 다짐",
+   "url": "https://www.newsis.com/view/NISI20261030_0021511514",
+   "published": "2026-10-30T12:46:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "뉴시스",
+   "title": "경남정보대 간호학과 나이팅게일 선서식",
+   "url": "https://www.newsis.com/view/NISI20261030_0021511527",
+   "published": "2026-10-30T12:46:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 부산시교육청·경남정보대·국립부경대",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=171668",
+   "published": "2026-10-30T10:12:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "시사매거진",
+   "title": "3경기 10골…경남정보대 유학생팀, 부산 전문대 축구대회 우승",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vYnRsQ2lJbVZjTG1QclM1c3o2Q3EyMC16Ukpnb0E4RGVsNUxLQlAyVlBhT1VDQktMRFQ3cmpSa0lCV2NBWlZhYzN0M25LQjZreTh1ZXEyUUhVUmxoSlFoLS1B?oc=5",
+   "published": "2026-10-30T15:05:43+09:00",
+   "via": "google",
+   "in_title": true
+  }
+ ]
+}
