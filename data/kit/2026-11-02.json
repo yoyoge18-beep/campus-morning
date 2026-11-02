@@ -1,0 +1,16 @@
+{
+ "date": "2026-11-02",
+ "window_start": "2026-11-01T09:00:00+09:00",
+ "window_end": "2026-11-02T09:00:00+09:00",
+ "count": 1,
+ "items": [
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대 유학생팀, 부산 전문대 유학생 축구대회 우승",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026110112012314015",
+   "published": "2026-11-01T14:19:00+09:00",
+   "via": "naver",
+   "in_title": true
+  }
+ ]
+}
