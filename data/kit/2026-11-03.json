@@ -1,0 +1,144 @@
+{
+ "date": "2026-11-03",
+ "window_start": "2026-11-02T09:00:00+09:00",
+ "window_end": "2026-11-03T09:00:00+09:00",
+ "count": 17,
+ "items": [
+  {
+   "outlet": "서울파이낸스",
+   "title": "[부산대학가] 동의과학대 물리치료과, 학술대회 최우수·우수상 수상 등",
+   "url": "https://www.seoulfn.com/news/articleView.html?idxno=641712",
+   "published": "2026-11-03T08:47:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "머니투데이",
+   "title": "경남정보대 글로벌K뷰티학과 전원 네일 기술강사 취득",
+   "url": "https://www.mt.co.kr/policy/2026/11/02/2026110216140671247",
+   "published": "2026-11-02T16:18:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "펜앤마이크",
+   "title": "경남정보대 글로벌K뷰티학과, 네일아트전공 재학생 전원 기술강사 자격...",
+   "url": "https://www.pennmike.com/news/articleView.html?idxno=130781",
+   "published": "2026-11-02T15:24:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대 글로벌K뷰티학과, 신입생 포함 21명 네일 기술강사 자격 취...",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026110215164685590",
+   "published": "2026-11-02T15:18:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌경제",
+   "title": "경남정보大, 글로벌K뷰티학과 21명 네일 기술강사 자격 전원 취득",
+   "url": "https://www.getnews.co.kr/news/articleView.html?idxno=885636",
+   "published": "2026-11-02T14:54:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌이코노믹",
+   "title": "경남정보대, ‘글로벌K뷰티학과’ 네일 기술강사 자격 21명 전원 취득",
+   "url": "https://www.g-enews.com/view.php?ud=20261102141215980237f21df127_1",
+   "published": "2026-11-02T14:42:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "데일리한국",
+   "title": "[부산대학소식]부산디지털대 대학원, 상담심리학과 박사과정 신설 외",
+   "url": "https://daily.hankooki.com/news/articleView.html?idxno=1420699",
+   "published": "2026-11-02T13:30:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "경남정보대 글로벌K뷰티학과 학생 21명, 네일 기술강사 자격 전원 취득",
+   "url": "https://view.asiae.co.kr/article/2026110212443877777",
+   "published": "2026-11-02T12:44:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "\"신입생도 해냈다\"…경남정보대 글로벌K뷰티학과, 네일 기술강사 전원 ...",
+   "url": "https://www.betanews.net/article/view/beta202611020089",
+   "published": "2026-11-02T12:28:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아주경제",
+   "title": "[대학소식] 경남정보대, 전문인재 양성·유학생 교류·지역 창업까지 '결...",
+   "url": "https://www.ajunews.com/view/20261102113000137",
+   "published": "2026-11-02T11:38:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대 글로벌K뷰티학과, 네일 기술강사 자격 21명 전원 취득",
+   "url": "https://news.unn.net/news/articleView.html?idxno=599734",
+   "published": "2026-11-02T11:32:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대, 네일 기술강사 자격 21명 전원 취득",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3739353",
+   "published": "2026-11-02T11:28:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 국립부경대·경남정보대·부산시설공단",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=171736",
+   "published": "2026-11-02T10:22:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(11월2일)] 동아대, ‘개교 80주년 기념음...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610302319301110001",
+   "published": "2026-11-02T09:22:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대, 재학생 21명 네일 기술강사 자격 취득",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IdE9OMU9PUW9sbGMybTBzdkJFX0ltdGpfR01aNDhFRHRmck01MDFlTkNGQWZVNHFzN0RPNmlRNzVCeEZJd01HRFdpSzMxS215Zi10T2ZhWmN3dm5aeGR0bw?oc=5",
+   "published": "2026-11-03T08:34:56+09:00",
+   "via": "google",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, 글로벌K뷰티학과 네일아트전공 재학생 21명, 한국핸드아트스타일링협회 네일 기술강사 자격 전원 취득",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOVNVRUdla05pSHZBQ2RUdy1VWjNBRXFSVTkzWXB4V0Zqdk9lTURxS0ZZLURXeGVDcFhXaTdUSlpBRXJJNGZBeFZpWjdnZVVCNjhteGJwQUtDLW9tUUpmMkFjY1dWV2pQWGRkQW5BdVFIbDM4QlVSeGdrRkltY1R3NVh6dzctWVJ5TTU2cWNXa1hFVTA?oc=5",
+   "published": "2026-11-02T16:39:00+09:00",
+   "via": "google",
+   "in_title": true
+  },
+  {
+   "outlet": "머니투데이",
+   "title": "경남정보대 글로벌K뷰티학과 전원 네일 기술강사 취득 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DajJnRE9Da0lrcWVfY3NsczB2bldvNUZqckpVeWFIM2dVR21XY08teVVDN0dJM0YtaGIyMS1yQU1pVDMzNEpFUEttR0g4bHNfX3R2dnR0OElQeTdNYjdEVTlIaWcweHVBaVHSAW9BVV95cUxPTC14X1NrbnRfMVBHcndCSFF0SmtKY0pteTFGcU9NQk51dFllQkxPdl95R3JOYmlFbFVjdEJ4aUI3bU5iYlRzaXpTS0Q1NkJzLTNLMjA2aFN2ejNySW1iLV85cjFCbzFrTm5mSzVmS1E?oc=5",
+   "published": "2026-11-02T16:18:36+09:00",
+   "via": "google",
+   "in_title": true
+  }
+ ]
+}
