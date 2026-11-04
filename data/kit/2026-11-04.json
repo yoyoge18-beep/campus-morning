@@ -1,0 +1,104 @@
+{
+ "date": "2026-11-04",
+ "window_start": "2026-11-03T09:00:00+09:00",
+ "window_end": "2026-11-04T09:00:00+09:00",
+ "count": 12,
+ "items": [
+  {
+   "outlet": "내일신문",
+   "title": "경남정보대 ‘장애인 디지털 콘텐츠’ 교육부터 취업까지 지원",
+   "url": "https://www.naeil.com/news/read/607460?ref=naver",
+   "published": "2026-11-03T17:46:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "신아일보",
+   "title": "경남정보대, 장애인 디지털 콘텐츠 제작 인재 9명 양성…취업 연계 추진",
+   "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5079285",
+   "published": "2026-11-03T16:54:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, 장애인 대상 ‘콘텐츠제작자 양성과정’ 성료… 취업 연계...",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026110314290639437",
+   "published": "2026-11-03T14:30:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "경남정보대-사상구장애인복지관, 장애인 콘텐츠 제작자 9명 배출",
+   "url": "https://view.asiae.co.kr/article/2026110312545574033",
+   "published": "2026-11-03T12:54:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대, 장애인 디지털 인재 양성…취업 연계까지",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3740663",
+   "published": "2026-11-03T11:34:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대, 장애인 디지털 콘텐츠 제작자 양성… 교육부터 취업까지 잇...",
+   "url": "https://news.unn.net/news/articleView.html?idxno=599833",
+   "published": "2026-11-03T11:14:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "\"교육이 곧 일자리로\"…경남정보대, 장애인 콘텐츠제작자 9명 배출",
+   "url": "https://www.betanews.net/article/view/beta202611030073",
+   "published": "2026-11-03T10:42:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 부산시교육청·국립부경대·경남정보대",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=171815",
+   "published": "2026-11-03T10:20:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "동의과학대 외국인 유학생 축구팀, 제1회 부산 전문대 축구대회 준우승",
+   "url": "https://view.asiae.co.kr/article/2026110310172154228",
+   "published": "2026-11-03T10:17:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대, 재학생 21명 네일 기술강사 자격 취득",
+   "url": "http://www.metroseoul.co.kr/article/20261102500693",
+   "published": "2026-11-03T09:06:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, `미리캔버스를 활용한 콘텐츠제작자 양성과정` 수료생 9명 배출",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVnoxcGVfNE1rRjlicDg5bXdtek44bUdZdDR3bVNXZks4LWR6M3JmeWktWlJRTGFUNlhvRTYzV1ZsN2RFVDVaZlc3dWktSWFjNjF6bVBpdnRaVmFFQV94SWVBZW53c0Y2QUItR3RIMk9fRlhoSEdlTU9zNHVMVGlZSVR6cWRyTmVMMm0tNklEM2NzeDA?oc=5",
+   "published": "2026-11-03T18:30:00+09:00",
+   "via": "google",
+   "in_title": true
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 국립부경대·경남정보대·부산시설공단",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xdTVKZGJ2M3VDN01lcWIxQUhKcGkyNVBPOWRET0N3SDRqdF9uV3pPZWpCemY4cndRaEJORWxZNWhwcThjaXBEeHBzZ2k0TE9lQW5nb1cxQk1jX2tlbTRxcHNtc1FCandGdC1J0gFrQVVfeXFMT3F1NUpkYnYzdUM3TWVxYjFBSEpwaTI1UE85ZERPQ3dINGp0X25Xek9lakJ6Zjhyd1FoQk5FbFk1aHBxOGNpcER4cHNnaTRMT2VBbmdvVzFCTWNfa2VtNHFwc21zUUJqd0Z0LUk?oc=5",
+   "published": "2026-11-03T19:33:26+09:00",
+   "via": "google",
+   "in_title": true
+  }
+ ]
+}
