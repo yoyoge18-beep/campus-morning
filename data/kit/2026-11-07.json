@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-07",
+ "window_start": "2026-11-06T09:00:00+09:00",
+ "window_end": "2026-11-07T09:00:00+09:00",
+ "count": 18,
+ "items": [
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대, NK아이빌과 학생 창업 교육 업무 협약",
+   "url": "http://www.metroseoul.co.kr/article/20261106500232",
+   "published": "2026-11-06T20:08:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "머니투데이",
+   "title": "경남정보대-낭만커피연구소 커피머신 엔지니어 양성 협력",
+   "url": "https://www.mt.co.kr/policy/2026/11/06/2026110617495355720",
+   "published": "2026-11-06T18:00:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아주경제",
+   "title": "[대학소식]커피머신 기술인력 키운다...경남정보대, 맞춤형 인재양성 박...",
+   "url": "https://www.ajunews.com/view/20261106172944336",
+   "published": "2026-11-06T17:48:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, '미리캔버스를 활용한 콘텐츠제작자 양성과정' 수료생 9명...",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261103.99099001087",
+   "published": "2026-11-06T17:16:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, 부산평생학습주간서 시민 대상 직업교육 체험부스 운영",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261104.99099001294",
+   "published": "2026-11-06T17:16:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대, 낭만커피연구소와 커피머신 엔지니어 양성 '맞손'",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3744654",
+   "published": "2026-11-06T17:08:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대, 낭만커피연구소와 커피머신 엔지니어 양성 산학협력 체결",
+   "url": "https://news.unn.net/news/articleView.html?idxno=600159",
+   "published": "2026-11-06T16:56:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "펜앤마이크",
+   "title": "경남정보대, SCOUT 사업 일환으로 아동양육시설과 업무협약",
+   "url": "https://www.pennmike.com/news/articleView.html?idxno=131155",
+   "published": "2026-11-06T15:44:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌이코노믹",
+   "title": "경남정보대 SCOUT사업단, NK아이빌과 손잡고 청소년 창업교육",
+   "url": "https://www.g-enews.com/view.php?ud=20261106145424226137f21df127_1",
+   "published": "2026-11-06T15:36:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "K-뷰티·베이킹·AI까지…보육시설 학생들, 대학서 창업 꿈 키운다",
+   "url": "https://view.asiae.co.kr/article/2026110615250478088",
+   "published": "2026-11-06T15:25:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대 SCOUT사업단-NK아이빌, 학생 창업교육 협력체계 구축",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026110613551473746",
+   "published": "2026-11-06T13:56:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, NK아이빌과 손잡고 아동·청소년 창업교육 지원",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261106.99099001959",
+   "published": "2026-11-06T13:49:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "경남정보대 SCOUT사업단, NK아이빌과 맞손…청소년 맞춤형 자립·창업교...",
+   "url": "https://www.betanews.net/article/view/beta202611060086",
+   "published": "2026-11-06T13:38:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대 SCOUT사업단, NK아이빌과 초·중·고 학생 창업교육 업무협약",
+   "url": "https://news.unn.net/news/articleView.html?idxno=600133",
+   "published": "2026-11-06T13:20:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대 SCOUT사업단, NK아이빌과 초·중·고 학생 창업교육 MOU",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3744361",
+   "published": "2026-11-06T13:12:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "머니투데이",
+   "title": "경남정보대-낭만커피연구소 커피머신 엔지니어 양성 협력 - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zRzJnNjloOC1LSmxoS1p6ZGVYdjJIU1Q2OEEydmw5UWNFb2M0YTdnLTFBZU43bXd2WmVtMFNMbzJtVVR0QnI0WkFpQ1BheWJYVjRnczB1NFdpc1NZeElBRk9JTW8yaU1iX0w2QlVCYlVhT01MN05B0gF8QVVfeXFMTmZoTzlfbDVCTDhUWWdaR204N3FqTzZLeGJJMG5zLWY3NmtINDBPNlVTWlZJSWNLcks4QmVMUGktT3A4SnRRT0FQMURaWmRUb3NvdElnV3VlYko4cTRWWVlKUlpCQTBHaGRlVC1icnRHLVBLS0pYUlFtckREcA?oc=5",
+   "published": "2026-11-06T18:00:08+09:00",
+   "via": "google",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, 낭만커피연구소와 커피머신 엔지니어 양성",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT0Jtc2tLajk4S21qcDhIWDFnTkJtODlSWWRCei1OZ0ZBMU81blV1T1FNSzFxVGQyZWswUWIxU2VfOUk0OVZaOGJ5VnJTQVFEaVBSbWJVd0lzMHVuOTJmVVZnVmNkUkFzQUxMOGtCSFZ0MEUwY1EyWFRrb0hWb203LXFlVm9IOGhHSW9DYTBxaWZVVDg?oc=5",
+   "published": "2026-11-06T17:12:00+09:00",
+   "via": "google",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, 낭만커피연구소와 커피머신 엔지니어 양성 산학협력 업무협약",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40ZHFoVUluY1RETU9hSmthcDZpYV8wQURyWUNnNGJIdjBYaWJNbVdjc1N0aEJ6TEFmTUhFZTlLVDlLMVo3LWx0YVRMUWdsMlkxTkRyaUhlTkRCb0ItejhLZkMyak9rZ1lIVHE3LTE2cXVBNVhR?oc=5",
+   "published": "2026-11-06T17:51:54+09:00",
+   "via": "google",
+   "in_title": true
+  }
+ ]
+}
