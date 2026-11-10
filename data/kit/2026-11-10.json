@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-10",
+ "window_start": "2026-11-09T09:00:00+09:00",
+ "window_end": "2026-11-10T09:00:00+09:00",
+ "count": 16,
+ "items": [
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(11월10일)] 신라대 초의수 명예교수, ‘2...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611091305463330203",
+   "published": "2026-11-10T08:40:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "글로벌경제",
+   "title": "경남정보大, '2026년 AIDX 컨소시엄 3개 대학 사업단 합동 워크숍' 개최",
+   "url": "https://www.getnews.co.kr/news/articleView.html?idxno=886577",
+   "published": "2026-11-10T08:12:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "제28회 부산국제마라톤대회",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1800&key=20261110.22001002803",
+   "published": "2026-11-09T20:06:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "영남이공대학교, \"전국 공학도들 한자리에\"...스마트팩토리 경진대회 열...",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3746725",
+   "published": "2026-11-09T18:20:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대 주관 AIDX 컨소시엄, 3개 대학 사업단 합동 워크숍",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3746663",
+   "published": "2026-11-09T17:22:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "부산교육, 학부모와 소통하며 미래교육 방향 모색",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3746606",
+   "published": "2026-11-09T16:42:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, 마산대·춘해보건대와 AIDX 사업 합동 워크숍",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261109.99099002629",
+   "published": "2026-11-09T15:23:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, ‘AIDX 컨소시엄 3개 대학 사업단 합동 워크숍’ 성료",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026110915193779513",
+   "published": "2026-11-09T15:20:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "대학 교육에 AI 바람… 동남권 3개 전문대, 전공·행정 혁신 공유",
+   "url": "https://view.asiae.co.kr/article/2026110915184064502",
+   "published": "2026-11-09T15:18:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "동남권 3개 전문대학, AI·디지털 전환 해법 찾는다…경남정보대 주관 ...",
+   "url": "https://www.betanews.net/article/view/beta202611090119",
+   "published": "2026-11-09T14:44:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "BBS불교방송",
+   "title": "[부산광역시교육청 9일 소식] 학부모 대상 '2026 정책공감 미래교육 특강...",
+   "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4117418",
+   "published": "2026-11-09T13:22:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "데일리한국",
+   "title": "[부산교육소식]벡스코서 펼쳐지는 수학의 세계… '부산수학축전' 개막 ...",
+   "url": "https://daily.hankooki.com/news/articleView.html?idxno=1423080",
+   "published": "2026-11-09T11:04:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 부산시교육청·경남정보대·국립부경대",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=172107",
+   "published": "2026-11-09T10:06:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "부산교육청, 학부모와 미래교육 소통…12월까지 정책공감 행사",
+   "url": "https://view.asiae.co.kr/article/2026110908550494660",
+   "published": "2026-11-09T09:55:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(11월9일)] 경상국립대, 난민 당사자 초청...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611071057240440049",
+   "published": "2026-11-09T09:22:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대학교, 낭만커피연구소와 업무협약 체결",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUXJiQzExY3plWU5nb2h2WXhIdzd5SHg5MFpMOWhGNUh0RmlQWVFoMS1TN250T0dFVlFRQ01zaUlWc3MxbnVBNFFsR2R4bFZSQmFVVlBvNktfWHBwVTlvY1NQOXJuUUFUeHRfVVZaampVa21oNVdkYTR6V1JXLUEtYzZXU2NnSW0ySnRucGRR?oc=5",
+   "published": "2026-11-09T19:28:00+09:00",
+   "via": "google",
+   "in_title": true
+  }
+ ]
+}
