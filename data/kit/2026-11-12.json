@@ -1,0 +1,32 @@
+{
+ "date": "2026-11-12",
+ "window_start": "2026-11-11T09:00:00+09:00",
+ "window_end": "2026-11-12T09:00:00+09:00",
+ "count": 3,
+ "items": [
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대 국방산업학과, 풍산 부산사업장 현장 견학",
+   "url": "http://www.metroseoul.co.kr/article/20261110500570",
+   "published": "2026-11-11T10:52:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "서울파이낸스",
+   "title": "[부산대학가] 동의과학대, 반도체 기업·산업시설 현장 연수 등",
+   "url": "https://www.seoulfn.com/news/articleView.html?idxno=642475",
+   "published": "2026-11-11T09:39:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "시사매거진",
+   "title": "경남정보대, '2026 청춘찬가' 봄 피크닉 개최",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIaC1ScVJKanNVV29HeXYtZ080T1BLNFh5bF80OGxYMnhIQlNDaUpZdFY4VWVpd21xdjllZUJ6NHZxZlhTNWVId3pNOGs3VkFZc2d0Ym1zODc?oc=5",
+   "published": "2026-11-11T09:34:23+09:00",
+   "via": "google",
+   "in_title": true
+  }
+ ]
+}
