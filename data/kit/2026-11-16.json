@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-16",
+ "window_start": "2026-11-15T09:00:00+09:00",
+ "window_end": "2026-11-16T09:00:00+09:00",
+ "count": 2,
+ "items": [
+  {
+   "outlet": "글로벌경제",
+   "title": "경남정보大, 강용수·김유정, '모두의 창업 2차 모집' 1라운드 진출",
+   "url": "https://www.getnews.co.kr/news/articleView.html?idxno=887236",
+   "published": "2026-11-16T00:34:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "84세 어르신도, 꼬맹이도…궂은 날씨 뚫고 열정이 달렸다",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0600&key=20261116.22016004499",
+   "published": "2026-11-15T19:46:00+09:00",
+   "via": "naver",
+   "in_title": false
+  }
+ ]
+}
