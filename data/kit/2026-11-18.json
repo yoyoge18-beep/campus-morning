@@ -1,0 +1,88 @@
+{
+ "date": "2026-11-18",
+ "window_start": "2026-11-17T09:00:00+09:00",
+ "window_end": "2026-11-18T09:00:00+09:00",
+ "count": 10,
+ "items": [
+  {
+   "outlet": "이투데이",
+   "title": "경남정보대 학생들, 부산 식재료로 세계 무대 도전…K-푸드 창업 아이디...",
+   "url": "https://www.etoday.co.kr/news/view/2649331",
+   "published": "2026-11-17T15:28:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "데일리한국",
+   "title": "부산 식재료 품은 K-푸드… 경남정보대, 전국 조리대회 석권",
+   "url": "https://daily.hankooki.com/news/articleView.html?idxno=1426012",
+   "published": "2026-11-17T15:10:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, 부산 식재료로 월드푸드 챔피언십·K-푸드 창업대회서 상 ...",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026111714243966105",
+   "published": "2026-11-17T14:25:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "글로벌이코노믹",
+   "title": "경남정보대 학생들, 부산 식재료로 세계 요리대회서 실력 입증",
+   "url": "https://www.g-enews.com/view.php?ud=20261117134224100037f21df127_1",
+   "published": "2026-11-17T14:20:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대, '월드푸드 챔피언십'·'K-푸드 창업경진대회'서 부산 식재료...",
+   "url": "https://news.unn.net/news/articleView.html?idxno=600780",
+   "published": "2026-11-17T13:34:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "내외경제TV",
+   "title": "지역 특산물이 창업 아이템으로…경남정보대, K-푸드 경진대회 개최",
+   "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4027559",
+   "published": "2026-11-17T13:28:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대, 월드푸드 챔피언십·K-푸드 창업대회서 부산 식재료 활용 ...",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3754430",
+   "published": "2026-11-17T13:02:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "부산 수산물로 전국 제패… 경남정보대, 월드푸드 챔피언십서 해수부 장...",
+   "url": "https://view.asiae.co.kr/article/2026111712592761559",
+   "published": "2026-11-17T12:59:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "경남정보대, '2026 KOREA 월드푸드 챔피언십'서 해수부 장관상 등 대거 ...",
+   "url": "https://www.betanews.net/article/view/beta202611170092",
+   "published": "2026-11-17T12:04:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "충북보건과학대, 인도네시아 59개 고등학교와 학생교류·유학생 유치 업...",
+   "url": "https://news.unn.net/news/articleView.html?idxno=600719",
+   "published": "2026-11-17T11:00:00+09:00",
+   "via": "naver",
+   "in_title": false
+  }
+ ]
+}
