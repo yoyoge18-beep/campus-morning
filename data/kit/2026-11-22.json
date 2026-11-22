@@ -1,0 +1,16 @@
+{
+ "date": "2026-11-22",
+ "window_start": "2026-11-21T09:00:00+09:00",
+ "window_end": "2026-11-22T09:00:00+09:00",
+ "count": 1,
+ "items": [
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대, 공문 작성부터 자동화까지 AI 실습 진행",
+   "url": "http://www.metroseoul.co.kr/article/20261120500272",
+   "published": "2026-11-21T16:18:00+09:00",
+   "via": "naver",
+   "in_title": true
+  }
+ ]
+}
