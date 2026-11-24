@@ -1,0 +1,32 @@
+{
+ "date": "2026-11-24",
+ "window_start": "2026-11-23T09:00:00+09:00",
+ "window_end": "2026-11-24T09:00:00+09:00",
+ "count": 3,
+ "items": [
+  {
+   "outlet": "글로벌이코노믹",
+   "title": "경남정보대, 행정·교육 전반 AI 전환…교직원 실무역량 강화",
+   "url": "https://www.g-enews.com/view.php?ud=20261123135856425737f21df127_1",
+   "published": "2026-11-23T14:14:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(11월23일)] 인제대, 지역 청년 대상 AI·재...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611211446392090007",
+   "published": "2026-11-23T09:42:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 부산시교육청·국립부경대·경남정보대",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=172862",
+   "published": "2026-11-23T09:38:00+09:00",
+   "via": "naver",
+   "in_title": true
+  }
+ ]
+}
