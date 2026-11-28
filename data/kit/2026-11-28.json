@@ -1,0 +1,168 @@
+{
+ "date": "2026-11-28",
+ "window_start": "2026-11-27T09:00:00+09:00",
+ "window_end": "2026-11-28T09:00:00+09:00",
+ "count": 20,
+ "items": [
+  {
+   "outlet": "메트로신문",
+   "title": "경남정보대 재학생, 대한민국 옥외광고대상 '금상'",
+   "url": "http://www.metroseoul.co.kr/article/20261127500315",
+   "published": "2026-11-27T21:34:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대, 50+생애재설계대학 수료생 46명 배출",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261126.99099008449",
+   "published": "2026-11-27T17:53:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "머니투데이",
+   "title": "경남정보대 김용주 학생 대한민국 옥외광고 '금상'",
+   "url": "https://www.mt.co.kr/policy/2026/11/27/2026112717440388368",
+   "published": "2026-11-27T17:53:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "에너지경제",
+   "title": "[항공보안학회 추계 학술대회 ②] 통합 대한항공 객실 승무원 1만 명 시...",
+   "url": "https://www.ekn.kr/web/view.php?key=20261127028305713",
+   "published": "2026-11-27T16:46:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "부산과학기술대, 글로벌 캠퍼스 메이트 멘토챌린지 대상…10개 팀 참여",
+   "url": "https://news.unn.net/news/articleView.html?idxno=601622",
+   "published": "2026-11-27T16:18:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "국제신문",
+   "title": "경남정보대 AI시각디자인학과 재학생, 대한민국 옥외광고대상 금상 수상",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261127.99099008851",
+   "published": "2026-11-27T16:09:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "K-컬처부터 숨은 캠퍼스까지… 부산 5개 전문대 유학생-한국 학생, '특별...",
+   "url": "https://view.asiae.co.kr/article/2026112715585698768",
+   "published": "2026-11-27T15:58:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "베타뉴스",
+   "title": "경남정보대 김용주, 대한민국 옥외광고대상 금상…전포공구길 새 단장 ...",
+   "url": "https://www.betanews.net/article/view/beta202611270090",
+   "published": "2026-11-27T15:24:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "아시아경제",
+   "title": "경남정보대 김용주 학생, ‘2026 대한민국 옥외광고대상’ 금상",
+   "url": "https://view.asiae.co.kr/article/2026112715230952907",
+   "published": "2026-11-27T15:23:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "부산 5개 전문대학 '글로벌 캠퍼스 메이트 멘토챌린지' 성료",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3765328",
+   "published": "2026-11-27T15:20:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대 김용주 학생, ‘대한민국 옥외광고대상’서 금상 수상 쾌거",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026112715003574775",
+   "published": "2026-11-27T15:01:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "한국대학신문",
+   "title": "경남정보대 학생 김용주 씨, 공구길 재해석 작품으로 옥외광고대상 금상...",
+   "url": "https://news.unn.net/news/articleView.html?idxno=601607",
+   "published": "2026-11-27T15:00:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "펜앤마이크",
+   "title": "경남정보대 김용주 AI시디과 학생, 대한민국 옥외광고대상서 금상 수상",
+   "url": "https://www.pennmike.com/news/articleView.html?idxno=132933",
+   "published": "2026-11-27T14:42:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "민주신문",
+   "title": "[부산은 오늘] 부산시교육청·국립부경대·경남정보대",
+   "url": "http://www.iminju.net/news/articleView.html?idxno=173209",
+   "published": "2026-11-27T14:32:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "국제뉴스",
+   "title": "경남정보대 AI시각디자인학과 재학생, 대한민국 옥외광고대상 '금상'",
+   "url": "https://www.gukjenews.com/news/articleView.html?idxno=3765195",
+   "published": "2026-11-27T13:28:00+09:00",
+   "via": "naver",
+   "in_title": true
+  },
+  {
+   "outlet": "대한경제",
+   "title": "[부산ㆍ경남 대학 브리핑 모음(11월27일)] 국립창원대 BK21 교육연구단,...",
+   "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611261730449620866",
+   "published": "2026-11-27T09:02:00+09:00",
+   "via": "naver",
+   "in_title": false
+  },
+  {
+   "outlet": "머니투데이",
+   "title": "경남정보대 김용주 학생 대한민국 옥외광고 '금상' - 머니투데이",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xRXZlMFFOR1lZY2xzc1EzUVo0Rk9JSjVuSmk2Mmc0aF9UdTNnTUZPSDFuYWhvN0lvMVNZbkxFQWVoTWdrUVpNN0F1bVc5Z1g1UlFqNzdUaENoYkVnVlBlbmE5UUdCVnBEcVHSAW9BVV95cUxNeURQcXZSbUVmaUdkWUMtRi1BbUJFRzBzY29GODJybDE2UnBiR2JxTDBBbzNGQU42REotVmx6SFVqU1N0OE9SWmpVeWI2ZWtHQktGWFZSR2lsZTYzbFdQcFRfQkNNWlBhbGdmcjlMVEE?oc=5",
+   "published": "2026-11-27T17:53:05+09:00",
+   "via": "google",
+   "in_title": true
+  },
+  {
+   "outlet": "시사매거진",
+   "title": "경남정보대 김용주 학생, 대한민국 옥외광고대상 금상",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6NVRkb01Md2czQ2ZlQnBXSlVkT19UTW1SYlZCaHlBX2R2Q2RUaDY3TDVLd1ktb1hRcVEwbkpoSGk3WkdNZ3JraERIdlZZVzB2eXRmSGVVVmowaG1vbFM5MW1B?oc=5",
+   "published": "2026-11-28T02:25:18+09:00",
+   "via": "google",
+   "in_title": true
+  },
+  {
+   "outlet": "부산일보",
+   "title": "경남정보대, ‘글로벌 캠퍼스 메이트 멘토챌린지 경진대회’ 성료",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01OGktNU1qT2JRdVF2QUpNb2M1MU9aVUVKMUpJV3BvNTFscnFRZm1iNDJvRktMZTY1UC1rdHN1aE5ibnNXN0I0RTNWVzJqTFB0WElSMHJHZ1psNTFZY3l6bFd2cnVUZURiRVV3M2VpeEpXVk9MY3QyRw?oc=5",
+   "published": "2026-11-27T15:01:17+09:00",
+   "via": "google",
+   "in_title": true
+  },
+  {
+   "outlet": "서울파이낸스",
+   "title": "[부산대학가] 경남정보대, 신중년 인생 2막 위한 브런치 전문인력 양성 등",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fM0V0NzNnUFNlQ2l6Wk5hckRtWjlRXzBtRXh3TEE4OHc0ZUQ4VTBDRXFXY2NkR3RiZ0E2cUc2eFlEU2kwZkU4NzdDNlZfRXdCR09wd3h5cC1uRERiZzRQbnFfNDVmTlhEbEE?oc=5",
+   "published": "2026-11-27T09:45:00+09:00",
+   "via": "google",
+   "in_title": true
+  }
+ ]
+}
